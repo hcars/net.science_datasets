@@ -36,8 +36,9 @@ for link in parsed_html.ul.find_all('a'):
                     except nx.exception.NetworkXError:
                         gml_lines.insert(2, 'multigraph 1')
                         dict, G = download_scripts.gml.parse_gml(gml_lines, label='id')
-                    mapping_file = open('../newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w',
-                                        newline='')
+                    mapping_file = open(
+                        '../newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w',
+                        newline='')
                     mapping_file_writer = csv.writer(mapping_file)
                     mapping_file_writer.writerow(dict['node'][0].keys())
                     for node in dict['node']:
@@ -48,9 +49,12 @@ for link in parsed_html.ul.find_all('a'):
                             G.add_weighted_edges_from([(edge['source'], edge['target'], edge['value'])])
                         else:
                             G.add_edge(edge['source'], edge['target'])
-                    nx.write_weighted_edgelist(G, '../newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
+                    nx.write_weighted_edgelist(G,
+                                               '../newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
                                                delimiter=',')
                     mapping_file.close()
                     utils.write_entry(name, url, '/newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
-                                      '/newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv',
-                                      G.is_directed(), G.is_multigraph(), G.number_of_nodes())
+                                      '/newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[
+                                          0] + '.csv',
+                                      G.is_directed(), G.is_multigraph(), int(G.number_of_nodes()),
+                                      int(nx.number_of_selfloops(G)))
