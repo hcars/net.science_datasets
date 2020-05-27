@@ -3,6 +3,15 @@ import urllib.request
 import zipfile
 import networkx as nx
 from io import BytesIO
+import csv
+
+__author__ = "Henry Carscadden"
+__email__ = 'hlc5v@virginia.edu'
+"""
+This file downloads networks from Newman's website and reads into the a buffer;
+from the buffer, we extract node attributes and build a graph. The attributes and graph are written to 
+file.
+"""
 
 base_url = "http://www-personal.umich.edu/~mejn/netdata/"
 with urllib.request.urlopen(base_url) as fp:
@@ -14,12 +23,30 @@ for link in soup.ul.find_all('a'):
             graph_zipped = zipfile.ZipFile(zip_fp)
             for file in graph_zipped.infolist():
                 if 'gml' in file.filename:
-                    labeled = False
-                    gml_lines = graph_zipped.read(file.filename).decode('utf-8')
-                    if 'label' in gml_lines:
-                        labeled = True
-                    gml_lines = gml_lines.split('\n')[1:]
-                    G = nx.parse_gml(gml_lines, labeled)
+                    try:
+                        label = 'id'
+                        gml_lines = graph_zipped.read(file.filename).decode('utf-8')
+                        if label in gml_lines:
+                            label = 'label'
+                        gml_lines = gml_lines.split('\n')[1:]
+                        dict, G = nx.parse_gml(gml_lines, label=label)
+                    except nx.exception.NetworkXError:
+                        gml_lines.insert(2, 'multigraph 1')
+                        dict, G = nx.parse_gml(gml_lines, label='id')
+                    mapping_file = open('../node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w', newline='')
+                    mapping_file_writer = csv.writer(mapping_file)
+                    mapping_file_writer.writerow(dict['node'][0].keys())
+                    for node in dict['node']:
+                        G.add_node(node['id'])
+                        mapping_file_writer.writerow(node.values())
+                    for edge in dict['edge']:
+                        if 'value' in edge.keys():
+                            G.add_weighted_edges_from([(edge['source'], edge['target'], edge['value'])])
+                        else:
+                            G.add_edge(edge['source'], edge['target'])
                     nx.write_weighted_edgelist(G, '../edge_lists/' + file.filename.split('.')[0] + '.csv',
                                                delimiter=',')
+
+
+
 
