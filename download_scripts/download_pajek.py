@@ -10,40 +10,15 @@ import download_scripts.graph_info_csv_helpers as utils
 __author__ = "Henry Carscadden"
 __email__ = 'hlc5v@virginia.edu'
 """
-This file downloads Pajek datasets.
+This file downloads Pajek datasets from RPozo's links.
 """
-pajek_lines = []
-base_url = "http://vlado.fmf.uni-lj.si/pub/networks/data/"
-parsed_html = utils.soupify(base_url)
-for link in parsed_html.table.find_all('a'):
-    href = link.get('href')
-    if href[-3:].lower() == 'ged':
-        continue
-    elif href[-3:].lower() == 'zip':
-        url = base_url + link.get('href')
-        name = link.string
-        utils.get_zipped_pajek_from_url(url)
-    elif href[-3:].lower() == 'net':
-        url = base_url + link.get('href')
-        name = link.string
-        pajek_lines = utils.get_pajek_from_url(url)
-    elif href[-3:].lower() == 'htm':
-        name = link.string
-        parsed_new_page = utils.soupify(base_url + link.get('href'))
-        for new_link in parsed_new_page.find_all('a'):
-            if new_link.get('href') is not None:
-                url = link.get('href') + new_link.get('href')
-                if url.split('/')[0] == '.':
-                    url = base_url + '/' + url.split('/')[1]
-                ext = url[-3:].lower()
-                if ext == 'net':
-                    pajek_lines = utils.get_pajek_from_url(url)
-                elif ext == 'zip':
-                    pajek_lines = utils.get_zipped_pajek_from_url(url)
+
+
+def pajek_to_files(name, url, pajek_lines):
     if pajek_lines:
         try:
             G = nx.parse_pajek(pajek_lines)
-            to_delete = []
+            # to_delete = []
             # for node in G.nodes:
             #     tmp = node.replace(" ", "").replace("'", '').replace("-",'')
             #     if not tmp.isalnum():
@@ -66,8 +41,51 @@ for link in parsed_html.table.find_all('a'):
                                        delimiter=',')
             utils.write_entry(name, url, '/pozo_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                               '/pozo_networks/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv', G.is_directed(),
-                              G.is_multigraph(),  int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+                              G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
         except Exception as e:
             traceback.print_exc()
             print(e)
             print("Couldn't parse " + url)
+
+
+pajek_lines = []
+base_url = "http://vlado.fmf.uni-lj.si/pub/networks/data/"
+parsed_html = utils.soupify(base_url)
+for link in parsed_html.table.find_all('a'):
+    href = link.get('href')
+    if href[-3:].lower() == 'ged':
+        continue
+    elif href[-3:].lower() == 'zip':
+        url = base_url + link.get('href')
+        name = link.string
+        pajek_lines = utils.get_zipped_pajek_from_url(url)
+        pajek_to_files(name, url, pajek_lines)
+    elif href[-3:].lower() == 'net':
+        url = base_url + link.get('href')
+        name = link.string
+        pajek_lines = utils.get_pajek_from_url(url)
+        pajek_to_files(name, url, pajek_lines)
+    elif href[-3:].lower() == 'htm':
+        name = link.string
+        parsed_new_page = utils.soupify(base_url + link.get('href'))
+        for new_link in parsed_new_page.find_all('a'):
+            if new_link.get('href') is not None:
+                url = link.get('href') + new_link.get('href')
+                if url.split('/')[0] == '.':
+                    url = base_url + '/' + url.split('/')[1]
+                ext = url[-3:].lower()
+                if ext == 'net':
+                    pajek_lines = utils.get_pajek_from_url(url)
+                elif ext == 'zip':
+                    pajek_lines = utils.get_zipped_pajek_from_url(url)
+                pajek_to_files(name, url, pajek_lines)
+
+pajek_to_files('The NBER U.S. Patent Citations Data File',
+               'http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm',
+               utils.get_zipped_pajek_from_url('http://vlado.fmf.uni-lj.si/pub/networks/data/patents/patentsNET.zip'))
+pajek_to_files('Geom Collaboration network in computational geometry',
+               'http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm',
+               utils.get_zipped_pajek_from_url('http://vlado.fmf.uni-lj.si/pub/networks/data/collab/Geom.zip'))
+pajek_to_files('EAT The Edinburgh Associative Thesaurus',
+               'http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm',
+               utils.get_zipped_pajek_from_url('http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/EATnew.zip'))
