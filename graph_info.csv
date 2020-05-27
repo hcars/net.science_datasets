@@ -1,17 +1,17 @@
 network_name,url,edgelist_path,node_attributes_path,directed?,multigraph?,num_nodes
-Internet,http://www-personal.umich.edu/~mejn/netdata/as-22july06.zip,edge_lists/as-22july06.csv,node_id_mappings/mapping_as-22july06.csv,False,False,22963.0
-Condensed matter collaborations 1999,http://www-personal.umich.edu/~mejn/netdata/cond-mat.zip,edge_lists/cond-mat.csv,node_id_mappings/mapping_cond-mat.csv,False,False,16726.0
-Condensed matter collaborations 2003,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2003.zip,edge_lists/cond-mat-2003.csv,node_id_mappings/mapping_cond-mat-2003.csv,False,False,31163.0
-Zachary's karate club,http://www-personal.umich.edu/~mejn/netdata/karate.zip,edge_lists/karate.csv,node_id_mappings/mapping_karate.csv,False,False,34.0
-Les Miserables,http://www-personal.umich.edu/~mejn/netdata/lesmis.zip,edge_lists/lesmis.csv,node_id_mappings/mapping_lesmis.csv,False,False,77.0
-Word adjacencies,http://www-personal.umich.edu/~mejn/netdata/adjnoun.zip,edge_lists/adjnoun.csv,node_id_mappings/mapping_adjnoun.csv,False,False,112.0
-American College football,http://www-personal.umich.edu/~mejn/netdata/football.zip,edge_lists/football.csv,node_id_mappings/mapping_football.csv,False,False,115.0
-Dolphin social network,http://www-personal.umich.edu/~mejn/netdata/dolphins.zip,edge_lists/dolphins.csv,node_id_mappings/mapping_dolphins.csv,False,False,62.0
-Political blogs,http://www-personal.umich.edu/~mejn/netdata/polblogs.zip,edge_lists/polblogs.csv,node_id_mappings/mapping_polblogs.csv,True,False,1490.0
-Books about US politics,http://www-personal.umich.edu/~mejn/netdata/polbooks.zip,edge_lists/polbooks.csv,node_id_mappings/mapping_polbooks.csv,False,False,105.0
-Neural network,http://www-personal.umich.edu/~mejn/netdata/celegansneural.zip,edge_lists/celegansneural.csv,node_id_mappings/mapping_celegansneural.csv,True,False,297.0
-Power grid,http://www-personal.umich.edu/~mejn/netdata/power.zip,edge_lists/power.csv,node_id_mappings/mapping_power.csv,False,False,4941.0
-Condensed matter collaborations 2005,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2005.zip,edge_lists/cond-mat-2005.csv,node_id_mappings/mapping_cond-mat-2005.csv,False,False,40421.0
-Astrophysics collaborations,http://www-personal.umich.edu/~mejn/netdata/astro-ph.zip,edge_lists/astro-ph.csv,node_id_mappings/mapping_astro-ph.csv,False,False,16706.0
-High-energy theory collaborations,http://www-personal.umich.edu/~mejn/netdata/hep-th.zip,edge_lists/hep-th.csv,node_id_mappings/mapping_hep-th.csv,False,False,8361.0
-Coauthorships in network science,http://www-personal.umich.edu/~mejn/netdata/netscience.zip,edge_lists/netscience.csv,node_id_mappings/mapping_netscience.csv,False,False,1589.0
+Internet,http://www-personal.umich.edu/~mejn/netdata/as-22july06.zip,/newman_networks/edge_lists/as-22july06.csv,/newman_networks/node_id_mappings/mapping_as-22july06.csv,False,False,22963.0
+Condensed matter collaborations 1999,http://www-personal.umich.edu/~mejn/netdata/cond-mat.zip,/newman_networks/edge_lists/cond-mat.csv,/newman_networks/node_id_mappings/mapping_cond-mat.csv,False,False,16726.0
+Condensed matter collaborations 2003,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2003.zip,/newman_networks/edge_lists/cond-mat-2003.csv,/newman_networks/node_id_mappings/mapping_cond-mat-2003.csv,False,False,31163.0
+Zachary's karate club,http://www-personal.umich.edu/~mejn/netdata/karate.zip,/newman_networks/edge_lists/karate.csv,/newman_networks/node_id_mappings/mapping_karate.csv,False,False,34.0
+Les Miserables,http://www-personal.umich.edu/~mejn/netdata/lesmis.zip,/newman_networks/edge_lists/lesmis.csv,/newman_networks/node_id_mappings/mapping_lesmis.csv,False,False,77.0
+Word adjacencies,http://www-personal.umich.edu/~mejn/netdata/adjnoun.zip,/newman_networks/edge_lists/adjnoun.csv,/newman_networks/node_id_mappings/mapping_adjnoun.csv,False,False,112.0
+American College football,http://www-personal.umich.edu/~mejn/netdata/football.zip,/newman_networks/edge_lists/football.csv,/newman_networks/node_id_mappings/mapping_football.csv,False,False,115.0
+Dolphin social network,http://www-personal.umich.edu/~mejn/netdata/dolphins.zip,/newman_networks/edge_lists/dolphins.csv,/newman_networks/node_id_mappings/mapping_dolphins.csv,False,False,62.0
+Political blogs,http://www-personal.umich.edu/~mejn/netdata/polblogs.zip,/newman_networks/edge_lists/polblogs.csv,/newman_networks/node_id_mappings/mapping_polblogs.csv,True,False,1490.0
+Books about US politics,http://www-personal.umich.edu/~mejn/netdata/polbooks.zip,/newman_networks/edge_lists/polbooks.csv,/newman_networks/node_id_mappings/mapping_polbooks.csv,False,False,105.0
+Neural network,http://www-personal.umich.edu/~mejn/netdata/celegansneural.zip,/newman_networks/edge_lists/celegansneural.csv,/newman_networks/node_id_mappings/mapping_celegansneural.csv,True,False,297.0
+Power grid,http://www-personal.umich.edu/~mejn/netdata/power.zip,/newman_networks/edge_lists/power.csv,/newman_networks/node_id_mappings/mapping_power.csv,False,False,4941.0
+Condensed matter collaborations 2005,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2005.zip,/newman_networks/edge_lists/cond-mat-2005.csv,/newman_networks/node_id_mappings/mapping_cond-mat-2005.csv,False,False,40421.0
+Astrophysics collaborations,http://www-personal.umich.edu/~mejn/netdata/astro-ph.zip,/newman_networks/edge_lists/astro-ph.csv,/newman_networks/node_id_mappings/mapping_astro-ph.csv,False,False,16706.0
+High-energy theory collaborations,http://www-personal.umich.edu/~mejn/netdata/hep-th.zip,/newman_networks/edge_lists/hep-th.csv,/newman_networks/node_id_mappings/mapping_hep-th.csv,False,False,8361.0
+Coauthorships in network science,http://www-personal.umich.edu/~mejn/netdata/netscience.zip,/newman_networks/edge_lists/netscience.csv,/newman_networks/node_id_mappings/mapping_netscience.csv,False,False,1589.0

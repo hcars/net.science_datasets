@@ -2,6 +2,7 @@ import bs4
 import urllib.request
 import zipfile
 import networkx as nx
+import download_scripts.gml
 from io import BytesIO
 import csv
 import download_scripts.graph_info_csv_helpers as utils
@@ -15,9 +16,8 @@ file.
 """
 
 base_url = "http://www-personal.umich.edu/~mejn/netdata/"
-with urllib.request.urlopen(base_url) as fp:
-    soup = bs4.BeautifulSoup(fp.read().decode('utf-8'))
-for link in soup.ul.find_all('a'):
+parsed_html = download_scripts.graph_info_csv_helpers.soupify(base_url)
+for link in parsed_html.ul.find_all('a'):
     if link.get('href')[-3:] == 'zip':
         with urllib.request.urlopen(base_url + link.get('href')) as graph_zipped_fp:
             url = base_url + link.get('href')
@@ -32,11 +32,11 @@ for link in soup.ul.find_all('a'):
                         if label in gml_lines:
                             label = 'label'
                         gml_lines = gml_lines.split('\n')[1:]
-                        dict, G = nx.parse_gml(gml_lines, label=label)
+                        dict, G = download_scripts.gml.parse_gml(gml_lines, label=label)
                     except nx.exception.NetworkXError:
                         gml_lines.insert(2, 'multigraph 1')
-                        dict, G = nx.parse_gml(gml_lines, label='id')
-                    mapping_file = open('../node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w',
+                        dict, G = download_scripts.gml.parse_gml(gml_lines, label='id')
+                    mapping_file = open('../newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w',
                                         newline='')
                     mapping_file_writer = csv.writer(mapping_file)
                     mapping_file_writer.writerow(dict['node'][0].keys())
@@ -48,9 +48,9 @@ for link in soup.ul.find_all('a'):
                             G.add_weighted_edges_from([(edge['source'], edge['target'], edge['value'])])
                         else:
                             G.add_edge(edge['source'], edge['target'])
-                    nx.write_weighted_edgelist(G, '../edge_lists/' + file.filename.split('.')[0] + '.csv',
+                    nx.write_weighted_edgelist(G, '../newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
                                                delimiter=',')
                     mapping_file.close()
-                    utils.write_entry(name, url, 'edge_lists/' + file.filename.split('.')[0] + '.csv',
-                                      'node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv',
+                    utils.write_entry(name, url, '/newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
+                                      '/newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv',
                                       G.is_directed(), G.is_multigraph(), G.number_of_nodes())
