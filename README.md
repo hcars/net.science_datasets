@@ -9,3 +9,6 @@ Each xxxxx_networks folders comes from a different website. The node_id_mappings
 contained in the edge_lists files and the node attributes if there are any.
 ## download_scripts
 This is a collection of Python scripts which scrape networks from different sources.
+## graph_info.csv
+This is a CSV file that contains the name, url, and other metadata for all graphs that are currently in the 
+repository.
