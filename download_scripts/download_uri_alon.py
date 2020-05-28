@@ -3,7 +3,7 @@ import io
 import urllib.request
 import networkx as nx
 
-import download_scripts.graph_info_csv_helpers as utils
+import graph_info_csv_helpers as utils
 
 __author__ = "Henry Carscadden"
 __email__ = 'hlc5v@virginia.edu'
