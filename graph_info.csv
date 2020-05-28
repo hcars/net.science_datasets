@@ -1,32 +1,19 @@
 network_name,url,edgelist_path,node_attributes_path,directed?,multigraph?,num_nodes,num_self_loops
-Internet,http://www-personal.umich.edu/~mejn/netdata/as-22july06.zip,/newman_networks/edge_lists/as-22july06.csv,/newman_networks/node_id_mappings/mapping_as-22july06.csv,False,False,22963,0.0
-Condensed matter collaborations 1999,http://www-personal.umich.edu/~mejn/netdata/cond-mat.zip,/newman_networks/edge_lists/cond-mat.csv,/newman_networks/node_id_mappings/mapping_cond-mat.csv,False,False,16726,0.0
-Condensed matter collaborations 2003,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2003.zip,/newman_networks/edge_lists/cond-mat-2003.csv,/newman_networks/node_id_mappings/mapping_cond-mat-2003.csv,False,False,31163,0.0
+CS phd,http://vlado.fmf.uni-lj.si/pub/networks/data/./GED/CSphd.ZIP,/pozo_networks/edge_lists/CSphd.ZIP.csv,/pozo_networks/node_id_mappings/mapping_CSphd.ZIP.csv,True,True,1862,0.0
 Zachary's karate club,http://www-personal.umich.edu/~mejn/netdata/karate.zip,/newman_networks/edge_lists/karate.csv,/newman_networks/node_id_mappings/mapping_karate.csv,False,False,34,0.0
 Les Miserables,http://www-personal.umich.edu/~mejn/netdata/lesmis.zip,/newman_networks/edge_lists/lesmis.csv,/newman_networks/node_id_mappings/mapping_lesmis.csv,False,False,77,0.0
 Word adjacencies,http://www-personal.umich.edu/~mejn/netdata/adjnoun.zip,/newman_networks/edge_lists/adjnoun.csv,/newman_networks/node_id_mappings/mapping_adjnoun.csv,False,False,112,0.0
-American College football,http://www-personal.umich.edu/~mejn/netdata/football.zip,/newman_networks/edge_lists/football.csv,/newman_networks/node_id_mappings/mapping_football.csv,False,False,115,0.0
-Dolphin social network,http://www-personal.umich.edu/~mejn/netdata/dolphins.zip,/newman_networks/edge_lists/dolphins.csv,/newman_networks/node_id_mappings/mapping_dolphins.csv,False,False,62,0.0
-Political blogs,http://www-personal.umich.edu/~mejn/netdata/polblogs.zip,/newman_networks/edge_lists/polblogs.csv,/newman_networks/node_id_mappings/mapping_polblogs.csv,True,False,1490,3.0
 Books about US politics,http://www-personal.umich.edu/~mejn/netdata/polbooks.zip,/newman_networks/edge_lists/polbooks.csv,/newman_networks/node_id_mappings/mapping_polbooks.csv,False,False,105,0.0
-Neural network,http://www-personal.umich.edu/~mejn/netdata/celegansneural.zip,/newman_networks/edge_lists/celegansneural.csv,/newman_networks/node_id_mappings/mapping_celegansneural.csv,True,False,297,0.0
-Power grid,http://www-personal.umich.edu/~mejn/netdata/power.zip,/newman_networks/edge_lists/power.csv,/newman_networks/node_id_mappings/mapping_power.csv,False,False,4941,0.0
-Condensed matter collaborations 2005,http://www-personal.umich.edu/~mejn/netdata/cond-mat-2005.zip,/newman_networks/edge_lists/cond-mat-2005.csv,/newman_networks/node_id_mappings/mapping_cond-mat-2005.csv,False,False,40421,0.0
 Astrophysics collaborations,http://www-personal.umich.edu/~mejn/netdata/astro-ph.zip,/newman_networks/edge_lists/astro-ph.csv,/newman_networks/node_id_mappings/mapping_astro-ph.csv,False,False,16706,0.0
-High-energy theory collaborations,http://www-personal.umich.edu/~mejn/netdata/hep-th.zip,/newman_networks/edge_lists/hep-th.csv,/newman_networks/node_id_mappings/mapping_hep-th.csv,False,False,8361,0.0
-Coauthorships in network science,http://www-personal.umich.edu/~mejn/netdata/netscience.zip,/newman_networks/edge_lists/netscience.csv,/newman_networks/node_id_mappings/mapping_netscience.csv,False,False,1589,0.0
+Internet,http://www-personal.umich.edu/~mejn/netdata/as-22july06.zip,/newman_networks/edge_lists/as-22july06.csv,/newman_networks/node_id_mappings/mapping_as-22july06.csv,False,False,22963,0.0
 US Air lines,http://vlado.fmf.uni-lj.si/pub/networks/data/./mix/USAir97.net,/pozo_networks/edge_lists/USAir97.net.csv,/pozo_networks/node_id_mappings/mapping_USAir97.net.csv,True,True,332,0.0
 Cities and services,http://vlado.fmf.uni-lj.si/pub/networks/data/./2mode/cities.zip,/pozo_networks/edge_lists/cities.zip.csv,/pozo_networks/node_id_mappings/mapping_cities.zip.csv,True,True,0,0.0
 Erdos,http://vlado.fmf.uni-lj.si/pub/networks/data/./Erdos/Erdos02.net,/pozo_networks/edge_lists/Erdos02.net.csv,/pozo_networks/node_id_mappings/mapping_Erdos02.net.csv,True,True,6927,0.0
+Words 2-8,http://vlado.fmf.uni-lj.si/pub/networks/data/./dic/knuth/dic28.zip,/pozo_networks/edge_lists/dic28.zip.csv,/pozo_networks/node_id_mappings/mapping_dic28.zip.csv,True,True,0,0.0
 The Edinburgh Associative Thesaurus,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
 ODLIS,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
 FOLDOC,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
-Words 2-8,http://vlado.fmf.uni-lj.si/pub/networks/data/./dic/knuth/dic28.zip,/pozo_networks/edge_lists/dic28.zip.csv,/pozo_networks/node_id_mappings/mapping_dic28.zip.csv,True,True,6927,0.0
-Roget,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
-Wordnet,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
-"USF Word Association, Rhyme and Word Fragment Norms",http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
-Graph Drawing Contests,http://vlado.fmf.uni-lj.si/pub/networks/data//dic,/pozo_networks/edge_lists/dic.csv,/pozo_networks/node_id_mappings/mapping_dic.csv,True,True,6927,0.0
-GD'99 - Linden strasse,http://vlado.fmf.uni-lj.si/pub/networks/data/./GD/a99m.zip,/pozo_networks/edge_lists/a99m.zip.csv,/pozo_networks/node_id_mappings/mapping_a99m.zip.csv,True,True,6927,0.0
+GD'99 - Linden strasse,http://vlado.fmf.uni-lj.si/pub/networks/data/./GD/a99m.zip,/pozo_networks/edge_lists/a99m.zip.csv,/pozo_networks/node_id_mappings/mapping_a99m.zip.csv,True,True,185,4.0
 GD'01 - GD proceedings self-citing,http://vlado.fmf.uni-lj.si/pub/networks/data/./GD/a01.zip,/pozo_networks/edge_lists/a01.zip.csv,/pozo_networks/node_id_mappings/mapping_a01.zip.csv,True,True,311,0.0
 KEDS,http://vlado.fmf.uni-lj.si/pub/networks/data//KEDS,/pozo_networks/edge_lists/KEDS.csv,/pozo_networks/node_id_mappings/mapping_KEDS.csv,True,True,311,0.0
 Notre Dame WWW,http://vlado.fmf.uni-lj.si/pub/networks/data//ND,/pozo_networks/edge_lists/ND.csv,/pozo_networks/node_id_mappings/mapping_ND.csv,True,True,311,0.0
@@ -35,6 +22,19 @@ Citation networks,http://vlado.fmf.uni-lj.si/pub/networks/data//cite,/pozo_netwo
 Networks from Exploratory Network Analysis with Pajek,http://vlado.fmf.uni-lj.si/pub/networks/data//esna,/pozo_networks/edge_lists/esna.csv,/pozo_networks/node_id_mappings/mapping_esna.csv,True,True,311,0.0
 Networks from Generalized Blockmodeling,http://vlado.fmf.uni-lj.si/pub/networks/data//GBM,/pozo_networks/edge_lists/GBM.csv,/pozo_networks/node_id_mappings/mapping_GBM.csv,True,True,311,0.0
 Food-webs,http://vlado.fmf.uni-lj.si/pub/networks/data//bio,/pozo_networks/edge_lists/bio.csv,/pozo_networks/node_id_mappings/mapping_bio.csv,True,True,311,0.0
-CS phd,http://vlado.fmf.uni-lj.si/pub/networks/data/./GED/CSphd.ZIP,/pozo_networks/edge_lists/CSphd.ZIP.csv,/pozo_networks/node_id_mappings/mapping_CSphd.ZIP.csv,True,True,1862,0.0
-Geom Collaboration network in computational geometry,http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm,/pozo_networks/edge_lists/geom.htm.csv,/pozo_networks/node_id_mappings/mapping_geom.htm.csv,True,True,7343,0
-EAT The Edinburgh Associative Thesaurus,http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm,/pozo_networks/edge_lists/Eat.htm.csv,/pozo_networks/node_id_mappings/mapping_Eat.htm.csv,True,True,39,0
+Geom Collaboration network in computational geometry,http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm,/pozo_networks/edge_lists/geom.htm.csv,/pozo_networks/node_id_mappings/mapping_geom.htm.csv,True,True,7343,0.0
+EAT The Edinburgh Associative Thesaurus,http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm,/pozo_networks/edge_lists/Eat.htm.csv,/pozo_networks/node_id_mappings/mapping_Eat.htm.csv,True,True,39,0.0
+E. Coli Transcription,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/1aorinter_st.txt,/uri_alon_networks/edge_lists/e_coli_interaction.txt,/uri_alon_networks/node_id_mappings/mapping_e_coli_interaction.txt,False,False,97,0.0
+Social Social networks of positive sentimentprisoninter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/prisoninter_st.txt,../uri_alon_networks/edge_lists/prisoninter_st.txt, ,False,False,67,0.0
+Social Social networks of positive sentimentleader2inter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/leader2inter_st.txt,../uri_alon_networks/edge_lists/leader2inter_st.txt, ,False,False,32,0.0
+Electronic Circuitss208_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/s208_st.txt,../uri_alon_networks/edge_lists/s208_st.txt, ,False,False,122,0.0
+Electronic Circuitss420_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/s420_st.txt,../uri_alon_networks/edge_lists/s420_st.txt, ,False,False,252,0.0
+Electronic Circuitss838_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/s838_st.txt,../uri_alon_networks/edge_lists/s838_st.txt, ,False,False,512,0.0
+English Word Adjacencydarwinbookinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/darwinbookinter_st.txt,../uri_alon_networks/edge_lists/darwinbookinter_st.txt, ,False,False,7381,0.0
+French Word Adjacencyfrenchbookinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/frenchbookinter_st.txt,../uri_alon_networks/edge_lists/frenchbookinter_st.txt, ,False,False,8325,0.0
+Spanish Word Adjacencyspanishbookinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/spanishbookinter_st.txt,../uri_alon_networks/edge_lists/spanishbookinter_st.txt, ,False,False,11586,0.0
+Japanese Word Adjacencyjapanesebookinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/japanesebookinter_st.txt,../uri_alon_networks/edge_lists/japanesebookinter_st.txt, ,False,False,2704,0.0
+Protein Structure1a4jinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/1a4jinter_st.txt,../uri_alon_networks/edge_lists/1a4jinter_st.txt, ,False,False,95,0.0
+Protein Structure1eawinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/1eawinter_st.txt,../uri_alon_networks/edge_lists/1eawinter_st.txt, ,False,False,53,0.0
+Protein Structure1aorinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/1aorinter_st.txt,../uri_alon_networks/edge_lists/1aorinter_st.txt, ,False,False,97,0.0
+Yeast Transcriptionyeastinter_st,http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/CollectionsOfComplexNetwroks/yeastinter_st.txt,../uri_alon_networks/edge_lists/yeastinter_st.txt, ,False,False,688,0.0
