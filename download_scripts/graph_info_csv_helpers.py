@@ -15,21 +15,28 @@ This is a utility file for I/O on the csv containing the graph metadata.
 csv_filepath = '../graph_info.csv'
 
 
+def get_zip_fp(url):
+    graph_zipped_fp = urllib.request.urlopen(url)
+    zip_fp = BytesIO(graph_zipped_fp.read())
+    graph_zipped = zipfile.ZipFile(zip_fp)
+    return graph_zipped
+
+
 def get_zipped_pajek_from_url(url):
     try:
         list_of_lines = []
-        with urllib.request.urlopen(url) as graph_zipped_fp:
-            zip_fp = BytesIO(graph_zipped_fp.read())
-            graph_zipped = zipfile.ZipFile(zip_fp)
-            for file in graph_zipped.infolist():
-                if file.filename[-3:].lower() == "net" or file.filename[-3:].lower() == "paj":
-                    try:
-                        pajek_lines = graph_zipped.read(file.filename).decode('utf-8')
-                        list_of_lines.append(pajek_lines)
-                    except:
-                        pajek_lines = graph_zipped.read(file.filename).decode('utf-16')
-                        list_of_lines.append(pajek_lines)
-            return pajek_lines
+        pajek_lines = []
+        graph_zipped = get_zip_fp(url)
+        for file in graph_zipped.infolist():
+            if file.filename[-3:].lower() == "net" or file.filename[-3:].lower() == "paj":
+                try:
+                    pajek_lines = graph_zipped.read(file.filename).decode('utf-8')
+                    list_of_lines.append(pajek_lines)
+                except:
+                    pajek_lines = graph_zipped.read(file.filename).decode('utf-16')
+                    list_of_lines.append(pajek_lines)
+        graph_zipped.close()
+        return pajek_lines
     except Exception as e:
         print(e)
         return []
