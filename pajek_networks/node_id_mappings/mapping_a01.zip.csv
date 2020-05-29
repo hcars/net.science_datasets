@@ -1,0 +1,312 @@
+id,name
+"GD 94, 1 Cohen, ...",0
+"GD 94, 12 Reiss",1
+"GD 94, 25 Jeron, ...",2
+"GD 94, 33 Mohar",3
+"GD 94, 40 Papakostas, ...",4
+"GD 94, 52 Foessmeier, ...",5
+"GD 94, 64 Even, ...",6
+"GD 94, 76 Djidjev",7
+"GD 94, 84 Garg",8
+"GD 94, 96 He, ...",9
+"GD 94, 104 Chrobak, ...",10
+"GD 94, 111 Fraysseix, ...",11
+"GD 94, 119 Juenger, ...",12
+"GD 94, 131 Shahrokhi, ...",13
+"GD 94, 143 Eades, ...",14
+"GD 94, 147 Abello, ...",15
+"GD 94, 159 Dean, ...",16
+"GD 94, 167 Kranakis, ...",17
+"GD 94, 177 Romanik",18
+"GD 94, 182 Himsolt",19
+"GD 94, 194 Sander",20
+"GD 94, 206 Tollis, ...",21
+"GD 94, 218 Kimelman, ...",22
+"GD 94, 226 Vogt, ...",23
+"GD 94, 234 Tanenbaum, ...",24
+"GD 94, 246 Abellanas, ...",25
+"GD 94, 254 Godau",26
+"GD 94,262 Manning, ...",27
+"GD 94, 266 Froehlich, ...",28
+"GD 94, 270 McCreary, ...",29
+"GD 94, 274 McWhirter",30
+"GD 94, 278 Kaugars, ...",31
+"GD 94, 282 Fowler, ...",32
+"GD 94, 286 Garg, .... ",33
+"GD 94, 298 Papakostas",34
+"GD 94, 307 Crescenzi, ...",35
+"GD 94, 318 Jourdan, ...",36
+"GD 94, 328 Di Battista, ...",37
+"GD 94, 340 Bose, ...",38
+"GD 94, 352 ElGindy, ...",39
+"GD 94, 364 Sugiyama, ...",40
+"GD 94,  376 Lin, ...",41
+"GD 94, 388 Frick, ...",42
+"GD 94, 404 Cruz, ...",43
+"GD 94, 416 Brandenburg",44
+"GD 94, 428 Noik",45
+"GD 94, 436 Luo, ...",46
+"GD 94, 444 Saalfeld",47
+"GD 94, 452 Stumme, ...",48
+"GD 94, 461 Whitesides",49
+"GD 95, 1 Agarwal, ...",50
+"GD 95, 8 Alt, ...",51
+"GD 95, 20 Benz",52
+"GD 95, 24 Bertault",53
+"GD 95, 28 Biedl",54
+"GD 95, 40 Blythe, ...",55
+"GD 95, 52 Bose, ...",56
+"GD 95, 64 Bose, ...",57
+"GD 95, 76 Brandenburg, ...",58
+"GD 95, 88 Breu, ...",59
+"GD 95, 99 Bruss, ...",60
+"GD 95, 111 Buti, ...",61
+"GD 95, 123 Carbonneaux, ...",62
+"GD 95, 127 Carpendale, ...",63
+"GD 95, 140 Chandramouli, ...",64
+"GD 95, 152 Cobos",65
+"GD 95, 162 Cruz, ...",66
+"GD 95, 166 Devroye, ...",67
+"GD 95, 178 Di Battista, ...",68
+"GD 95, 190 Dodson",69
+"GD 95, 202 Eades, ...",70
+"GD 95, 212 Eades, ...",71
+"GD 95, 224 Eades, ...",72
+"GD 95, 234 Fekete, ...",73
+"GD 95, 242 Formella, ...",74
+"GD 95, 254 Foessmeier, ...",75
+"GD 95, 267 Gropp",76
+"GD 95, 277 Hashemi, ...",77
+"GD 95, 287 He",78
+"GD 95, 300 Heath, ...",79
+"GD 95, 312 Hlineny",80
+"GD 95, 324 Hutchinson, ...",81
+"GD 95, 333 Ignatowicz",82
+"GD 95, 337 Juenger, ...",83
+"GD 95, 349 Kamps, ...",84
+"GD 95, 361 Kikusts, ...",85
+"GD 95, 365 Kratochvil, ...",86
+"GD 95, 373 Lenhart, ...",87
+"GD 95, 385 Madden, ...",88
+"GD 95, 396 Monien, ...",89
+"GD 95, 409 North",90
+"GD 95, 419 Papakostas, ...",91
+"GD 95, 431 Paris",92
+"GD 95, 435 Purchase, ...",93
+"GD 95, 447 Sander",94
+"GD 95, 459 Sander, ...",95
+"GD 95, 463 Shahrokhi, ...",96
+"GD 95, 472 Shieh, ...",97
+"GD 95, 487 Storey, ....",98
+"GD 95, 500 Sugiyama, ...",99
+"GD 95, 504 Wang, ...",100
+"GD 95, 516 Webber, ...",101
+"GD 95, 520 Yang, ...",102
+"GD 96, 1 Abellanas, ...",103
+"GD 96, 11 Alzohairi, ...",104
+"GD 96, 25 Bose, ...",105
+"GD 96, 45 Bridgeman, ...",106
+"GD 96, 53 Calamoneri, ...",107
+"GD 96, 63 Chan, ...",108
+"GD 96, 76 Di Battista, ...",109
+"GD 96, 92 Dogrusoez, ...",110
+"GD 96, 101 Eades, ...",111
+"GD 96, 113 Eades, ...",112
+"GD 96, 129 Eades, ...",113
+"GD 96, 139 Eades, ...",114
+"GD 96, 155 Foessmeier, ...",115
+"GD 96, 169 Frick",116
+"GD 96, 184 Frick, ...",117
+"GD 96, 193 Garg, ...",118
+"GD 96, 201 Garg, ...",119
+"GD 96, 217 He, ...",120
+"GD 96, 233 Himsolt",121
+"GD 96, 241 Kakoulis, ...",122
+"GD 96, 257 Kratochvil",123
+"GD 96, 271 Kuchem, ...",124
+"GD 96, 286 Lenhart, ...",125
+"GD 96, 303 Lozada, ...",126
+"GD 96, 318 Mutzel",127
+"GD 96, 334 Nakano, ...",128
+"GD 96, 345 Pach, ...",129
+"GD 96, 355 Papakostas, ...",130
+"GD 96, 371 Papakostas, ...",131
+"GD 96, 387 Ryall, ...",132
+"GD 96, 395 Sablowski, ...",133
+"GD 96, 401 Wittenburg, ...",134
+"GD 98, 1 Aggarwal, ...",135
+"GD 98, 15 Bertolazzi, ...",136
+"GD 98, 30 Biedl",137
+"GD 98, 44 Brandes, ...",138
+"GD 98, 57 Bridgeman, ...",139
+"GD 98, 72 Di Battista, ...",140
+"GD 98, 87 Di Battista, ...",141
+"GD 98, 102 Dillencourt, ...",142
+"GD 98, 111 Duncan, ...",143
+"GD 98, 125 F&Atilde;&para;ssmeier, ...",144
+"GD 98, 138 Gelfand, ...",145
+"GD 98, 153 Goodrich, ...",146
+"GD 98, 167 Gutwenger, ...",147
+"GD 98, 183 Hayashi, ...",148
+"GD 98, 198 Hong, ...",149
+"GD 98, 210 Houle, ...",150
+"GD 98, 224 J&Atilde;&frac14;nger, ...",151
+"GD 98, 238 Kratochvil",152
+"GD 98, 246 Meyer",153
+"GD 98, 263 Pach, ...",154
+"GD 98, 275 Penna, ...",155
+"GD 98, 288 Schreiber, ...",156
+"GD 98, 302 Six, ...",157
+"GD 98, 316 Wagner, ...",158
+"GD 98, 332 Wood",159
+"GD 98, 347 Biedl, ...",160
+"GD 98 356 Dogrus&Atilde;&para;z, ...",161
+"GD 98, 364 Gansner, ...",162
+"GD 98, 374 Huang, ...",163
+"GD 98, 384 Munzner",164
+"GD 98, 394 Paris",165
+"GD 98, 403 Steckelbach",166
+"GD 98, 413 Tunkelang",167
+"GD 98, 423 Eades, ...",168
+"GD 98, 436 Cruz, ...",169
+"GD 98, 438 Demaine, ...",170
+"GD 98, 441 Dengler, ...",171
+"GD 98, 444 Di Battista, ...",172
+"GD 98, 446 Frick, ...",173
+"GD 98, 448 Garvey",174
+"GD 98, 450 Holzer, ...",175
+"GD 98, 452 Iturriaga, ...",176
+"GD 98, 454 McCreary, ...",177
+"GD 98, 456 Mutzel, ...",178
+"GD 98, 458 Soss",179
+"GD 98, 460 Wang, ...",180
+"GD 98, 462 Wiese, ...",181
+"GD 98, 464 Zhu, ...",182
+"GD 97, 1 Lenhart, ...",183
+"GD 97, 13 Juenger, ...",184
+"GD 97, 25 Bose",185
+"GD 97, 37 Shahrokhi, ...",186
+"GD 97, 47 Pach, ...",187
+"GD 97, 52 Papakostas, ...",188
+"GD 97, 64 Calamoneri, ...",189
+"GD 97, 76 Biedl, ....",190
+"GD 97, 87 Eades, ...",191
+"GD 97, 99 Rahman, ...",192
+"GD 97, 111 Foessmeier",193
+"GD 97, 124 Angeles, ...",194
+"GD 97, 134 Foessmeier, ...",195
+"GD 97, 146 Eades, ...",196
+"GD 97, 158 Brandenburg",197
+"GD 97, 169 Kakoulis, ...",198
+"GD 97, 181 Iturriaga, ...",199
+"GD 97, 193 Juenger, ...",200
+"GD 97, 205 Valtr",201
+"GD 97, 219 Lin, ...",202
+"GD 97, 230 de Fraysseix, ...",203
+"GD 97, 236 Brandes, ...",204
+"GD 97, 248 Purchase",205
+"GD 97, 262 Dobkin, ...",206
+"GD 97, 272 Fekete, ...",207
+"GD 97, 284 Patrignani, ...",208
+"GD 97, 291 Roxborough, ...",209
+"GD 97, 297 Hundack, ...",210
+"GD 97, 303 Bridgeman",211
+"GD 97, 309 Didimo, ...",212
+"GD 97, 316 Tunkelang, ...",213
+"GD 97, 322 Andalman, ...",214
+"GD 97, 330 Eades, ...",215
+"GD 97, 336 Barghouti, ...",216
+"GD 97, 344 Lauer, ...",217
+"GD 97, 350 Hlineny",218
+"GD 97, 359 Czyzowicz, ...",219
+"GD 97, 371 Crescenzi, ...",220
+"GD 97, 383 Garcia, ...",221
+"GD 97, 391 Biedl, ...",222
+"GD 97, 403 Wills",223
+"GD 97, 415 Seemann",224
+"GD 97, 425 Berry, ...",225
+"GD 97, 438 Eades, ...",226
+"GD 99, 1 Matousek",227
+"GD 99, 8 Bridgeman, ...",228
+"GD 99, 27 Klau, ...",229
+"GD 99, 38 Garg, ...",230
+"GD 99, 49 Closson, ...",231
+"GD 99, 59 Waddle, ...",232
+"GD 99, 72 Juenger, ...",233
+"GD 99, 82 Listsyn, ...",234
+"GD 99, 90 Batageli, ...",235
+"GD 99, 98 Edechery, ....",236
+"GD 99,  107 Six, ...",237
+"GD 99, 117 Cheng, ...",238
+"GD 99, 127 Mohar",239
+"GD 99, 137 Thomas",240
+"GD 99, 145 Miura, ...",241
+"GD 99, 155 Dornheim",242
+"GD 99, 165  Kaufmann, ...",243
+"GD 99, 175 Mutzel, ...",244
+"GD 99, 186 Duncan, ...",245
+"GD 99, 197 Bertault, ...",246
+"GD 99, 205 Healy, ...",247
+"GD 99, 217 Matuszewski, ...",248
+"GD 99, 225 Shahrokhi, ...",249
+"GD 99, 232 Barouni, ...",250
+"GD 99, 242 Behzadi",251
+"GD 99, 250 Brandes, ...",252
+"GD 99, 259 Basalaj, ...",253
+"GD 99, 267 Nesetril",254
+"GD 99, 276 de Fraysseix",255
+"GD 99, 286 Bachl",256
+"GD 99, 297 Di Battista, ...",257
+"GD 99, 311 Wood",258
+"GD 99, 323 de Mendez",259
+"GD 99, 333 Babilon, ...",260
+"GD 99, 341 de Castro, ...",261
+"GD 99, 351 Bertault",262
+"GD 99, 359 Biedl, ...",263
+"GD 99, 369 Liotta, ...",264
+"GD 99, 379 Demetrescu, ...",265
+"GD 99, 392 Herman, ...",266
+"GD 99, 400 Brandenburg, ...",267
+"GD 99, 410 Brandes",268
+"GD 99, 416 Chen, ...",269
+"GD 99, 418 Kanne, ...",270
+"GD 95, 483 Skorsky",271
+"GD00,1 Ware",272
+"GD00,5 Purchase, ...",273
+"GD00,19 Bridgeman, ...",274
+"GD00, 31 Lesh, ...",275
+"GD00, 37 Klau, ...",276
+"GD00, 259 Wood",277
+"GD00, 63 Hutchinson",278
+"GD00, 52 Herman, ...",279
+"GD00, 150 Carmignani, ...",280
+"GD00, 139 Castello, ...",281
+"GD00, 127 Brandes, ...",282
+"GD00, 115 Boissonnat, ...",283
+"GD00, 103 Brandes, ...",284
+"GD00,91 Nakano, ...",285
+"GD00, 77 Gutwenger ...",286
+"GD00, 253 G&Atilde;&frac14;nther, ...",287
+"GD00,241 Waddle",288
+"GD00, 229 Buchheim, ...",289
+"GD00, 211 Gajer, ...",290
+"GD00, 197 Quigley, ...",291
+"GD00, 183 Harel, ...",292
+"GD00, 171 Walshaw",293
+"GD00, 170 Jensen",294
+"GD00, 164 Bertault, ...",295
+"GD00, 222 Gajer, ...",296
+"GD00, 350 Dean",297
+"GD00, 338 Lenhart, ...",298
+"GD00, 328 Pach, ...",299
+"GD00, 321 Barequet",300
+"GD00, 308 Lynn, ...",301
+"GD00, 296 Nakano",302
+"GD00, 284 Biedl, ...",303
+"GD00, 272 Di Battista, ...",304
+"GD00, 407 Brandes, ...",305
+"GD00, 396 Friedrich, ...",306
+"GD00, 384 Shieh, ...",307
+"GD00, 372 Chen, ...",308
+"GD00, 360 Hong, ...",309
+"GD00, 410 Brandenburg, ...",310

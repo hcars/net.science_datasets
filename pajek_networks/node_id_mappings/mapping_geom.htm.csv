@@ -1,0 +1,7344 @@
+id,name
+S. Kambhampati,0
+Christian A. Duncan,1
+V. P. Grishukhin,2
+T. T. Moh,3
+R. P. Brent,4
+Afra Zomorodian,5
+Gianfranco Bilardi,6
+Y. I. Yoon,7
+N. Bourbaki,8
+F. W. Levi,9
+J. P. Kermode,10
+B. B. Kimia,11
+R. Livne,12
+H. N. Gabow,13
+Jonathan C. Hardwick,14
+H. R. Brahana,15
+Ulrich Huckenbeck,16
+J. A. Lo,17
+H. W. Scholten,18
+H.-C. Im Hof,19
+J. Bonet,20
+F. Frances Yao,21
+D. Kapur,22
+Jon Michael Kleinberg,23
+G. Y. Handler,24
+W. Fulton,25
+Derek Thompson,26
+R. S. Roth,27
+J. Moravek,28
+J. K. Hahn,29
+A. Mesa Henriquez,30
+D. J. Rosenkrantz,31
+J. Glimm,32
+B. Smith,33
+Tatsuya Akutsu,34
+Leonidas J. Guibas,35
+J. Rippel,36
+Jochen Seemann,37
+J. C. Xia,38
+Christopher L. Smith,39
+T. Suzuki,40
+L. Shafer,41
+H. Gill,42
+H. A. M. de Brouwer,43
+Maw Shang Chang,44
+J. B. Rosen,45
+J. Wolff von Gudenberg,46
+J. Hopfield,47
+V. G. Polimenis,48
+Elmar Langetepe,49
+Y. G. Stoyan,50
+N. N. Metelskij,51
+N. N. Metelskii,52
+R. M. Murray,53
+F. E. Sevilgen,54
+Tom Hudson,55
+G. Sander,56
+T. W. Hill,57
+K. R. Lee,58
+W. Wright,59
+M.-S. Kim,60
+L. L. Larmore,61
+N. I. Chernov,62
+Hans-Peter Kriegel,63
+E. D. Goodman,64
+Timothy J. Baker,65
+Christophe Schlick,66
+Christian Thiel,67
+V. A. Vassiliev,68
+D. Nassimi,69
+Matthias J. Fischer,70
+Naji Mouawad,71
+Peter F. Ash,72
+A. D. Fisher,73
+F. Pont,74
+T. Luczak,75
+M. M. Halldorsson,76
+G. S. Brown,77
+Micha Sharir,78
+M. R. Henzinger,79
+Q. T. Pham,80
+S. C. Johnson,81
+V. Ramirez Gonzalez,82
+Xiao Wen Deng,83
+A. Y. Zomaya,84
+B. McKay,85
+D. J. Gschwind,86
+Y. Liu,87
+Andrew S. Glassner,88
+L. Paul Chew,89
+J. N. Cederquist,90
+M. Flickner,91
+E. H. Blake,92
+Jeffery Westbrook,93
+T. M. Murali,94
+Marc J. van Kreveld,95
+C. Steward,96
+E. Szemeredi,97
+L.-E. Andersson,98
+W. T. Reeves,99
+Bonnie Berger,100
+H. Nair,101
+S. Muthukrishnan,102
+R. E. Lynch,103
+A. Buzo,104
+E. G. Rees,105
+J. C. Davis,106
+John H. Reif,107
+F. Bauernoppel,108
+Eugene Fiume,109
+Z.-H. Zhong,110
+N. Chiba,111
+J. Kavanagh,112
+T. Reico,113
+S. V. Smelyakov,114
+M. D. Hirsch,115
+K. Opitz,116
+G. S. Bloom,117
+S. G. Akl,118
+A. Gabrielov,119
+R. E. Barnhill,120
+B. Willette,121
+N. Leekha,122
+T. Ohtsuki,123
+Derick R. Wood,124
+P. Wollard,125
+G. Granot,126
+R. J. Cimikowski,127
+D. B. Levine,128
+R. C. Mosteller,129
+W. Li,130
+J. Y. H. Fu,131
+Andreas Fabri,132
+D. R. Niemeyer,133
+H. J. Bernstein,134
+Mark Goldberg,135
+M. Slusarek,136
+Alan M. Frieze,137
+C. D. Tomlin,138
+Hristo N. Djidjev,139
+G. Sierksma,140
+S. M. Dorney,141
+Peter Brass,142
+J. Bhadury,143
+O. Aberth,144
+P. Henrici,145
+M. Gautherie,146
+Jyh-Jong Tsay,147
+Ben-Arroyo,148
+C. C. Handley,149
+Koichi Wada,150
+M. Lobo,151
+K. Heaton,152
+B. W. Kernighan,153
+Kumar Ramaiyer,154
+P. Borrel,155
+M. Falk,156
+D. Kim,157
+M. A. Langston,158
+G. A. Watson,159
+J. H. Hellerstein,160
+R. Heckmann,161
+Matthew T. Dickerson,162
+Eva K. Lee,163
+Pat Hanrahan,164
+Robert M. Corless,165
+A. Inselberg,166
+A. Klapper,167
+Frank Nielsen,168
+Hee-Kap Ahn,169
+Pamela J. Vermeer,170
+Aristides A. G. Requicha,171
+A. L. Liestman,172
+V. A. Zalgaller,173
+B. Preis,174
+David G. Kirkpatrick,175
+C.-J. Su,176
+Yossi Matias,177
+Michael T. Hallett,178
+D. R. Smith,179
+Sudebkumar Prasant Pal,180
+Ronitt Rubinfeld,181
+C. Bradford Barber,182
+S. Takahashi,183
+F. C. Eigler,184
+Marina Gavrilova,185
+C. Ullrich,186
+Warren N. Waggenspack,187
+Geza Toth,188
+Wielandt,189
+L. Klein,190
+W. R. Stewart,191
+G. Rawlings,192
+M. W. Jones,193
+P. F. Dietz,194
+L. Furlani,195
+D. Wang,196
+S. Geisler,197
+C. Kumar,198
+P. Pedersen,199
+M. Shneerson,200
+J. H. Friedman,201
+Christos Levcopoulos,202
+E. Ron Davidson,203
+M. V. A. Andrade,204
+Xiangping Chen,205
+C. G. Armstrong,206
+M. Gopi,207
+V. Bhaskaran,208
+William J. Lenhart,209
+R. A. Liming,210
+H. G. Mairson,211
+S. Sairam,212
+H. Tverberg,213
+S. Shinotuka,214
+N. L. White,215
+S. Wang,216
+T. Risse,217
+D. Surla,218
+Tycho Strijk,219
+J. Heistermann,220
+N. R. Chrisman,221
+Bettina Klinz,222
+Neil C. Rowe,223
+Susan Hert,224
+M.-T. Shing,225
+P. J. Cameron,226
+C. J. Hunt,227
+M. Stonebreaker,228
+Andrea Pietracaprina,229
+Yasukazu Aoki,230
+P. Brunet,231
+S. Raghotama,232
+D. A. Smith,233
+J. A. Amanatides,234
+Rajeev Motwani,235
+M. Bertolotto,236
+Lars Knipping,237
+J. Dangermond,238
+Giri Narasimhan,239
+Sandor P. Fekete,240
+R. Ringeisen,241
+Francis Y. L. Chin,242
+J. H. Conway,243
+Sergei N. Bespamyatnikh,244
+Karel Zikan,245
+Steven Eker,246
+G. B. Purdy,247
+Paul B. Callahan,248
+H. Weber,249
+U. M. Landau,250
+Ines Semrau,251
+W. Heidrich,252
+T. Zamfirescu,253
+Tamas Lukovszki,254
+Gyula Karolyi,255
+Ferran Hurtado,256
+P. Looges,257
+S.-B. Shin,258
+Peter J. Rousseeuw,259
+M. Tokoro,260
+W. E. Howden,261
+M. Mignotte,262
+C. Y. Hung,263
+Alain Fournier,264
+F. K. Hwang,265
+M. A. Bauer,266
+Lyudmil Aleksandrov,267
+S. Toida,268
+P. M. Vaidya,269
+Amos Fiat,270
+T. Abe,271
+Gert Vegter,272
+C. E. Leiserson,273
+C. Stirk,274
+L. Roth,275
+Brendan Madden,276
+Behnke,277
+A. Tarski,278
+H. Breu,279
+E. N. Gilbert,280
+Gerald Farin,281
+B. Romney,282
+Stefan Naher,283
+K. Leichtweiss,284
+C. Kinsey,285
+Ida Ruts,286
+Mordecai J. Golin,287
+W. Lai,288
+S. Poljak,289
+J. F. O'Callaghan,290
+T. H. Spencer,291
+V. O. K. Li,292
+Arnold W. M. Smeulders,293
+N. Christofides,294
+C. F. van Loan,295
+D. W. Hearn,296
+A. W. Tempelton,297
+Md. Saidur Rahman,298
+K. Toshimitsu,299
+J. Bhasker,300
+B. Dushnik,301
+M. Orlowski,302
+Zhixiang Chen,303
+S. Kanaganathan,304
+L. B. Rall,305
+R. du Cloux,306
+A. C. Norman,307
+Mike S. Paterson,308
+T. Varady,309
+Bernard Chazelle,310
+W.-E. Blanz,311
+G. Sangudi,312
+S. Arimoto,313
+G. D. S. Ramkumar,314
+Z. Michalewicz,315
+Takeshi Tokuyama,316
+S. P. Koruthu,317
+Steve Sullivan,318
+Andrew B. Kahng,319
+Paresh Parikh,320
+Ioannis Z. Emiris,321
+W. Blaschke,322
+Gary L. Miller,323
+J. Hammer,324
+M. Furukata,325
+Sandy Irani,326
+Frederic Cazals,327
+Z. Li,328
+Hamid Shahnasser,329
+Howard J. Karloff,330
+W. Cunto,331
+R. Mead,332
+David White,333
+J. J. Bartoldi,334
+S. V. Rao,335
+T. F. Banchoff,336
+K. S. Klimaszewski,337
+B. S. Baker,338
+A. Shoshani,339
+Eugen Ardeleanu,340
+Kathleen R. Romanik,341
+Elias Zerhouni,342
+T. Keleti,343
+M. Richetin,344
+B. F. Schaudt,345
+A. K. Somani,346
+L. K. Platzman,347
+X. Tu,348
+E. Kuo,349
+G. W. Hodgman,350
+D. Maple,351
+K. Diks,352
+Joseph Zaks,353
+Simeon Ntafos,354
+Chong Zhu,355
+C. Kolb,356
+S. Hertel,357
+R. J. Elliott,358
+C. Muller,359
+Y. Yamaguchi,360
+S. Kumar,361
+X.-H. Tan,362
+Jayachandra Reddy,363
+P. J. Kahn,364
+C. M. Philip,365
+Nancy M. Amato,366
+Alon Itai,367
+Noel Walkington,368
+C. F. Scheepers,369
+E. W. Mayr,370
+Z. Cao,371
+V. Ralph Algazi,372
+J. Cohon,373
+Ketan Mulmuley,374
+Vladimir Estivill-Castro,375
+L. L. Smarr,376
+Sanjeev Arora,377
+T. W. Lam,378
+C. Wrathall,379
+Daniel Fischer,380
+T. M. Gonzales,381
+L. Carstensen,382
+S. Gottwald,383
+Barry Hayes,384
+Bernard Lacolle,385
+J. B. Lotspiech,386
+P. G. Spirakis,387
+R. Agrawarl,388
+Pedro A. Ramos,389
+T. Ling,390
+Craig Gotsman,391
+M. Espie,392
+Ted D. Blacker,393
+Donald E. Knuth,394
+Ulrich Fossmeier,395
+H.-P. Lenhof,396
+W. Fenchel,397
+P. Gahinet,398
+Z. Sweedyk,399
+R. B. Eggleton,400
+B. Gostiaux,401
+R. Barakat,402
+L. Gerencser,403
+Jack Scott Snoeyink,404
+M. D. F. Schlag,405
+N. Lasudry,406
+Andras Bezdek,407
+Paola Bertolazzi,408
+Christos D. Zaroliagis,409
+E. H. Spanier,410
+Michel Pocchiola,411
+Sabine Stifter,412
+C. R. Dyer,413
+J. Wilkes,414
+P. A. Bloniarz,415
+F. Hermeline,416
+M. J. Graham,417
+R. Kimmel,418
+K. Sambandan,419
+D. Shepard,420
+P. R. Cavalcanti,421
+P. O. Anderson,422
+C. R. Bonapace,423
+P. Di Felice,424
+Satyandra K. Gupta,425
+D. Barnum,426
+J. Mark Keil,427
+S. Venkatasubramanian,428
+G. Peng,429
+Jae-Hoon Kim,430
+J. N. Tsitsiklis,431
+C. Rackoff,432
+W. Rulling,433
+Tomas Recio,434
+C. R. Liu,435
+P. A. Thompson,436
+David Lavender,437
+A. D. McAulay,438
+V. N. Vapnik,439
+M. Shimrat,440
+J.-M. Chassery,441
+J. H. Clark,442
+V. T. Rajan,443
+B. S. Chlebus,444
+Sigal Ar,445
+Brad Andalman,446
+Y. Cheng,447
+I. Schur,448
+Peter-Michael Schmidt,449
+Edwin Buchman,450
+G. T. Sallee,451
+Lai Mingwu,452
+M. Marzetta,453
+J. U. Turner,454
+B. C. Teeter,455
+H. Chiyokura,456
+B. An,457
+Ervin Gyori,458
+Francesco Vargiu,459
+J. P. Norback,460
+E. H. L. Aarts,461
+P. R. White,462
+S. Sudarshan,463
+A. A. Pasko,464
+Thomas C. Shermer,465
+William J. Schroeder,466
+S. K. Card,467
+M. Schlenkrich,468
+Danny Z. Chen,469
+A. James Stewart,470
+Panagiotis D. Alevizos,471
+M. Newborn,472
+V. Y. Pan,473
+F. L. Bookstein,474
+M. Tompa,475
+M. Henle,476
+P. A. Lindholm,477
+David Hutchinson,478
+Th. M. Liebling,479
+Friedrich Hoffmann,480
+Michiel Hagedoorn,481
+W. Bein,482
+G. Sahar,483
+Ralf Dickmann,484
+N. Castaneda,485
+L. G. Khachiyan,486
+G. Ringel,487
+Mark Jones,488
+A. S. Azarenok,489
+E. A. Bender,490
+Dominique Michelucci,491
+W. Cheng,492
+Ashim Garg,493
+K. Hanes,494
+A. R. Fraser,495
+P. Griffin,496
+Christos H. Papadimitriou,497
+X. Dong,498
+G. Cybenko,499
+Henry Crapo,500
+A. Schorr,501
+R. K. Walker,502
+Luc P. Devroye,503
+M. C. Gaudel,504
+Miller,505
+Kenneth M. McDonald,506
+R. Weiss,507
+H. B. M. Jonkers,508
+Andrew Chi-Chih Yao,509
+B. Barunmuller,510
+Brian P. Flannery,511
+F. Loeser,512
+A. Tits,513
+N. M. Korneenko,514
+Nicolai Vorobjov,515
+J. K. Aggarwal,516
+Vaclav Skala,517
+G. Papaioannou,518
+M. Rezayat,519
+P. R. Wilson,520
+A. Quintero,521
+Simon Kahan,522
+C. S. Rafferty,523
+Takao Nishizeki,524
+H. Lamure,525
+R. Haas,526
+H. Umeo,527
+Srinivas Doddi,528
+C. E. Dasgupta,529
+Laszlo Szirmay-Kalos,530
+A. Schinzel,531
+S. J. Hong,532
+Jyrki Katajainen,533
+N. D. Sergeeva,534
+G. Wegner,535
+J. A. Hartigan,536
+F. Can,537
+F. Cao,538
+A. Tuan,539
+N. J. Fine,540
+A. Albano,541
+J. J. Uicker,542
+R. Bar-Yehuda,543
+Jean-Paul Laumond,544
+David P. Dobkin,545
+G. Don Chakerian,546
+Erik D. Demain,547
+P. V. Prakash,548
+J. Makhoul,549
+A. Gupta,550
+Stephen Sorkin,551
+Ali R. Boroujerdi,552
+H. Wagener,553
+H. Hopf,554
+Dianne Hansford,555
+M. Maresca,556
+Eduardo Rivera-Campo,557
+J. T. Whitted,558
+R. Honsberger,559
+Walter Didimo,560
+Klaus Soukup,561
+Chung Keung Poon,562
+Rao Garimella,563
+Xinyu Xiang,564
+F. Schmid,565
+Suneeta Ramaswami,566
+D. S. Richards,567
+H. Mueller,568
+J. Yang,569
+E. M. McCreight,570
+M. D. Plummer,571
+J. L. Meijering,572
+R. Freimer,573
+Alfredo Garcia,574
+O. R. Musin,575
+Debasish Dutta,576
+S. C. Chao,577
+V. Cik,578
+Y. Won,579
+B. A. Moran,580
+Tetsuya Hiroshima,581
+S. Zhang,582
+Yair Bartal,583
+Carl Erikson,584
+A. K. Lenstra,585
+L. D. Griffin,586
+H. Hubschman,587
+Stina S. Bridgeman,588
+A.-L. Hassenklover,589
+S. Shim,590
+S. Shin,591
+Norbert Hungerbuhler,592
+Tomonari Masada,593
+Chuan-Yi Tang,594
+Bo-Ting Yang,595
+E. E. Barton,596
+N. Stewart,597
+Lydia E. Kavraki,598
+B. M. Maggs,599
+Jesus Garcia,600
+K. Dill,601
+R. Matikalli,602
+Morakot Pilouk,603
+Stephan Gschwind,604
+M. C. Hong,605
+D. Brownawell,606
+W. Specht,607
+M. Greenberg,608
+A. Weil,609
+Johannes A. La Poutre,610
+P. Nanua,611
+Robert Connelly,612
+M. Murty,613
+M. A. Lavin,614
+L. M. Kirousis,615
+R. L. Francis,616
+J. Star,617
+E. G. Noik,618
+Henry G. Baker,619
+M. D. Katz,620
+A. L. Mackay,621
+M. Schneier,622
+T. Szendrenyi,623
+Ulrich H. Kortenkamp,624
+F. Evans,625
+C. Wong,626
+N. S. V. Rao,627
+Marko de Groot,628
+S. M. von Rump,629
+Matthias Ettrich,630
+A. C. Harter,631
+L. G. Valiant,632
+R. L. Taylor,633
+S. Lin,634
+Shinichi Nakano,635
+Joram Lindenstrauss,636
+S. Sathiya Keerthi,637
+M. Katz,638
+Saibal Banerjee,639
+H. Uehara,640
+T. Teitelbaum,641
+W. Paul,642
+H. Asada,643
+M. Yamada,644
+B. Johnson,645
+Jim Ruppert,646
+Greg Leibon,647
+F. K. H. Quek,648
+D. R. Woodall,649
+M. S. White,650
+W. Mills,651
+T. Chorzempa,652
+K. D. Gourley,653
+R. Cori,654
+Helmut Alt,655
+T. Lambert,656
+Franco P. Preparata,657
+P. O. de Mendez,658
+Sang-Min Park,659
+R. G. Karlsson,660
+K. R. Penrose,661
+N. Sreibl,662
+Larry S. Davis,663
+H. Englisch,664
+S. Liu,665
+M. L. Balinsky,666
+Jeff Erickson,667
+Andre Cerezo,668
+Ron Y. Pinter,669
+Gunter Aumann,670
+J. J. Stroker,671
+P. Rosenstiehl,672
+M. Lavine,673
+L. Few,674
+Patricio Inostroza,675
+G. Spencer,676
+Monika H. Rauch,677
+Kuo-Hui Tsai,678
+S. Fotheringham,679
+Richard E. M. Moore,680
+E. Steinitz,681
+J. M. Steele,682
+Chandrajit L. Bajaj,683
+M. J. Mantyla,684
+A. Kwasnik,685
+N. Tralli,686
+S. W. Miller,687
+R. Krishnamurthy,688
+L. A. Fletcher,689
+D. I. Golenko,690
+Nancy Hitschfeld,691
+I. D. Kuntz,692
+S.-S. Wei,693
+Tapas Kanungo,694
+F. Tom Leighton,695
+Zaifu Yang,696
+S. Zheng,697
+W. Schilling,698
+F. Hecht,699
+Samuel M. Thomas,700
+A. R. Warburton,701
+C. S. Jeong,702
+John E. Hershberger,703
+John Fairfield,704
+D. B. Lomet,705
+A. M. Tai,706
+D. Jackel,707
+G. A. Margulis,708
+W. W.-M. Dai,709
+S. Campagna,710
+Chee-Keng Yap,711
+D. Field,712
+V. A. Norton,713
+Geppino Pucci,714
+Igor Rivin,715
+M. Meissner,716
+Silicon Graphics,717
+Sumitro Samaddar,718
+B. Spain,719
+R. V. Southwell,720
+N. Serrano,721
+M. Amin Shokrollahi,722
+J. Bilmes,723
+Ludger Becker,724
+M. Whitely,725
+M. O. Garret,726
+Helmut Weil,727
+I. Hakki Toroslu,728
+J. Edmonds,729
+D. A. Bayley,730
+W. Gutjahr,731
+G. E. Cooke,732
+Clive Stops,733
+D. Ratz,734
+Jean-Daniel Boissonnat,735
+W. E. L. Grimson,736
+O. C. Zienkiewicz,737
+S. W. Sloan,738
+David Levin,739
+Franz J. Brandenburg,740
+Enric Torres,741
+B. C. Vemuri,742
+Neal Young,743
+S. J. Fortune,744
+John Mocenigo,745
+Z. Shiller,746
+J. B. Saxe,747
+C.-Y. Pany,748
+B. K. Shoichet,749
+B. Alpern,750
+Nathan Linial,751
+J. A. Rees,752
+L. S. Homem de Mello,753
+Mikael Lundquist,754
+J. Richard,755
+D. B. Curtis,756
+Tim Van Hook,757
+R. E. Ellis,758
+U. Brehm,759
+K. C. Clarke,760
+Yan-Bin Jia,761
+A. O. Mendelzon,762
+R. Tibshirani,763
+J. Malik,764
+A. Hegedus,765
+Y. Nakanishi,766
+A. L. Delcher,767
+O. Kennard,768
+R. Larntz,769
+H. Kieselwetter,770
+R. M. Karp,771
+E. Jucovic,772
+J. W. Kenelly,773
+V. Geffert,774
+M. H. Williams,775
+J. B. G. Frenk,776
+H. Meyniel,777
+Ingemar Ragnemalm,778
+A. Sterbini,779
+Boaz Tagansky,780
+Jean-Marie Laborde,781
+W. Tiller,782
+G. T. Klincsek,783
+Jacob E. Goodman,784
+T. Owen,785
+Marek Teichmann,786
+Patrick E. O'Neil,787
+A. K. Mackworth,788
+Van-Duc Nguyen,789
+F. P. Fischer,790
+Steven W. Zucker,791
+M. B. Dillencourt,792
+J. F. Prins,793
+Q. He,794
+K. Numata,795
+A. D. Kalvin,796
+G. Vijayan,797
+P. Williams,798
+P. Yamamoto,799
+W. Hurewitcz,800
+Katrin T. G. Dobrindt,801
+Robert L. Scot Drysdale,802
+Igor Pechtchanski,803
+C. Ronse,804
+M. Ouksel,805
+M. R. Brown,806
+S. Amari,807
+Guy E. Blelloch,808
+M. Khatib,809
+A. Schwartz,810
+I. Ya. Akimova,811
+A. Neumann,812
+H. Rohnert,813
+M. E. Daniels,814
+Sampath K. Kannan,815
+A. M. Lyakh,816
+J. Sorenson,817
+Manfred Kopp,818
+Jun Nakano,819
+T. M. Apostol,820
+Benton L. Leong,821
+Geoffrey Butlin,822
+Peter Murdoch,823
+D. Marr,824
+J. H. Munson,825
+V. Hayward,826
+S. Malitz,827
+Michele de Lorenzi,828
+C. Rub,829
+B. G. Batchelor,830
+R. Subramonian,831
+L. P. Cordella,832
+W. C. Gear,833
+F. J. Schmitt,834
+Stefan Meiser,835
+J. Harer,836
+J. K. Dixon,837
+J. Kratochvil,838
+S. W. Golomb,839
+Marek Karpinski,840
+G. Schnitger,841
+S. W. Dharmadhikari,842
+V. Bistiolas,843
+J. D. Foley,844
+Merce Mora,845
+B. Leban,846
+P. Schroder,847
+N. Tishby,848
+J. Barraquand,849
+Beat D. Bruderlin,850
+Y.-H. Liu,851
+G. Nurnberger,852
+Alan R. Davis,853
+David S. Johnson,854
+D. Sankoff,855
+J. R. Sangwine-Yager,856
+D. Lavine,857
+V. Vemuri,858
+Henri Lombardi,859
+Joel W. Burdick,860
+C. T. Yu,861
+T. Horvath,862
+A. S. Wallack,863
+C. Greene,864
+J. H. Brown,865
+David Wells,866
+A. Calatayud,867
+J. A. Sethian,868
+A. Keller,869
+Peter Engel,870
+Martin Erwig,871
+F. Kawahata,872
+C. Jard,873
+Laszlo Lovasz,874
+R. Mountain,875
+C. Goad,876
+Y.-D. Liang,877
+D. V. Ahuja,878
+U. Finkler,879
+F. R. Hampel,880
+N. Kiryati,881
+D. Miller,882
+R. H. Rosen,883
+Wilhelm Barth,884
+J. Arvo,885
+Kenneth R. Sloan,886
+S. J. Hood,887
+Steven M. LaValle,888
+Bernard Faverjon,889
+M. J. Post,890
+Theresa M. Silberberg,891
+N. Y. Yousif,892
+R. Kochar,893
+B. Hudson,894
+G. Spur,895
+N. Prabhu,896
+S.-H. Lee,897
+Kelly A. Lyons,898
+Douglas Garfield Link,899
+Marie-Francoise Roy,900
+C. Liu,901
+Kevin Wu,902
+Vijay Karamcheti,903
+Carmen Cortes,904
+Ralf Hartmut Guting,905
+G. E. Collins,906
+D. C. Kay,907
+D. J. Landridge,908
+G. Desaulniers,909
+C. G. Ross,910
+J. L. Martin,911
+Ivan Stojmenovic,912
+Scott Meyers,913
+B. M. Grossman,914
+M. Tamminen,915
+J. C. Bermond,916
+D. Haussler,917
+P. K. Chaudhuri,918
+Philippe Soueres,919
+T. Lybrand,920
+A. J. Briggs,921
+John Doyle,922
+E. Backer,923
+T. Matsui,924
+J. Saia,925
+M. Las Vergnas,926
+E. Kamke,927
+Horst W. Hamacher,928
+S. Choi,929
+Changyaw Wang,930
+Laurent Alonso,931
+A. T. Lundell,932
+L. J. Billera,933
+H. Wallman,934
+Berto van de Kraats,935
+Pierre Angelier,936
+H. Bohm,937
+Jonathan W. Brandt,938
+Enrico Puppo,939
+Rudolf Fleischer,940
+M. Klazar,941
+B. Ray,942
+M. Longinetti,943
+J. Corbett,944
+R. N. Mukherjee,945
+H. J. Smith,946
+M. Habib,947
+Tudor Jebelean,948
+P. Ferragina,949
+J. D. Ullman,950
+Joseph D. Horton,951
+J. G. Hocking,952
+M. Peterson,953
+Shakhar Smorodinsky,954
+S. C. Salveter,955
+A. James,956
+J. Han,957
+M. Suk,958
+C. M. Brown,959
+A. Marzetta,960
+S. Sleator,961
+C. M. Bastuscheck,962
+Jin Akiyama,963
+Leslie Lamport,964
+H. J. Gottschalk,965
+David M. Avis,966
+Otfried Schwarzkopf,967
+Farhad Shahrokhi,968
+I. M. Yaglom,969
+D. Baraff,970
+H. Mehrotra,971
+J. P. Tremblay,972
+Jon Christensen,973
+H.-P. Wang,974
+J. Blaney,975
+Maurizio Talamo,976
+A. D. Aleksandrov,977
+Y. M. Kan,978
+O. Fries,979
+J. Baillieul,980
+A. Roncato,981
+Patrick G. Hogan,982
+Zhengyan Wang,983
+Friedhelm Neugebauer,984
+Henri Michel,985
+M. Simonovits,986
+C. Chien,987
+R. L. Devaney,988
+P. W. Shor,989
+F. Macaulay,990
+S. V. Sevastjanov,991
+R. Kasturi,992
+J. E. Bobrow,993
+Subhas Chandra Nandy,994
+Robert A. Reckhow,995
+Joseph S. B. Mitchell,996
+H. Hadwiger,997
+A. Park,998
+L. Kronecker,999
+J. Hagauer,1000
+D. G. Kelly,1001
+J. N. Reddy,1002
+N. Mayya,1003
+I. Babuska,1004
+R. T. Rockafellar,1005
+Bala Kalyanasundaram,1006
+F. G. Pin,1007
+P. C. Hammer,1008
+David Salesin,1009
+L. Spratt,1010
+H. de Fraysseix,1011
+Gregoria Blanco,1012
+Huseyin Demir,1013
+P. Zimmerman,1014
+H. Spiegel,1015
+Eugene Joseph,1016
+G. Ch. Pflug,1017
+Daniel DeMenthon,1018
+J. Zimba,1019
+H. Gelernter,1020
+Amitava Datta,1021
+R. M. Hosabettu,1022
+T. Yuba,1023
+Z. J. Cendes,1024
+Y. Kato,1025
+R. H. Crowell,1026
+B. R. Donald,1027
+M. Fischetti,1028
+B. Serpette,1029
+M. Roche,1030
+A. F. Siegel,1031
+Thomas A. Ottmann,1032
+G. Klebe,1033
+?? Rathmill,1034
+S. Wimer,1035
+K. Fan,1036
+David Bremner,1037
+S. Gottschalk,1038
+Hossam A. El-Gindy,1039
+G. M. Shute,1040
+A. R. Clare,1041
+M. McAffer,1042
+Clara I. Grima,1043
+John W. Peterson,1044
+Martin Held,1045
+R. Benedetti,1046
+Renato Perucchio,1047
+S. R. Mahaney,1048
+D. J. Bertzimas,1049
+W. Schindler,1050
+R. M. McKeag,1051
+Roberto Peirone,1052
+Larry Palazzi,1053
+N. Miles,1054
+N. P. Weatherill,1055
+Robert-Paul Berretty,1056
+T. Yang,1057
+S. Tokumasu,1058
+P. Egyed,1059
+B. Guo,1060
+J. W. Lee,1061
+L. Bardis,1062
+D. Steele,1063
+Michael Shook,1064
+A. Z. Broder,1065
+J. K. Park,1066
+Mona Singh,1067
+D. Parson,1068
+Steven P. Reiss,1069
+C. Ponder,1070
+M. Spann,1071
+J. M. Robson,1072
+W. E. Lorensen,1073
+X. Shen,1074
+Joonsoo Choi,1075
+Manuel Abellanas,1076
+Jason Morrison,1077
+V. T. Sos,1078
+K. Thulasiraman,1079
+I. Makela,1080
+B. Dom,1081
+Francisco Gomez,1082
+Dominique Schmitt,1083
+Bengt J. Nilsson,1084
+S. R. Lowry,1085
+Dafna Talmor,1086
+V. N. Martynchik,1087
+Jean-Marie Chesneaux,1088
+D. Hoang,1089
+C. M. Bender,1090
+R. Hammer,1091
+H. Todd Wareham,1092
+A. Krogh,1093
+Ken Shoemake,1094
+Christian Knauer,1095
+P. Dierker,1096
+Mujtaba Ghouse,1097
+Olivier D. Faugeras,1098
+Dinesh Manocha,1099
+A. W. F. Lee,1100
+T. W. Van Asch,1101
+Jorg-Rudiger Sack,1102
+G. Werner,1103
+Carlo Gaibisso,1104
+J. G. Toborg,1105
+T. Thomasma,1106
+S. E. Chen,1107
+D. G. Corneil,1108
+F. Reuleaux,1109
+Michael Kaufmann,1110
+Bruno Becker,1111
+J. Besag,1112
+A. J. Al-Khalili,1113
+J. Grove,1114
+P. Persiano,1115
+Eugene W. Myers,1116
+J. F. Connett,1117
+Hyeong In Choi,1118
+R. Magedson,1119
+M. G. Diaz,1120
+G. Schumacher,1121
+G. Isaak,1122
+K. Hensel,1123
+P. J. Green,1124
+E. C. Sherbrooke,1125
+R. S. Biggs,1126
+T. B. Boffey,1127
+Ulf Erikson,1128
+Susumu Hasegawa,1129
+J.-S. Chiu,1130
+M. M. Rao,1131
+C. P. Rourke,1132
+Pierluigi Crescenzi,1133
+M. A. Srinivas,1134
+S. Kassam,1135
+Peter Bro Miltersen,1136
+C. Gutwenger,1137
+O. Svestka,1138
+Kasturi R. Varadarajan,1139
+D. C. Brogan,1140
+K. Rangarajan,1141
+Natasha Gelfand,1142
+T.-C. Yang,1143
+J. M. Winget,1144
+S. R. Buss,1145
+Chantal J. Wentink,1146
+R. Markot,1147
+J. P. Cohoon,1148
+Gabriel Zachmann,1149
+William H. Frey,1150
+M. Nakade,1151
+Bradford G. Nickerson,1152
+H. Suwanda,1153
+Edmond Boyer,1154
+G. Hamlin,1155
+R. Frucht,1156
+G. Macedonio,1157
+D. G. Evans,1158
+I. Gargantini,1159
+P. Huang,1160
+H. Abelson,1161
+J. L. Udy,1162
+P. Fussel,1163
+Denis Jordan,1164
+Roser Guardia,1165
+Chan-Su Shin,1166
+G. L. Dirichlet,1167
+D. M. Campbell,1168
+Alejandro Lopez-Ortiz,1169
+F. Vincent,1170
+R. F. Tomlinson,1171
+Isabel F. Cruz,1172
+Mark H. Montague,1173
+Sariel Har-Peled,1174
+J. T. Kent,1175
+M. Reichling,1176
+P. H. A. Sneath,1177
+J. C. Kyle,1178
+J. Pecht,1179
+Daniel H. Greene,1180
+I. M. Vinogradov,1181
+S. Chynoweth,1182
+P. D. Seymour,1183
+A. Shannon,1184
+Roberto Scopigno,1185
+T. Nguyen,1186
+P. M. Dew,1187
+B. L. Rothschild,1188
+P. Mateti,1189
+Erik Brisson,1190
+A. Bykat,1191
+Hongyan Wang,1192
+A. Seidenberg,1193
+Martine Labbe,1194
+V. Ramachandran,1195
+M. L. Connolly,1196
+Thomas Dean,1197
+G. G. Grinstein,1198
+R. Hull,1199
+M. Philips,1200
+Colum Watt,1201
+F. W. Fredman,1202
+W. Chin,1203
+Sumanta Guha,1204
+W. W. L. Chen,1205
+Mark H. Overmars,1206
+Roman Waupotitsch,1207
+J. S. Shieh,1208
+A. Rappaport,1209
+V. G. Sragovic,1210
+Vera Sacristan,1211
+J. G. von der Corput,1212
+P. Todd,1213
+R. Kay,1214
+F. Harary,1215
+Nickolas S. Sapidis,1216
+M. L. Merriam,1217
+G. Hernandez,1218
+W. Miller,1219
+Christoph Hundack,1220
+J. D. Radke,1221
+H. E. Cline,1222
+R. S. Booth,1223
+Ernest Perry,1224
+Christopher M. Gold,1225
+K. Aizawa,1226
+C. Bajal,1227
+B. Awerbuch,1228
+G. Kulcsar,1229
+H. V. Jagadish,1230
+Cao-An Wang,1231
+F. Behrend,1232
+S. S. Chern,1233
+R. C. Bolles,1234
+M. W. Hirsch,1235
+Riccardo Scateni,1236
+Dimtri J. Mavriplis,1237
+J. Simon,1238
+J. R. Rodgers,1239
+E. Dittert,1240
+L.-H. Tseng,1241
+E. G. Hoel,1242
+R. Pajarola,1243
+P. E. Ney,1244
+G. Leih,1245
+Harry R. Lewis,1246
+D. W. Storti,1247
+D. E. Penny,1248
+Y. Kiyokane,1249
+R. A. Rutenbar,1250
+Meng-Chu Zhou,1251
+M. Pharr,1252
+Takeo Yaku,1253
+H. Maehara,1254
+B. A. Dubrovin,1255
+Oswin Aichholzer,1256
+M. Wang,1257
+B. Korte,1258
+Ronald L. Rivest,1259
+Prosenjit Gupta,1260
+L. W. Tu,1261
+Hannu Huhdanpaa,1262
+E. A. Melissaratos,1263
+G. Brassard,1264
+Marco Zagha,1265
+Jon Louis Bentley,1266
+Madhav K. Ponamgi,1267
+Svante Carlsson,1268
+Richard Pollack,1269
+R. Rado,1270
+Shankar S. Krishnan,1271
+E. Schulte,1272
+Pascal Desnogues,1273
+M. Yang,1274
+J. A. Storer,1275
+O. Toeplitz,1276
+B. Efron,1277
+Micheal B. Monagan,1278
+P. C. Kanellakis,1279
+Yoshiaki Kyoda,1280
+Hung-Yi T. Tu,1281
+Gerhard J. Woeginger,1282
+V. Capoyleas,1283
+G. M. Masson,1284
+Christian Schwarz,1285
+M. Golubitsky,1286
+Michel Schmitt,1287
+Paul S. Heckbert,1288
+Leen Stougie,1289
+B. de Sz. Nagy,1290
+P. N. Cook,1291
+Andrew Rau-Chaplin,1292
+E. Bienenstock,1293
+R. F. Sproull,1294
+J. Koplowitz,1295
+M. May,1296
+T. Brinkhoff,1297
+P. R. Goodey,1298
+T. Moller,1299
+M. Shah,1300
+Donald Goldfarb,1301
+K. Qiu,1302
+K. Smith,1303
+C. Stanton,1304
+Warren D. Smith,1305
+G. E. Martin,1306
+Srinivasa Rao Arikati,1307
+J. K. Salisbury,1308
+N. P. Buslenko,1309
+A. V. Zelevinski,1310
+Alex Glozman,1311
+T. W. Melnyk,1312
+A. S. Nemirovsky,1313
+W. R. Smith,1314
+M.-E. Algorri,1315
+Ming Lin,1316
+C. Ehrlich,1317
+T. N. Wiesel,1318
+Herve Bronnimann,1319
+B. Schiff,1320
+G. Bar,1321
+C. Levinthal,1322
+A. Robertson,1323
+M. A. Weiss,1324
+L. E. Parker,1325
+A. Russel,1326
+D. O'Shea,1327
+A. Bjork,1328
+R. Courant,1329
+H. Nakano,1330
+M. Loczkovich,1331
+R. T. Chien,1332
+M. Mevenkamp,1333
+M. Tachibana,1334
+J. Leray,1335
+B. Paden,1336
+Edgar A. Ramos,1337
+Paul J. Heffernan,1338
+E. Santos,1339
+Jose Ramon Portillo,1340
+K. Onishi,1341
+M. R. Dunlavey,1342
+A. C.-C. Meng,1343
+Chiuyuan Chen,1344
+Andrea Mantler,1345
+Gary S. Hufford,1346
+M. I. James,1347
+A. M. Vazques,1348
+G. W. Stewart,1349
+R. W. Hon,1350
+A. Bosworth,1351
+W. D. Frazer,1352
+Michael A. Erdmann,1353
+E. Lee,1354
+Daciana F. Bochis,1355
+Robin Y. Flatland,1356
+A. Wigderson,1357
+Giorgio Ausiello,1358
+E. Ariel-Sheffi,1359
+D. J. Ieradi,1360
+C. Lin,1361
+Euclid,1362
+M. Yung,1363
+Alexander I. Barvinok,1364
+K.-Y. Wang,1365
+V. G. Bolyanski,1366
+G. Zodik,1367
+Martha Sideri,1368
+A. Tamir,1369
+K.-U. Hoffgen,1370
+Laxmi P. Gewali,1371
+T. Schobel,1372
+Ian Ashdown,1373
+J. Kahmann,1374
+Greg N. Frederickson,1375
+M. J. Sewell,1376
+B. Bajaj,1377
+Youzou Miyadera,1378
+C. St. J. A. Nash-Williams,1379
+A. R. Woodbury,1380
+Kenneth Y. Goldberg,1381
+Y. Aumann,1382
+K. H. Kim,1383
+Kimio Kawaguchi,1384
+H. Spath,1385
+Paul Dale,1386
+S. B. Konyagin,1387
+L. Wilson,1388
+Prasad Chalasani,1389
+Sebastian Leipert,1390
+P. Scheuermann,1391
+G. Evangelidis,1392
+J. Naor,1393
+F. Huber,1394
+U. A. Zalgaller,1395
+Esteban Feuerstein,1396
+D. Grogan,1397
+L. S. Heath,1398
+Frank Follert,1399
+S. J. Owen,1400
+T. He,1401
+L. Harrington,1402
+J. Warren,1403
+K. Trovato,1404
+M. H. Elfick,1405
+D. B. Boyd,1406
+Haijo Schipper,1407
+D. B. West,1408
+L. Cremona,1409
+J. D. Tyger,1410
+Rudolf Eisenstock,1411
+D. Laugwitz,1412
+Robert E. Tarjan,1413
+R. Wilson,1414
+F. Murtagh,1415
+J.-H. Lin,1416
+Desh Ranjan,1417
+J. E. Mebius,1418
+Ravi Kannan,1419
+David H. Rappaport,1420
+E. Jennings,1421
+S. T. Leutenegger,1422
+Jim Gettys,1423
+N. L. K. Pitteway,1424
+J. Montroll,1425
+I. Chakravaty,1426
+Elisabetta Bruzzone,1427
+C. A. Burdet,1428
+D. Parsons,1429
+K. McCroan,1430
+T. Kruger,1431
+Victor Pan,1432
+Sue H. Whitesides,1433
+Lawrence Wolff,1434
+P. G. Alourdas,1435
+Sven Schonherr,1436
+A. Shashua,1437
+S.-Y. Lin,1438
+D. P. Peterson,1439
+Mario Jesus,1440
+Roy J. Byrd,1441
+C. Bron,1442
+S.-H. Suh,1443
+P. Bhattacharya,1444
+Z. Tuza,1445
+N. J. Nilsson,1446
+Takao Wachi,1447
+Michael Hoffmann,1448
+J. W. Bales,1449
+G. J. Clapworthy,1450
+Rolf H. Mohring,1451
+V. I. Arnold,1452
+Valerio Pascucci,1453
+S. Halperin,1454
+T. H. Payne,1455
+Carola Wenk,1456
+C. Peterkin,1457
+W. C. Thacker,1458
+K. G. Shin,1459
+J. M. Hollerbach,1460
+D. D. George,1461
+M. A. Wesley,1462
+A. V. Aho,1463
+J. Toran,1464
+Ward Morgan,1465
+Albert L. Zobrist,1466
+R. P. Bhatia,1467
+Dmitri Gavrilov,1468
+Rajit Gadh,1469
+J. M. Augenbaum,1470
+David Eppstein,1471
+M. Dreux,1472
+L. W. Beineke,1473
+Michael E. Hohmeyer,1474
+J.-J. Risler,1475
+Stuart M. Shieber,1476
+P. A. Beling,1477
+Subbiah Soundaralakshmi,1478
+G. Hajos,1479
+L. A. Shepp,1480
+U. Wendt,1481
+Sung Woo Choi,1482
+R. G. Pitchen,1483
+M. Cohen,1484
+Jean Vuillemin,1485
+I. S. Evans,1486
+S. W. Sheppard,1487
+Yi-Jen Chiang,1488
+Erik D. Demaine,1489
+D. Pullar,1490
+B. van Hohenbalken,1491
+R. J. Fowler,1492
+R. R. Sokal,1493
+Kyung-Yong Chwa,1494
+Lutz Kettner,1495
+Matthias Muller-Hannemann,1496
+Rachel Orti,1497
+Y. Nakamura,1498
+A. Laurentini,1499
+Gunter M. Ziegler,1500
+P. G. Reddy,1501
+P. Mussi,1502
+S. Levy,1503
+E.-C. Chang,1504
+X. Mendonca,1505
+D. V. Brackle,1506
+Michel X. Goemans,1507
+G. de Saussure,1508
+R. Loos,1509
+M. T. Ensz,1510
+V. C. Prasad,1511
+F. Takens,1512
+W. H. Cunningham,1513
+K. Kuratowski,1514
+L. Stark,1515
+E. L. Lawler,1516
+H. Niederreiter,1517
+J. Sutherland,1518
+Carolyn K. Duby,1519
+N. Adlai A. DePano,1520
+Majid Sarrafzadeh,1521
+D. M. Y. Sommerville,1522
+Qing-Wen Feng,1523
+Francisco Santos,1524
+J. P. Steadman,1525
+M. Sato,1526
+L. A. Newberg,1527
+W. Kuperberg,1528
+J. A. Goldak,1529
+E. V. Krishnamurthy,1530
+M. Herlihy,1531
+William H. Press,1532
+Ali Mohades,1533
+B. Just,1534
+G. S. Young,1535
+D. J. Robinson,1536
+P. Cignoni,1537
+T. Kanade,1538
+Paul R. Detmer,1539
+A. Chistov,1540
+Thomas W. Sederberg,1541
+Octavia Petrovici,1542
+H. H. Baker,1543
+M. J. O'Donnell,1544
+D. Jouppi,1545
+T. Anderson,1546
+T. L. Steiner,1547
+E. Gutkin,1548
+P. Duchet,1549
+R. S. Poulsen,1550
+L. Langley,1551
+M. P. Consens,1552
+M. G. Cox,1553
+F. D. Hwang,1554
+Ding-Zhu Du,1555
+B. E. Fullbright,1556
+C. T. Hoang,1557
+Y.-A. Chen,1558
+D. Rhynsburger,1559
+Catherine A. Schevon,1560
+H. Jurgensen,1561
+Prashant Kulkarni,1562
+W. W. Moss,1563
+C. Bohm,1564
+Geert-Jan Giezeman,1565
+C. Colombo,1566
+T.-P. Fang,1567
+J. Bourgain,1568
+A. Dobson,1569
+Michael T. Goodrich,1570
+L. Soukup,1571
+F. Margot,1572
+N. Hasan,1573
+R. A. Piccinini,1574
+W. Sohrt,1575
+Ernst Peter Mucke,1576
+Petr Svestka,1577
+V. Mirelli,1578
+A. Bolour,1579
+A. Srinivasan,1580
+M. Henrion,1581
+Marko Boben,1582
+Otto Nurmi,1583
+W. Wu,1584
+N. Fukuyama,1585
+R. K. Ahuja,1586
+L. A. Leifer,1587
+H. Lass,1588
+A. Neumaier,1589
+M. A. Ismail,1590
+Claudio Montani,1591
+H. A. Sober,1592
+Robert Schneiders,1593
+Hanna Baumgarten,1594
+Jay Bagga,1595
+S. Yokoi,1596
+Danny Krizanc,1597
+J. N. Lee,1598
+Y. Kambayashi,1599
+J. L. Montana,1600
+S. Straszewicz,1601
+A. Hill,1602
+J.-D. Muller,1603
+T. H. Merrett,1604
+M. W. Orletsky,1605
+B. Jaggi,1606
+J.-P. Roudneff,1607
+R. Goldmann,1608
+J. Lehel,1609
+M. W. Blasgen,1610
+G. Bonmassar,1611
+En-Yu Yao,1612
+D.,1613
+M. Nassar,1614
+Carl Ollivier-Gooch,1615
+Varol Akman,1616
+Mark S. Shephard,1617
+S. Bhatt,1618
+Andrzej Woloszyn,1619
+G. N. Vanderplaats,1620
+M. Baldwin,1621
+David M. Mount,1622
+Kevin J. Renze,1623
+Y. Lin,1624
+C. C. Gonzaga,1625
+R. W. Irving,1626
+W. J. Berman,1627
+J. M. Lane,1628
+G. Radack,1629
+C.-T. Ho,1630
+L. T. Cook,1631
+J. R. Miller,1632
+Siu-Wing Cheng,1633
+H. Gazit,1634
+J. W. Bruce,1635
+S. Lojasiewicz,1636
+Sheng-Lin Chou,1637
+Frank Da,1638
+Maria Angeles Garrido,1639
+L. O'Gorman,1640
+A. Boucher,1641
+J. W. Moon,1642
+H. Mehldau,1643
+Diane L. Souvaine,1644
+Prabhakar Raghavan,1645
+Robert Juan-Arinyo,1646
+Xuehou Tan,1647
+Raman,1648
+C. J. H. McDiarmid,1649
+Scott A. Mitchell,1650
+Ulrik Brandes,1651
+Arthur J. Olson,1652
+J. A. George,1653
+N. Weingarten,1654
+W. N. Martin,1655
+G. R. Hottel,1656
+K. C. Hui,1657
+P. Brucker,1658
+R. Chandrasekaran,1659
+G. Gambosi,1660
+Michael Ben-Or,1661
+P. A. Burrough,1662
+J. L. Finney,1663
+H. Pick,1664
+A. L. Sangiovanni-Vincentelli,1665
+Carole S. Gitlin,1666
+U. Kulisch,1667
+C. Sander,1668
+U. Babu,1669
+Don Dewhirst,1670
+R. E. Gomory,1671
+A. Horn,1672
+L. Blum,1673
+S. Dong,1674
+K. Booth,1675
+J. Harris,1676
+H. Voigt,1677
+Norimasa Yoshida,1678
+Susanne E. Hambrusch,1679
+R. D. W. Wilson,1680
+David F. Watson,1681
+G. Ghione,1682
+Carl W. Gable,1683
+Y. Y. Yang,1684
+L. Boxer,1685
+Seth J. Teller,1686
+U. Bartuschka,1687
+Jean-Francois Dufourd,1688
+Z. Aviad,1689
+D. Richards,1690
+D. Shaked,1691
+Ethan D. Bolker,1692
+G. Kalai,1693
+L.-C. Fu,1694
+C. Guerra,1695
+P. Maestrini,1696
+Mary-Anne K. Posenau,1697
+M. Dehn,1698
+Julie Sun,1699
+A. Wiernik,1700
+L. Tassiulas,1701
+M.-D. A. Huang,1702
+F. Devai,1703
+F. Maffrey,1704
+T. H. Mattheiss,1705
+A. T. Holle,1706
+Robert F. Cohen,1707
+J. Vorsatz,1708
+W. Randolph Franklin,1709
+Osama A. Mohammed,1710
+B. M. Waxman,1711
+R. H. Wilson,1712
+S. Ocken,1713
+C. L. Liu,1714
+Frank Weller,1715
+G. Bol,1716
+W. L. Wooten,1717
+Jose A. Ventura,1718
+Roberto Grossi,1719
+M. Shinya,1720
+C. D. Enyon,1721
+K. Ramamohanarao,1722
+J. M. Sullivan,1723
+J. Chaudhuri,1724
+Klaus Jansen,1725
+D. Filip,1726
+Jurgen Wirtgen,1727
+D. Bhagavathi,1728
+R. Kalin,1729
+I. D. Scherson,1730
+Ludwig Danzer,1731
+David Cazier,1732
+Mihalis Yannakakis,1733
+Stephen C. North,1734
+B. Lisper,1735
+L. A. Lyusternik,1736
+Gerald Weber,1737
+Pascal J. Frey,1738
+G. Salmon,1739
+H. Mercure,1740
+D. Attali,1741
+B. Gao,1742
+D. Kravets,1743
+P. Appell,1744
+A. I. Weiss,1745
+K. M. Fairchild,1746
+Karl Merkley,1747
+H. H. Bock,1748
+E. N. Hanson,1749
+M. K. Agoston,1750
+W. M. Stewart,1751
+D. Lazard,1752
+M. J. Muuss,1753
+Masao Iri,1754
+MacGregor,1755
+M. A. Ghandehari,1756
+Yoshihide Igarashi,1757
+R. R. Sibson,1758
+J. W. Morris,1759
+P. Damaschke,1760
+R. C. Prim,1761
+M. Marek-Sadowska,1762
+?? Feynmann,1763
+B. G. Mobasseri,1764
+W. Espelage,1765
+S. Kobourov,1766
+D. Petkovic,1767
+P. Yanker,1768
+Manuel Blum,1769
+G. K. Kalisch,1770
+T. R. Henry,1771
+Marshall W. Bern,1772
+A. Beck,1773
+Marc H. Brown,1774
+H. Szu,1775
+K. Yu,1776
+R. Ding,1777
+Amitabh Agrawal,1778
+D. Terzopoulos,1779
+L. Upson,1780
+G. Evans,1781
+Karen M. Daniels,1782
+D. H. Ballard,1783
+G. R. Grimmet,1784
+J. P. Dussault,1785
+J. W. Modestino,1786
+H. Dyckhoff,1787
+L. Cowen,1788
+D. B. Yudin,1789
+H. J. Olivie,1790
+O. Schramm,1791
+C. J. Smyth,1792
+B.-E. Bengtsson,1793
+K. Voss,1794
+P. V. Sankar,1795
+S. Norbeck,1796
+D. K. Hsiao,1797
+Tiko Kameda,1798
+A. W. Toga,1799
+J. Viegas,1800
+S. Szabo,1801
+V. Betke,1802
+E. Remila,1803
+R. R. Riesenfeld,1804
+K. L. Lawrence,1805
+L. L. Schumaker,1806
+Jonathan Richard Shewchuk,1807
+G. F. Jennings,1808
+Elias Koutsoupias,1809
+J. Shafer,1810
+Pankaj K. Agarwal,1811
+M. O. Robbins,1812
+A. Pnueli,1813
+Allan R. Wilks,1814
+Ashutosh Rege,1815
+Nira Dyn,1816
+J. Marasa,1817
+G. Ewald,1818
+Sridhar Ramaswamy,1819
+A. Baumker,1820
+T. Imielinski,1821
+A. Hasham,1822
+K. Yeap,1823
+Saul A. Teukolsky,1824
+J. Meijer,1825
+Bradford Chamberlain,1826
+Maurizio Patrignani,1827
+A. K. Cline,1828
+Y. Yamasbita,1829
+Michael Murphy,1830
+X. S. Gao,1831
+H. Mu,1832
+Ioannis G. Tollis,1833
+Joachim Giesen,1834
+C. Kim,1835
+B. Magedson,1836
+C. R. Aragon,1837
+J. E. Seery,1838
+G. Wechsung,1839
+Pat Morin,1840
+S. Mazzone,1841
+K. V. Mardia,1842
+M. Slater,1843
+Binay K. Bhattacharya,1844
+Juan Carlos Dana,1845
+J. M. Huang,1846
+X. Zhang,1847
+A. Ehrenfeucht,1848
+Mark Lanthier,1849
+P. Ferianc,1850
+Piet Houthuys,1851
+W. J. Rucklidge,1852
+H. Theil,1853
+Wun-Tat Chan,1854
+G. Strang,1855
+G. A. Kriezis,1856
+Jay Lee,1857
+Gerhard Weiss,1858
+C. A. Rogers,1859
+A. S. Rojer,1860
+S. R. Maddila,1861
+T. Maekawa,1862
+G. Wiederhold,1863
+Y. Y. Huang,1864
+Brett W. Clark,1865
+Y. Zhou,1866
+The Java Team,1867
+Christian Uhrig,1868
+Michael Junger,1869
+A. B. Hansen,1870
+Timothy J. Tautges,1871
+W. Ludwig,1872
+Leonidas Palios,1873
+A. Simmons,1874
+S. D. Roth,1875
+George M. Turkiyyah,1876
+B. G. Baumgart,1877
+I. Mengersen,1878
+E. W. Dijkstra,1879
+A. W. Roscoe,1880
+Nejib Zaguia,1881
+Andrzej Lingas,1882
+Martin E. Dyer,1883
+Ratko Tosic,1884
+O. Feingold,1885
+B. Yamnitsky,1886
+S. K. Gordon,1887
+P. Schroeter,1888
+George Nagy,1889
+D. A. Joseph,1890
+S. Sahni,1891
+P. van Emde Boas,1892
+Gregory Dudek,1893
+Ph. Flajolet,1894
+S. Cost,1895
+Herbert Edelsbrunner,1896
+David Strip,1897
+H. Shatkay,1898
+M. C. Maccarone,1899
+T. L. Edwards,1900
+W. Rudin,1901
+F. J. Rohlf,1902
+C. E. Veni Madhavan,1903
+Nimish R. Shah,1904
+Steve Hill,1905
+Didier Roncin,1906
+M. Henig,1907
+K. Kobayashi,1908
+K. Steiglitz,1909
+B. R. Piper,1910
+S. McCallum,1911
+N. Kitsios,1912
+D. Y. Grigoryev,1913
+L. Montejano,1914
+P. Rabinivitz,1915
+B. Wilcox,1916
+T. H. Cormen,1917
+P. Mani-Levitska,1918
+H. Fujiware,1919
+Antonio Hernandez Barrera,1920
+T. Ohya,1921
+V. M. Egorov,1922
+Bernd Gartner,1923
+D. S. Arnon,1924
+C. J. Colbourn,1925
+P. J. Besl,1926
+Franz-Erich Wolter,1927
+L. Heffter,1928
+R. Fritsch,1929
+M. T. Karasick,1930
+Veljko Milenkovic,1931
+L. Balbes,1932
+M. Frechet,1933
+Yoram J. Sussmann,1934
+U. S. R. Murty,1935
+K. A. Baker,1936
+A. J. H. Wachters,1937
+Stefano Leonardi,1938
+A. J. Hoffman,1939
+Philip M. Hubbard,1940
+S. Avital,1941
+J. Schweitzer,1942
+W. Klein,1943
+H. Hwang,1944
+D. B. Kraft,1945
+S. Aluru,1946
+U. Zwick,1947
+S. Gumhold,1948
+Christine D. Piatko,1949
+Lidia Ortega,1950
+T. Jabbour,1951
+Brad Myers,1952
+Hans Hagen,1953
+R. Samuel,1954
+Apostolos Papadopoulos,1955
+M. Henk,1956
+H. E. Debrunner,1957
+A. Walfisz,1958
+Brian L. Evans,1959
+E.-A. Karabassi,1960
+D. Roselle,1961
+C. S. Raghavendra,1962
+D. Weinshall,1963
+Tony D. DeRose,1964
+J. Tuomi,1965
+K. T. Smith,1966
+J. W. Goodman,1967
+E. L. Schwartz,1968
+M. Levoy,1969
+Farinaz D. Boudreau,1970
+S. Ursic,1971
+S. Katz,1972
+Wolfgang Fichtner,1973
+R. Newell,1974
+T. J. Rivlin,1975
+Y. S. Suh,1976
+M. Kac,1977
+D. M. Warme,1978
+N. Pipinger,1979
+Tony Ruso,1980
+K. R. Subramanian,1981
+Hiroshi Imai,1982
+H. Raynaud,1983
+Arne Andersson,1984
+S. Kirkpatrick,1985
+George W. Tokarsky,1986
+T. Ikeda,1987
+K. Yamamoto,1988
+E. F. Meyer,1989
+Serge Tabachnikov,1990
+J. Zorbas,1991
+S. E. Jones,1992
+J. Lin,1993
+Barry N. Boots,1994
+W. B. McRae,1995
+Y. Cao,1996
+Adrian Brungger,1997
+B. L. van der Waerden,1998
+J. W. Vick,1999
+M. Lipton,2000
+Jerzy W. Jaromczyk,2001
+J. Cassels,2002
+J. Bigun,2003
+A. Grzegorczyk,2004
+R. Yen,2005
+D. Bitton,2006
+Mikhail J. Atallah,2007
+H. A. Kierstead,2008
+S. T. Tan,2009
+Esther M. Arkin,2010
+Hidetosi Fukagawa,2011
+R. C. Melville,2012
+J. Komlos,2013
+W. Ackermann,2014
+C.-H. Wang,2015
+J. Stillwell,2016
+B. Kutzler,2017
+W. L. Miranker,2018
+Gregory Galperin,2019
+D. G. Bobrow,2020
+Fred S. Roberts,2021
+L. Moser,2022
+S. S. Abhyankar,2023
+M. Dekesel,2024
+K. Q. Brown,2025
+S. Maybank,2026
+C. L. Jackins,2027
+D. Cox,2028
+C. Mugnai,2029
+T. Tokieda,2030
+A. Monti,2031
+J. Rubio,2032
+J. C. Picard,2033
+Elmar Schomer,2034
+Hakan Jonsson,2035
+Vishwa Ranjan,2036
+H. H. Atkinson,2037
+Donald P. Greenberg,2038
+A. R. Karlin,2039
+S. Abramowski,2040
+A. Goel,2041
+R. Ostrovsky,2042
+G. S. Almasi,2043
+Irena Pashchenko,2044
+W.-C. Ni,2045
+Albert Graf,2046
+S. Isoda,2047
+Raphael Wenger,2048
+Martin J. Durst,2049
+Ravi Janardan,2050
+Theodore Seuss Geisel,2051
+C. Yao,2052
+A. Emch,2053
+E. Cohen,2054
+D. Bruschi,2055
+J. Park,2056
+R. Sulonen,2057
+C. Cherfils,2058
+M. Ueda,2059
+R. M. Forster,2060
+A. Leach,2061
+J. Warfield,2062
+K. Ho-Le,2063
+Ke-Ran Shao,2064
+M. Kass,2065
+P. Doubilet,2066
+D. G. Sawker,2067
+C. Hazelwood,2068
+Roni Yagel,2069
+M. A. Perles,2070
+Hitoshi Suzuki,2071
+R. E. Ladner,2072
+L. Babai,2073
+S. Hirose,2074
+Moses Charikar,2075
+S. Stueckle,2076
+G. Brugner,2077
+D. R. Shier,2078
+G. Gallo,2079
+Dima Grigorev,2080
+D. B. Shmoys,2081
+William L. Steiger,2082
+Frederick Albert Valentine,2083
+C. Culmann,2084
+P. N. Yianilos,2085
+D. Nashtir,2086
+S. A. McKee,2087
+T. Lengauer,2088
+A. Ricci,2089
+Y. D. Burago,2090
+Steven E. Benzley,2091
+D. Dori,2092
+L. J. Aupperle,2093
+J. Meidanis,2094
+Michael McAllister,2095
+Paul Plassmann,2096
+Steven R. Lay,2097
+T. Uchiki,2098
+V. Srinivasan,2099
+Ronald N. Goldman,2100
+S. N. Maheshwari,2101
+B. Wordenweber,2102
+T. Bonnesen,2103
+S. Kolliopoulos,2104
+C. Greenough,2105
+George Drettakis,2106
+T. H. Brylawski,2107
+G. Politis,2108
+D. Tank,2109
+M. Bellare,2110
+Emden R. Gansner,2111
+Frank Wagner,2112
+L. M. Kelly,2113
+H. Bendelt,2114
+Dirk van Dalen,2115
+P. Khosla,2116
+Sanjeev Saluja,2117
+D. L. Donoho,2118
+N. Megiddo,2119
+C. de Boor,2120
+D. Jablonowsky,2121
+R. Srikant,2122
+B. A. Galler,2123
+D. Defays,2124
+R. Thom,2125
+D. Xu,2126
+H. Bast,2127
+Ruth Nussinov,2128
+Sung Yong Shin,2129
+M. M. Postinov,2130
+C. I. Yessios,2131
+H. E. Conn,2132
+Y. Kawada,2133
+F. A. Toranzos,2134
+Wayne Christopher,2135
+J. Luo,2136
+C. Bertram-Kretzberg,2137
+G. Kothe,2138
+K. Xu,2139
+Ned Greene,2140
+W. K. Chan,2141
+G. E. Pantziou,2142
+Satish B. Rao,2143
+A. Hubler,2144
+S. Yang,2145
+L. E. Trotter,2146
+S. E. Dorward,2147
+K. Shanmukh,2148
+John Vlissides,2149
+A. F. Emery,2150
+Bernd Sturmfels,2151
+J. Phillips,2152
+C. Keskin,2153
+Ayellet Tal,2154
+T. Hastie,2155
+R. L. Collins,2156
+T. L. Kunii,2157
+Johan Hastad,2158
+Narayanaswami Chandrasekhar,2159
+Yung H. Tsin,2160
+P. G. Sorenson,2161
+D. B. Reister,2162
+C.-B. Chien,2163
+J. M. Chang,2164
+Norbert Zeh,2165
+Joachim Gudmundsson,2166
+F. Bonafatti,2167
+J. C. Trinkle,2168
+T. Hull,2169
+Martin Ziegler,2170
+S. D. Conte,2171
+M. N. S. Swamy,2172
+B. Faltings,2173
+J. Gehrke,2174
+M. A. Facello,2175
+J. B. Woodward,2176
+Hans-Peter Seidel,2177
+S. Abe,2178
+Emanuele Tassinari,2179
+Mark T. de Berg,2180
+F. Hausdorff,2181
+C. Verbrugge,2182
+Gabriel Kuper,2183
+P. Sander,2184
+Dan Pedoe,2185
+S. Jones,2186
+S. K. Zaremba,2187
+Georg R. Hofmann,2188
+R. B. Kemp,2189
+C. C. Chang,2190
+T. L. Magnanti,2191
+J. L. Pfaltz,2192
+A. Mishkin,2193
+P. M. H. Wilson,2194
+Robert J. Lang,2195
+M. Mason,2196
+I. Shearer,2197
+F. Wang,2198
+W. S. Cho,2199
+C. Silva,2200
+K. Sugiyama,2201
+L. Kish,2202
+Nilsson,2203
+H. J. Promel,2204
+Stephane Riviere,2205
+S. Goldwasser,2206
+Victor Klee,2207
+S. P. Austin,2208
+J. W. Atwood,2209
+Rakesh Vohra,2210
+B. Salzberg,2211
+Andreas Henrich,2212
+J. Csirik,2213
+L.-W. Chang,2214
+M. Taix,2215
+M. Veldhorst,2216
+M. Adamowich,2217
+R. Wilber,2218
+Dan Halperin,2219
+M. Plass,2220
+M. A. Casanova,2221
+J. P. S. Kung,2222
+A. Bemporad,2223
+R. Ramakrishnan,2224
+J. B. Sidney,2225
+T. Gum,2226
+Vincenzo Ferrucci,2227
+E. L. Gursoz,2228
+T. Andrae,2229
+G. Lassmann,2230
+Y. Bertrand,2231
+L. C. Siebenmann,2232
+W. R. Tobler,2233
+Doug J. Ierardi,2234
+T. J. Wright,2235
+K. Cameron,2236
+R. Birk,2237
+F. C. Peyrin,2238
+W. Johnson,2239
+P. Solerno,2240
+S. Pisupati,2241
+P. H. Mott,2242
+C. C. Yang,2243
+Kenneth E. Hoff,2244
+C.-H. Chang,2245
+J.-M. Drappier,2246
+V. Arvind,2247
+Michael J. Zyda,2248
+M. P. Baker,2249
+C. C. Rousseau,2250
+S. H. Bryant,2251
+P. Y. Pinter,2252
+James H. Oliver,2253
+C. Touma,2254
+Kam-Hing Lee,2255
+Annalisa Massini,2256
+John Westwater,2257
+U. Ahlfeld,2258
+G. Bianchi,2259
+P. Kuntz,2260
+F. E. Sullivan,2261
+I. Fary,2262
+N. Metelski,2263
+S. T. Vrecica,2264
+G. H. Kirby,2265
+S.-H. Choi,2266
+N. Farvardin,2267
+M. Gigante,2268
+R. Weiskircher,2269
+Naixun Pei,2270
+D. Y.-S. Fong,2271
+W. P. Niedringhaus,2272
+Jean O. Pedersen,2273
+A. Rajaraman,2274
+Andrew Adamatzky,2275
+N. Pippenger,2276
+M. J. Hutchings,2277
+J. Molnar,2278
+Ouri Wolfson,2279
+C. S. Kaplan,2280
+G. M. Fadel,2281
+J. Barnes,2282
+J. Pertin-Troccaz,2283
+S. Vempala,2284
+E. D. Bloch,2285
+Kenneth L. Clarkson,2286
+M.-F. Yu,2287
+Eric J. Golin,2288
+E. Durand,2289
+J. V. Uspensky,2290
+J. A. Gregory,2291
+Bruce W. Char,2292
+C. Sobhanpanah,2293
+M. Virmani,2294
+D. Q. Naiman,2295
+D. A. Klarner,2296
+H. H. Dannelongue,2297
+H. Rushmeir,2298
+S. Pemmaraju,2299
+M. P. Groover,2300
+N.-P. Chen,2301
+Alberto Marquez,2302
+A. Altshuler,2303
+N. Stoltzfus,2304
+J. E. Boyce,2305
+M. Ishiguro,2306
+E. Allgower,2307
+D. Kriegman,2308
+G. Glaeser,2309
+J. B. Orlin,2310
+L. H. Lange,2311
+D. P. Mitchell,2312
+Carsten Kirstein,2313
+H. S. Lee,2314
+B.-U. Pagel,2315
+P. M. Harris,2316
+C. A. Shaffer,2317
+M. Doskas,2318
+Sivan Toledo,2319
+P. Frankl,2320
+H. Blum,2321
+D. L. Vossler,2322
+L. Cowsar,2323
+V. Raman,2324
+Angela Y. Wu,2325
+W.-P. Liu,2326
+Carsten Lund,2327
+J. D. Hobby,2328
+I. Golan,2329
+Thomas Odenthal,2330
+Anne Verroust,2331
+Paul H. C. Eilers,2332
+Carsten Thomassen,2333
+Venkateshkumar Sivaswami,2334
+T. M. Cavalier,2335
+R. Venkatasubramanian,2336
+J. Suhara,2337
+R. L. Finney,2338
+D. E. Willard,2339
+Peter Widmayer,2340
+Evangelos Kranakis,2341
+C. P. Rangan,2342
+E. Wright,2343
+Ondrej Sykora,2344
+B. T. Corkum,2345
+Branko Grunbaum,2346
+J. M. Fourneau,2347
+Y. Teng,2348
+E. Klassen,2349
+Edward F. Schmeichel,2350
+J. R. Davy,2351
+D. Schattschneider,2352
+Richard Webber,2353
+K. Balasubramanian,2354
+Volker Strassen,2355
+Dorit S. Hochbaum,2356
+E. Catmull,2357
+J. H. Hong,2358
+C. A. Pickover,2359
+Jesus Garcia-Lopez,2360
+Wolfgang Haken,2361
+R. Szeliski,2362
+B. T. Preas,2363
+I. W. Chan,2364
+K. Hauck,2365
+Teresa Gomez-Diaz,2366
+M. H. Alsuwaiyel,2367
+I. K. Hwang,2368
+D. Sofotassios,2369
+J. G. Bellingham,2370
+S. Seshadri,2371
+Pawel Winter,2372
+C. Kosak,2373
+J. B. Lasserre,2374
+Carl van Geem,2375
+P. Jones,2376
+E. Yaniv,2377
+P. Y. Tsin,2378
+W. Nef,2379
+Luca Vismara,2380
+L. D. Lejter,2381
+T. Rugherford,2382
+B. Flach,2383
+M. H. Wright,2384
+K. Kells,2385
+A. J. Coppola,2386
+Efthymios G. Anagnostou,2387
+Hiroshi Sakurai,2388
+E. F. Mishchenko,2389
+A. Potthoff,2390
+C. J. Sundaresan,2391
+Avrim Blum,2392
+N. N. Datar,2393
+X. Sheng,2394
+Timothy J. Barth,2395
+G. Lei,2396
+A. Panconesi,2397
+C. Tovey,2398
+O. Barndorff-Nielsen,2399
+A. Hutflesz,2400
+M. Rucci,2401
+Therese C. Biedl,2402
+W. J. Bohnhoff,2403
+G. McDonald,2404
+A. Rosenthal,2405
+M. R. Kramer,2406
+W. F. Eddy,2407
+Henrik Wann Jensen,2408
+K. Kumar,2409
+T. Akiyama,2410
+Justo Puerto,2411
+A. N. Netravali,2412
+R. P. Stanley,2413
+M. Roussopoulos,2414
+A. M. Dean,2415
+S. M. Jones,2416
+J. K. Vranch,2417
+A. Brinkman,2418
+M. Kano,2419
+S. Z. Wang,2420
+J. R. Hipp,2421
+R. T. Chin,2422
+P. Bogdanovich,2423
+C. H. Norton,2424
+John S. Letcher,2425
+M. Kang,2426
+Stephen A. Vavasis,2427
+Y. Yu,2428
+D. Goldberg,2429
+T. Spencer,2430
+G. N. Fredickson,2431
+C. McGeoch,2432
+M. Servit,2433
+J. H. Schmerl,2434
+M. Gardner,2435
+J. Sampson,2436
+Zenon Protopapa,2437
+S. J. Sidney,2438
+M. Mukherjee,2439
+S. S. Deerthi,2440
+A. Sahay,2441
+K. P. Smith,2442
+P. J. Ainslie,2443
+T. Jeron,2444
+S. J. Dwyer,2445
+E. Boros,2446
+Francisco Javier Cobos,2447
+S. Piccard,2448
+A. Bronsted,2449
+Ulrich Fuchs,2450
+N. V. Belov,2451
+Leila de Floriani,2452
+D. R. Chang,2453
+R. C. Jain,2454
+G. Heinzinger,2455
+R. T. Ng,2456
+T. Ibaraki,2457
+Patrice Belleville,2458
+A. Schmitt,2459
+J. de Miranda Gomes,2460
+Andrew Woo,2461
+Andre Rohe,2462
+D. Heath,2463
+Imrich Vrto,2464
+S. Storoy,2465
+E. B. Feinberg,2466
+Sairam Subramanian,2467
+Manojit Sarkar,2468
+X. Jiang,2469
+A. E. Kaufman,2470
+Gen-Huey Chen,2471
+Don Coppersmith,2472
+S. Tan,2473
+Stephen M. Watt,2474
+T. Roth,2475
+M. A. McAlear,2476
+Ming-Yang Kao,2477
+D. M. Titterington,2478
+K. Miriyala,2479
+J. T. Rompel,2480
+C. M. Park,2481
+G. Kos,2482
+D. Weaire,2483
+D. Mullis,2484
+Y.-K. Choi,2485
+C. Grimm,2486
+Joseph G. Peters,2487
+W. P. Horn,2488
+E. Imhof,2489
+P. J. M. van Laarhoven,2490
+K. Iwano,2491
+A. A. Bertossi,2492
+F. Weiler,2493
+E. G. Gilbert,2494
+R. J. Dawson,2495
+V. J. Rayward-Smith,2496
+D. Ayala,2497
+H. Tuy,2498
+D. Ferrari,2499
+J. Friedel,2500
+D. Armon,2501
+D. E. McClure,2502
+Yiorgos Chrysanthou,2503
+S. L. Abrams,2504
+V. Koivune,2505
+E. Omanna,2506
+R. Kopperman,2507
+P. Vocca,2508
+L. Shu-Xiang,2509
+L. Ni,2510
+Torben Hagerup,2511
+D. P. Huijsmans,2512
+Thomas R. Hancock,2513
+H. J. Caulfield,2514
+G. Meisters,2515
+D. M. Keirsey,2516
+L. H. de Figueiredo,2517
+Samuel Rippa,2518
+G. M. Beshers,2519
+T. von Eicken,2520
+A. Gregori,2521
+D. K. Arrowsmith,2522
+B. K. Choi,2523
+G. Vriend,2524
+B. Raphael,2525
+Masato Edahiro,2526
+P. K. Ghosh,2527
+C.-Y. Lo,2528
+Patrick G. Xavier,2529
+T. Y. Sung,2530
+B. Krishnamurthy,2531
+A. Nissenzweig,2532
+John Milligan Airey,2533
+Michiel H. M. Smid,2534
+V. Jansen,2535
+Christopher Umans,2536
+I. M. Gelfand,2537
+A. R. Dixon,2538
+Nader H. Bshouty,2539
+Isaac Saias,2540
+Godfried T. Toussaint,2541
+A. L. Chow,2542
+Kenji Shimada,2543
+Joseph M. Cychosz,2544
+Kevin S. Klenk,2545
+W.-L. Hsu,2546
+Rene Schott,2547
+J. T. Stasko,2548
+Richard A. Volz,2549
+S. Torii,2550
+P. H. Edelman,2551
+R. E. Stearns,2552
+C. H. Ang,2553
+S. D. Cohen,2554
+Kenneth Chiu,2555
+G. T. Armstrong,2556
+W. C. Karl,2557
+Gregory Shpitalnik,2558
+Thomas K. Peucker,2559
+P. Wayener,2560
+Frank Dehne,2561
+P. J. Giblin,2562
+Mariette Yvinec,2563
+Scott A. McElfresh,2564
+M. V. Gandhi,2565
+Daniel Tunkelang,2566
+N. Kouta,2567
+K. C. Sevcik,2568
+R. H. Hardin,2569
+Lars Arge,2570
+M. Olano,2571
+E. B. Silverberg,2572
+H. M. Schaettler,2573
+J. Shugart,2574
+G. L. Thompson,2575
+E. Olson,2576
+K. Kammerlander,2577
+H. Pottmann,2578
+Bruno Buchberger,2579
+J. Q. Fang,2580
+A. Seigel,2581
+X. Wu,2582
+A. Martin,2583
+Michael Formann,2584
+David Graham Holmes,2585
+Mao Lin Huang,2586
+Pierre L'Ecuyer,2587
+A. L. Loeb,2588
+W. Altherr,2589
+C. N. de Meneses,2590
+Ke-Ding Zhou,2591
+John F. Canny,2592
+A. Perakis,2593
+E. Keppel,2594
+F. Murgola,2595
+P. Srinivasan,2596
+E. L. Robertson,2597
+W. Kuhnel,2598
+G. A. Klanderman,2599
+Koushi Anzai,2600
+Peter Schorn,2601
+K. Deljouie-Rakhshandeh,2602
+T. Raita,2603
+S. Sifrony,2604
+J. Hong,2605
+Armin Hemmerling,2606
+W. T. Liou,2607
+Frederick Fisher,2608
+J. Avro,2609
+N. Birdwell,2610
+Hisao Tamaki,2611
+Lucian Cucu,2612
+Stephen G. Wright,2613
+H. Trickey,2614
+D. S. Franzblau,2615
+L. A. Shirman,2616
+P. Koistinen,2617
+U. Wermuth,2618
+U. A. Brousseau,2619
+L. Schubert,2620
+Saugata Basu,2621
+Y. Atassi,2622
+G. Tel,2623
+S. Zdonik,2624
+M. A. Sabin,2625
+D. J. Sheehy,2626
+M. Chilenskas,2627
+J. Padget,2628
+Stefan Schirra,2629
+T. Szymacha,2630
+G. Brown,2631
+M. J. McLennan,2632
+K. Ramaswami,2633
+B. Dimsdale,2634
+D. M. Green,2635
+S. Sastry,2636
+G. Albers,2637
+Pierre Alliez,2638
+M. Grotschel,2639
+Cristian Mata,2640
+B. Piazza,2641
+Hank Meijer,2642
+Pavel Valtr,2643
+B. A. Barsky,2644
+E. Pagello,2645
+J. W. Byers,2646
+?? Chen,2647
+R. Agrawal,2648
+M. E. Mnev,2649
+A. Rabinovitch,2650
+Ronald L. Graham,2651
+Kurt Swanson,2652
+William Evans,2653
+W. Dittrich,2654
+Manuela Neagu,2655
+S. Savitt,2656
+J. M. Bosart,2657
+M. Hong,2658
+Stephan Olariu,2659
+R. C. Hillyard,2660
+T. T. Wohlers,2661
+Z.-C. Liu,2662
+Hugues Hoppe,2663
+A. Pattekar,2664
+M. L. Gromov,2665
+M. Stanton,2666
+V. Pratt,2667
+Tetsuo Asano,2668
+Brian Mirtich,2669
+R. Stanton,2670
+Madhav V. Marathe,2671
+M. Reichert,2672
+J. D. Cohen,2673
+W. P. Dong,2674
+D. F. Marble,2675
+M. Kamvysselis,2676
+Mark Shand,2677
+Graham R. Brightwell,2678
+L. R. Foulds,2679
+J. L. C. Sanz,2680
+Y. Kanayama,2681
+A. Athavale,2682
+D. Whitney,2683
+M. Furst,2684
+D. P. M. Wills,2685
+Nicholas Zvegintzov,2686
+M. G. Reggiani,2687
+Y. Linde,2688
+Z. Miller,2689
+L. S. Woo,2690
+Joseph C. Culberson,2691
+H. Inagaki,2692
+B. Borchardt,2693
+D. Gale,2694
+D. J. Bogue,2695
+D. Gala,2696
+K.-T. Huang,2697
+A. M. Vershik,2698
+S. Mascarella,2699
+Ola Petersson,2700
+F. Darema,2701
+Jean-Claude Latombe,2702
+D. Sotteau,2703
+S. D. Goodman,2704
+H. Chen,2705
+Jules Bloomenthal,2706
+Steven S. Skiena,2707
+J. M. Ware,2708
+J. Lozito,2709
+A. H. Thiessen,2710
+M. Namiki,2711
+W. K. Hale,2712
+J. D. Mittleman,2713
+Katta G. Murty,2714
+Paul A. Colley,2715
+J. W. Forrester,2716
+Knut Verbarg,2717
+T. K. H. Tam,2718
+E. Pietrosanti,2719
+Sunil Arya,2720
+B. Salvy,2721
+G. Eshel,2722
+R. Y. Zhao,2723
+M. O. Albertson,2724
+Ruei-Chuan Chang,2725
+J. R. Howell,2726
+Sally A. Goldman,2727
+S. Naito,2728
+P. I. Vijaykumar,2729
+R. Cordovil,2730
+J. Harper,2731
+M. Nasser,2732
+L. A. Levin,2733
+Sung Kwon Kim,2734
+E. R. White,2735
+O. Bottema,2736
+Andrew U. Frank,2737
+R. Grossman,2738
+B. Wyvill,2739
+J. Braun,2740
+C. P. Gabor,2741
+T. Martinetz,2742
+S. X. Sillion,2743
+P. Alexandroff,2744
+M. M. Burnett,2745
+Y. L. Wang,2746
+Peter Su,2747
+H. Hanani,2748
+I. G. Rosenberg,2749
+C. Mascle,2750
+U. W. Suter,2751
+J. Fukuda,2752
+Monique Teillaud,2753
+A. Foisy,2754
+J. W. Giffin,2755
+Giora Slutzki,2756
+A. K. Chandra,2757
+H. S. Sawhney,2758
+A. S. LePaugh,2759
+E. L. Wynters,2760
+S. MacLane,2761
+K. R. Gabriel,2762
+J. A. Reeds,2763
+B. Lee,2764
+L. W. Ericson,2765
+Gregory E. Shannon,2766
+D. Zorin,2767
+Z.-Y. You,2768
+J. J. Koenderink,2769
+T.-H. Lai,2770
+Chandrasekhar Pisupati,2771
+A. Morgana,2772
+S. Dixon,2773
+E. Greenwood,2774
+M. W. Du,2775
+Anna Lubiw,2776
+C. Silverstein,2777
+W. T. Rhodes,2778
+R. C. Dubes,2779
+C. H. Chien,2780
+B. K. Natarajan,2781
+A. Rosenbloom,2782
+F. Affentranger,2783
+C. A. Berenstein,2784
+D. H. Kieronska,2785
+O. Vallarino,2786
+N. Eichhorn,2787
+R. H. Fox,2788
+S. Kareti,2789
+Thomas Dube,2790
+E. Upfal,2791
+V. K. Vaishnavi,2792
+C. K. Chui,2793
+A. Dixon,2794
+H. N. Frederickson,2795
+I. Reichstein,2796
+R. Mizoguchi,2797
+K. Kuroda,2798
+G. M. Philip,2799
+M. Emerling,2800
+M. C. Laskowski,2801
+M. M. McQueen,2802
+Kamal Kant,2803
+E. Ehrhart,2804
+V. V. Galitsky,2805
+R. McLeod,2806
+D. King,2807
+J. R. Dodsworth,2808
+P. Zamperoni,2809
+P. Turan,2810
+Alexandros V. Gerbessiotis,2811
+Gautam Das,2812
+R. E. Cypher,2813
+Claudia Iturriaga,2814
+Laszlo A. Szekely,2815
+K. Fujimura,2816
+P. Rathmann,2817
+B. Cherkassky,2818
+W. M. Boyce,2819
+G. Lawlor,2820
+O. Sasson,2821
+A. M. Cohen,2822
+D. F. Baldwin,2823
+J. Vaucher,2824
+K. Hoffmann,2825
+V. V. Raghavan,2826
+P. H. Schmidt,2827
+J. Poulton,2828
+M. Beccaria,2829
+S. Sumino,2830
+A. Dresden,2831
+Sanjeev Khanna,2832
+B. Asberg,2833
+J. Higgins,2834
+T. C. Kao,2835
+K. H. Borgwardt,2836
+F. Kimura,2837
+T. M. Smith,2838
+H. Chernoff,2839
+Shuo-Yen Robert Li,2840
+J. A. Dougenik,2841
+N. Ward,2842
+J. E. Littlewood,2843
+T. Midtbo,2844
+F. Fricker,2845
+R. A. Finkel,2846
+P. H. Schimpf,2847
+Dana Angluin,2848
+Csaba David Toth,2849
+Peter M. Gruber,2850
+A. V. Karzanov,2851
+Elena Lodi,2852
+F. Eisenhaber,2853
+P. T. Highnam,2854
+H. Schneider,2855
+Ido Safruit,2856
+M. T. Terlien,2857
+Sung-Hyun Myaeng,2858
+K.-H. Cheng,2859
+Pedro V. Marcal,2860
+E. Mosel,2861
+P. E. Bjorstad,2862
+David J. Jeffrey,2863
+Andreas Voigtmann,2864
+K. Tang,2865
+J. K. Johnstone,2866
+S. Lefschetz,2867
+K. Nakagawa,2868
+H. K. Nishihara,2869
+Q. F. Stout,2870
+G. F. Swart,2871
+H.-W. Six,2872
+A. D. Wyner,2873
+Michael G. Luby,2874
+Anil Rao,2875
+C. Mirolo,2876
+S. P. Novikov,2877
+H. Fredericksen,2878
+R. F. Richbourg,2879
+Richard E. Wendell,2880
+W. Swindell,2881
+Petr Hlineny,2882
+S. P. Uselton,2883
+Subash Suri,2884
+J. W. Lloyd,2885
+C. V. Thompson,2886
+M. R. Jones,2887
+I. D. Faux,2888
+D. R. K. Brownrigg,2889
+Jiaxun Yu,2890
+Markku Koppinen,2891
+S. Evans,2892
+D. S. Wise,2893
+J. Nave,2894
+R. Siegel,2895
+A. A. diSessa,2896
+Richard Kunze,2897
+C. C. Ribeiro,2898
+G. A. Gibson,2899
+L. Anderson,2900
+P. E. Sweeney,2901
+K. Karplus,2902
+D. Crass,2903
+A. G. Corbalan,2904
+Marc Noy,2905
+P. Kirchberger,2906
+P. Z. Revesz,2907
+T. Lewis,2908
+Vitaly Surazhsky,2909
+K. Kasahara,2910
+W. Meyer,2911
+K. C. Chan,2912
+N. Anderson,2913
+Jen-Ming Chen,2914
+Robert Lupton,2915
+M. Li,2916
+D. T. Lee,2917
+Jon G. Rokne,2918
+Christian Sohler,2919
+A. van Gelder,2920
+C. M. Mannaerts,2921
+Y. J. Mu,2922
+M. R. Stytz,2923
+Harry Gonshor,2924
+H. Heusinger,2925
+Torbjorn Granlund,2926
+J. Goldfeather,2927
+S. Powers,2928
+M. Frohlich,2929
+J. A. Bondy,2930
+S. Agmon,2931
+B. Gholizadeh,2932
+Hans-Martin Will,2933
+R. A. Ferstenberg,2934
+D. C. Masa,2935
+K. A. Elmquist,2936
+D. Chhajed,2937
+Ching-Kuang Shene,2938
+F. Wesley Wilson,2939
+D. S. Kim,2940
+M. Nagao,2941
+J. Smith,2942
+Friedhelm Meyer auf der Heide,2943
+B. C. Kuttner,2944
+R. N. Horspool,2945
+M. A. Peskin,2946
+Mario Szegedy,2947
+S.-Y. Chou,2948
+C. D. Yang,2949
+E. R. Paternoster,2950
+M. A. Fischler,2951
+P. G. Bradford,2952
+B. Tebbs,2953
+Joe F. Thompson,2954
+Randy R. Lober,2955
+Kyri Kilakos,2956
+J. C. Beatty,2957
+C. A. McGleenan,2958
+Y. Lakshman,2959
+Peter Haunold,2960
+Klara Kedem,2961
+A. Apostolico,2962
+A. M. Bruckstein,2963
+D. R. Schikore,2964
+John Adegeest,2965
+U. Montanari,2966
+R. L. Grimsdale,2967
+D. J. Rose,2968
+A. N. da Costa,2969
+Petra Knieper,2970
+G. M. Murphy,2971
+H. Schaeben,2972
+B. Mishra,2973
+Stephen R. Tate,2974
+M. Katachalski,2975
+R. Reischuk,2976
+Y. S. Wong,2977
+John R. Woodwark,2978
+Y. Umetani,2979
+V. Chvatal,2980
+R. Menard,2981
+J.-M. Ho,2982
+Edward M. Reingold,2983
+A. B. Widlund,2984
+Victor J. Milenkovic,2985
+R. Bulirsch,2986
+J. R. Gilbert,2987
+Michael C. Loui,2988
+J. L. Smith,2989
+Arthur S. Goldstein,2990
+G. Birkhoff,2991
+Y. Siret,2992
+O. Nevalainen,2993
+A. Carbajal,2994
+P. M. B. Vitanyi,2995
+R. Baeza-Yates,2996
+James H. Davenport,2997
+Alan Saalfeld,2998
+Thomas Kamphans,2999
+Marek Chrobak,3000
+Jesus A. de Loera,3001
+R. Lee,3002
+A. Kaul,3003
+W. K. Giloi,3004
+P. Mani,3005
+P. M. Pardalos,3006
+A. M. Macbeath,3007
+N. E. Wiseman,3008
+J. R. Ellis,3009
+G. Dutton,3010
+H. Q. Lee,3011
+T. Andreae,3012
+L. Laforest,3013
+A. Mandel,3014
+Gunnar Aronsson,3015
+A. Knight,3016
+A. Rockwood,3017
+R. J. Hocken,3018
+Stephen M. Omohundro,3019
+L. J. Leifer,3020
+M. Snir,3021
+C. Aarmstrong,3022
+J. C. Lagarias,3023
+Y. Gil,3024
+F. Miller Maley,3025
+F. Yellin,3026
+Sergey P. Tarasov,3027
+R. C. Buck,3028
+Rolf Klein,3029
+Emo Welzl,3030
+M. M. Bayer,3031
+H. Mannila,3032
+D. W. Payton,3033
+M. J. Quinn,3034
+A. Tucker,3035
+C. M. Sakkas,3036
+M. Eden,3037
+J. L. Ganley,3038
+T. Tsiligirides,3039
+V. B. Nitya,3040
+Mary Inaba,3041
+David J. Kriegman,3042
+Bernhard Geiger,3043
+Giuseppe Liotta,3044
+L. R. Bigongiari,3045
+D. Woods,3046
+H. S. Wilf,3047
+J. Basch,3048
+L. Carter,3049
+Athanasios Tsakalidis,3050
+Bojan Mohar,3051
+P. Dufour,3052
+D. J. Muder,3053
+Nathan S. Netanyahu,3054
+J. Gromicho,3055
+H. Takahashi,3056
+W. V. Wright,3057
+Hiroaki Terao,3058
+J. S. Huang,3059
+Jean-Michel Moreau,3060
+V. Guillemin,3061
+P. A. Devijver,3062
+G. Tang,3063
+J. Luddermann,3064
+Eliot Siegel,3065
+Artur Czumaj,3066
+K. Wang,3067
+M. Tsoukalas,3068
+David A. Field,3069
+Karoly Bezdek,3070
+Chi-Keung Tang,3071
+M. Halstead,3072
+T. F. Havel,3073
+M. S. Tawfik,3074
+A. Parker,3075
+Wheeler Ruml,3076
+V. Chandru,3077
+J. Reinfelds,3078
+C. G. Plaxton,3079
+J. W. Hong,3080
+Fabrice Jaillet,3081
+X. Ye,3082
+William T. Vetterling,3083
+N. Gaffke,3084
+J. G. Griffith,3085
+S. M. Courter,3086
+Barbara Wolfers,3087
+Maria-Cecilia Rivara,3088
+L. Gray,3089
+P. De La Torre,3090
+Dinesh Mehta,3091
+X. Yu,3092
+Masato Shyokawa,3093
+E. A. Olszewski,3094
+M. Nivat,3095
+W. Tucker,3096
+V. Kantabutra,3097
+P. Cox,3098
+H. Scherga,3099
+G. H. Johansen,3100
+H. Lin,3101
+L. Wang,3102
+Pedro Reyes,3103
+D. A. Dobkin,3104
+A. Bialostocki,3105
+D. Banks,3106
+N. Saito,3107
+Gregory J. E. Rawlins,3108
+P. Prusinkiewicz,3109
+P. Lehert,3110
+S. J. Smith,3111
+I. Nishioka,3112
+L. V. Hao,3113
+I. Rival,3114
+E. Schonhardt,3115
+M. A. Mosaad,3116
+Xuan-Nam Bui,3117
+R. Ross,3118
+O. Marcotte,3119
+F. Tangerman,3120
+R. Cocan,3121
+J. Heintz,3122
+H. H. Yanasse,3123
+Janos Pach,3124
+A. Guenoche,3125
+O. Khatib,3126
+R. J. Renka,3127
+M. Hocks,3128
+I. Lico,3129
+Sandeep Sen,3130
+G. H. Golub,3131
+J. S. Liebman,3132
+Toshiyuki Imai,3133
+F. Arbab,3134
+M. Andrews,3135
+H. Schubert,3136
+Paolo Giulio Franciosa,3137
+H. Lenz,3138
+G. Taubin,3139
+R. H. Bartels,3140
+M. A. Majewski,3141
+S. Masuyama,3142
+A. Mikheev,3143
+Klaus H. Hinrichs,3144
+V. V. Makeev,3145
+H. Buseman,3146
+Hiroshi Unno,3147
+S. Nagata,3148
+R. E. Maeder,3149
+A. H. Nasri,3150
+J. J. M. Tan,3151
+H. Umemoto,3152
+S. K. Bhaskar,3153
+A. Y. C. Nee,3154
+J. Jolion,3155
+C. Hoffman,3156
+V. S. Mukhanov,3157
+P. Tiwari,3158
+H. E. Warren,3159
+J. J. Chou,3160
+H. Ebara,3161
+S. R. Deans,3162
+R. Sulanke,3163
+P. van Oosterom,3164
+Stefan Langermann,3165
+Oscar Palacios-Velez,3166
+R. H. Schelp,3167
+I. Hartman,3168
+R. O. Duda,3169
+O. Deussen,3170
+P. A. Koparkar,3171
+Tiow Seng Tan,3172
+R. H. Bing,3173
+Prosenjit K. Bose,3174
+David R. Karger,3175
+E. Guevremont,3176
+C. R. Valenzuela,3177
+T. Baptie,3178
+B. O. Parks,3179
+W. Preilowsky,3180
+K. Ramayier,3181
+P. McMullen,3182
+F. Luccio,3183
+R. Barzel,3184
+R. Zippel,3185
+Waldemar Preilowski,3186
+M. P. Vecchi,3187
+C. M. Smith,3188
+H. Y. Shin,3189
+M. Laidacker,3190
+C. Iwamoto,3191
+Peter Yick Fai Wu,3192
+H. Moller,3193
+G. Szekeres,3194
+Peter Kollner,3195
+Bruno Adam,3196
+Miroslaw Kowaluk,3197
+A. Nakamura,3198
+R. C. Larson,3199
+Henry Massalin,3200
+C. Dima,3201
+Pierre Samuel,3202
+V. Rodl,3203
+David Hart,3204
+E. A. Heighway,3205
+J. A. Wiseman,3206
+Iliana Bjorling-Sachs,3207
+Gershon Elber,3208
+John Hershbergera,3209
+James T. Klosowski,3210
+R. Venkataraman,3211
+M. Garey,3212
+J. Danaraj,3213
+Rene van Dal,3214
+Gerard Bashein,3215
+S. K. Kurtz,3216
+R. B. Jerard,3217
+others,3218
+J. F. Blinn,3219
+A. B. Ecoule,3220
+D. Roelants van Baronaigien,3221
+S. C. Schwartz,3222
+W. A. McNeely,3223
+William P. Thurston,3224
+G. D. Garson,3225
+L. C. Carpenter,3226
+L. Monier,3227
+W. J. Thompson,3228
+W. Stuetzle,3229
+P. O. Baehmann,3230
+H. G. Osthof,3231
+S. Chamberlain,3232
+D. Kimelman,3233
+B. Kalantari,3234
+Marc Frantz,3235
+L. Cohen,3236
+Houman Borouchaki,3237
+A. W. Lohman,3238
+P. Ramanan,3239
+Christian Chenier,3240
+H. Ziezold,3241
+F. N. Krull,3242
+L. Paquette,3243
+J. E. Cuny,3244
+D. J. DeWitt,3245
+T. Skewis,3246
+Alexander Z. Zelikovsky,3247
+W. Maas,3248
+J. Duprat,3249
+J. M. Lutz,3250
+I. Namioka,3251
+P. W. Verbeek,3252
+Alek Vainshtein,3253
+Thomas Saaty,3254
+M. White,3255
+Ferran Hurtatdo,3256
+M. D. Hansen,3257
+Sanjiv Kapoor,3258
+J. Loewer,3259
+P. Downey,3260
+J. Cox,3261
+F. L. Alt,3262
+Marisa L. Mazon,3263
+N. Beckmann,3264
+E. B. Messinger,3265
+Vanban L. Wu,3266
+H. Lefmann,3267
+W. J. Masek,3268
+R. C. Nelson,3269
+J. C. Cavendish,3270
+T. D. Bui,3271
+A. H. Schoen,3272
+W. T. Fishback,3273
+Ravi Krishna Kolluri,3274
+W. de Leeuw,3275
+P. F. Sullivan,3276
+H. Ishii,3277
+T. L. Snyder,3278
+M. Klugerman,3279
+B. A. Rosenfeld,3280
+D. Moitra,3281
+John W. Milnor,3282
+Gabriel Robins,3283
+T. Hofmeister,3284
+O. Frieder,3285
+Jurgen Sellen,3286
+J. G. Morris,3287
+M. D. Grigoriadis,3288
+J. Ziegler,3289
+Kirk Pruhs,3290
+J. Valdes,3291
+A. Enge,3292
+D. Beus,3293
+R. Batta,3294
+S. D. Blostein,3295
+Teofilo F. Gonzalez,3296
+E. Jou,3297
+E. Tardos,3298
+David Singer,3299
+Y. Ravid,3300
+Jau-Der Shih,3301
+M. Reif,3302
+Bianca Falcidieno,3303
+Sylvain Petitjean,3304
+P. W. Dymon,3305
+Y. C. Wee,3306
+J. Takanami,3307
+P. Dirksen,3308
+J. Mylopoulos,3309
+W. Strasser,3310
+M. Watanabe,3311
+Himanshu Gupta,3312
+R. D. Clear,3313
+M. R. Mediano,3314
+A. R. Condal,3315
+Barry Joe,3316
+J. J. Leonard,3317
+F. B. Prinz,3318
+A. M. J. Meijerink,3319
+Artur Andrzejak,3320
+S. Cosmadakis,3321
+Anja Struyf,3322
+Eleftherios Koutsofios,3323
+R. Read,3324
+L. Gournay,3325
+J. C. Clements,3326
+E. L. Hall,3327
+T. Hasegawa,3328
+Vladimir G. Deineko,3329
+B. E. Flinchbaugh,3330
+Oren Patashnik,3331
+W. Heiden,3332
+N. Takayama,3333
+M. Jordan,3334
+J. Torocsik,3335
+S. Weingram,3336
+D. G. Lowe,3337
+Jairo Rocha,3338
+Gerald Thiemt,3339
+S. Batauche,3340
+J. Kerbosch,3341
+J. R. Wallace,3342
+C. T. Monma,3343
+F. Maisonneuve,3344
+S. E. Hudson,3345
+B. Berge,3346
+N. Tsikopoulos,3347
+E. H. Bareiss,3348
+J. Cohen,3349
+Timothy M. Y. Chan,3350
+D. R. Baum,3351
+E. Luks,3352
+J. E. Savage,3353
+Q. Stout,3354
+E. Makinen,3355
+L. M. Hrechanyk,3356
+Ferran Hurtado-Diaz,3357
+S. H. Kim,3358
+A. Schrijver,3359
+A. Volcic,3360
+W. D. Scott,3361
+G. K. Tayi,3362
+M. Yamashita,3363
+F. Bernhart,3364
+Mark Berman,3365
+I. Althofer,3366
+G. Fix,3367
+John F. Hughes,3368
+M. Brion,3369
+W. Dahmen,3370
+Larry Levy,3371
+H. Bez,3372
+J. Schwerdt,3373
+J. W. Yoon,3374
+J. H. Gallier,3375
+N. I. Adams,3376
+Zachi Karni,3377
+H. Watanabe,3378
+X. Han,3379
+T. Welch,3380
+I. Vincent,3381
+C. Delannoy,3382
+R. C. Evans,3383
+I. N. Kagno,3384
+J. M. Nelson,3385
+G. Tusnady,3386
+N. Dadoun,3387
+C. Martel,3388
+L. E. Roemer,3389
+Michikazu Tanaka,3390
+H. Ito,3391
+S. Rao Kosaraju,3392
+Leah Epstein,3393
+M. Iwai,3394
+V. Sarin,3395
+C. M. Kenyon,3396
+Thomas Strothotte,3397
+E. W. Zimmers,3398
+Alexander G. Tarnowski,3399
+R. C. T. Lee,3400
+M. N. Kolountzakis,3401
+D. R. Cutting,3402
+L. Hesselink,3403
+J. Chang,3404
+J. Mecke,3405
+J. P. Menon,3406
+C. Meyer,3407
+A. Varshney,3408
+A. Piperno,3409
+K. F. Chan,3410
+Michael S. Karasick,3411
+Dukhyun Kang,3412
+M. Fujiwara,3413
+L. Dorst,3414
+David Izraelevitz,3415
+P. Kossowki,3416
+I. Ilinkin,3417
+R. D. Graglia,3418
+C. Czyzowicz,3419
+Maxime Bocher,3420
+I. T. Gohberg,3421
+J. Kiefer,3422
+V. Subramanian,3423
+T. Olson,3424
+Y. T. Chan,3425
+Yoshiyuki Kusakari,3426
+N. N. Medvedev,3427
+M. G. Bures,3428
+E. Mainsah,3429
+W. G. Chinn,3430
+J. B. Kruskal,3431
+F. Juhnke,3432
+W. A. Davis,3433
+P. C. Filkins,3434
+J. Weeks,3435
+K. Hodges,3436
+M. Barnabei,3437
+Tung-Hsin Su,3438
+Gill Barequet,3439
+M. Karia,3440
+J. D. Mackinlay,3441
+M. D. Hutton,3442
+D. Bienstock,3443
+J. M. Oliva,3444
+C. A. Gutwin,3445
+T. H. Hopp,3446
+J. Wein,3447
+Michael G. Segal,3448
+P. L. Hammer,3449
+J. Buckingham,3450
+D. Hartvigsen,3451
+J. L. Brown,3452
+E. A. Kasimatis,3453
+H. L. de Cougny,3454
+David Letscher,3455
+B. Bueler,3456
+P. K. Paripati,3457
+T. J. Dekker,3458
+W. L. Luken,3459
+S. L. Wagner,3460
+C. J. van Wyk,3461
+Graham J. Wills,3462
+A. R. Frances,3463
+Neelima Gupta,3464
+O. Johansson,3465
+Glenn K. Manacher,3466
+Y. Ansel Teng,3467
+E. G. Straus,3468
+Shang-Ching Chou,3469
+Baltasar Cuevas Renaud,3470
+A. Suzuki,3471
+J. Liang,3472
+Peter Hilton,3473
+M. Hebert,3474
+A. F. Gmitro,3475
+M. Heinrichs,3476
+A. G. Ferreira,3477
+G. Garbulsky,3478
+P. R. Wensley,3479
+T. Wang,3480
+Uzi Vishkin,3481
+D. H. Doo,3482
+Anil Maheshwari,3483
+D. Silver,3484
+P. Cromwell,3485
+A. Paz,3486
+S. K. Wismath,3487
+M. Tanemura,3488
+L. M. Patniak,3489
+G. Lerman,3490
+Giuseppe F. Italiano,3491
+P. Kumar,3492
+B. Scholten,3493
+A. Mariano,3494
+A. Wanka,3495
+J. Warga,3496
+R. A. Vitale,3497
+O. Knop,3498
+N. Tomioka,3499
+J. L. Ellis,3500
+M. C. Hon,3501
+D. A. Tang,3502
+T. O. Binford,3503
+Shang-Hua Teng,3504
+W.-P. Chin,3505
+A. Blumer,3506
+P. J. Huber,3507
+A. Watt,3508
+G. J. Minty,3509
+Chinh Hoang,3510
+C. K. Wong,3511
+Christoph Ammann,3512
+Viet Hai Nguyen,3513
+L. G. Biesecker,3514
+K. Cudjoe,3515
+D. Soroker,3516
+R. McKee,3517
+R. Balbes,3518
+Michael Joswig,3519
+S. N. Kabadi,3520
+C. E. Wee,3521
+N. Nishimura,3522
+T. Stehling,3523
+M. Kallay,3524
+W. Klingenberg,3525
+M. Iwata,3526
+Jayanth Majhi,3527
+A. Albrecht,3528
+W. S. Chan,3529
+A. C. Sanderson,3530
+R. Bajcsy,3531
+R. Vanisree,3532
+D. Hilbert,3533
+A. Abdullah,3534
+A. Bohm,3535
+D. Fulkerson,3536
+B. Baker,3537
+Robert L. Cook,3538
+Jurek Czyzowicz,3539
+J. Spinrad,3540
+Y. Shinagawa,3541
+Kevin Weiler,3542
+A. Meier,3543
+A. E. Fabris,3544
+H. Weyl,3545
+Mark A. Price,3546
+Werner Kuhn,3547
+J. McDonald,3548
+Matthew J. Katz,3549
+C. Xiao,3550
+Jean-Christophe Roux,3551
+T. I. Dix,3552
+I. Chakravarty,3553
+Markus Denny,3554
+H. Sachs,3555
+H. W. Lenstra,3556
+D. Kolzow,3557
+D. Gouyou-Beauchamps,3558
+J. H. Bohn,3559
+Alok Aggarwal,3560
+D. Schmalstieg,3561
+H. Gurla,3562
+U. Meyer,3563
+Y. Birk,3564
+S. S. Iyengar,3565
+E. Kinnen,3566
+J. Elzinga,3567
+S. Rudich,3568
+M. Vyalyi,3569
+S. W. Bent,3570
+D. A. Huffman,3571
+A. Frank van der Stappen,3572
+J. C. Torres,3573
+D. R. Stirzaker,3574
+F. Klein,3575
+W. J. Gordon,3576
+Andre Hinkenjann,3577
+L. Steinberg,3578
+R. E. Bank,3579
+M. K. Guyder,3580
+Valeriu Sitaru,3581
+Mario Dias,3582
+B. Kernigham,3583
+M. M. Klawe,3584
+J.-L. Lambert,3585
+A. M. Karin,3586
+S. Ullman,3587
+J. T. Robinson,3588
+A. Flores,3589
+R. E. Miles,3590
+G. D. Knott,3591
+H. Rademacher,3592
+E. M. Wilcox,3593
+F. Mora,3594
+A. Gajentaan,3595
+H. Rumsey,3596
+J. J. Little,3597
+A. K. Aziz,3598
+James E. Ward,3599
+A. L. Peressini,3600
+E. Dominguez,3601
+J. Ashton,3602
+A. N. Varchenko,3603
+D. Dubhashi,3604
+N. F. Stewart,3605
+K. W. Chong,3606
+Gopalakrishnan Sundaram,3607
+S. P. Morse,3608
+N. F. Steward,3609
+R. Haggenmuller,3610
+R. J. Nowakowski,3611
+I. J. Trotts,3612
+H. Kikuchi,3613
+G. L. Steele,3614
+T. H. Connolly,3615
+C. Torras,3616
+T. H. Chen,3617
+S. Landru,3618
+E. Bakker,3619
+D. Dubrule,3620
+Charles W. Warren,3621
+W. Keller-Gehrig,3622
+Dieter Lasser,3623
+P. M. Vaida,3624
+Z. A. Melzak,3625
+Peter Johansson,3626
+P. Naggar,3627
+H. Royden,3628
+R. E. Jamison-Waldner,3629
+S. E. Cappell,3630
+C. D. Thomborson,3631
+A. L. Rosenberg,3632
+G. S. Lueker,3633
+Ralf Schneider,3634
+W. E. Donath,3635
+Fausto Bernardini,3636
+Allan R. Jones,3637
+I. S. Kweon,3638
+Nen-Fu Huang,3639
+H. Ratschek,3640
+T. S. Li,3641
+A. Prasad Sistla,3642
+M. Popovic,3643
+P. Dymond,3644
+E. Nardelli,3645
+H. Elter,3646
+E. Tournier,3647
+R. Bryant,3648
+C. Peuch,3649
+N. Miller,3650
+P. J. Argos,3651
+Paola Magillo,3652
+G. E. Andrews,3653
+A. A. Khokhar,3654
+H. J. Guntherodt,3655
+B. Garrett,3656
+D. H. Kim,3657
+P. Gaston,3658
+P. Mandel,3659
+J. Estes,3660
+A. Prodon,3661
+G. Yuval,3662
+V. Bruyere,3663
+Andrew Lim,3664
+E. Horowitz,3665
+E. Wanke,3666
+S. Moran,3667
+Jiazhen Cai,3668
+B. G. Haskell,3669
+J. W. H. Tangelder,3670
+D. E. Bell,3671
+D. Giammarresi,3672
+A. Shamir,3673
+K. Weihrauch,3674
+Leizhen Cai,3675
+K. Li,3676
+J. A. Orenstein,3677
+S. T. Klein,3678
+C. E. Buckley,3679
+J. Sprinzak,3680
+S. L. Tanimoto,3681
+M. Yau,3682
+M. C. Leu,3683
+P. M. Narendra,3684
+J. Zunic,3685
+J. Fredrick Cornhill,3686
+S. T. Coffin,3687
+Martin Isenburg,3688
+Hazel Everett,3689
+H. Booth,3690
+K. Ichida,3691
+Niinimaa,3692
+R. F. Boisvert,3693
+G. Sabidussi,3694
+G. C. Shephard,3695
+S. H. Bokhari,3696
+M. H. Loew,3697
+J. A. Wyllie,3698
+Ernesto Staffetti,3699
+Binhai Zhu,3700
+A. Ubema,3701
+K. Ammar,3702
+J. Bright,3703
+Christos Makris,3704
+R. Juan,3705
+N. Ono,3706
+M. J. Wozny,3707
+P. Sinha,3708
+Z. Mahmood,3709
+C.-Y. Hu,3710
+B. Rosenberg,3711
+C. J. O'Keefe,3712
+David Meyers,3713
+R. Koppe,3714
+A. Gottlieb,3715
+Samir Khuller,3716
+Adee Ran,3717
+David Luebke,3718
+J. Maiorana,3719
+N. E. Mnev,3720
+H. Gunzel,3721
+Melody Donoso,3722
+J. S. McCranie,3723
+E. S. Kuh,3724
+N. Go,3725
+T. Bisztriczky,3726
+E. C. Carlson,3727
+V. K. Prasanna Kumar,3728
+William Warntz,3729
+Zhiming Xu,3730
+T. Kiang,3731
+J. Stein,3732
+J. M. Bibby,3733
+S. Shelah,3734
+E. W. Weisstein,3735
+P. D. Tsanakas,3736
+Bachmann,3737
+H. Blanken,3738
+A. Shaw,3739
+L. J. Cutrona,3740
+Denis Vandorpe,3741
+Helen C. Purchase,3742
+A. Bandyopadhyay,3743
+T. C. Lyerly,3744
+H. E. Stephanou,3745
+Biliana Kaneva,3746
+F. Vargiu,3747
+M. Coste,3748
+W. Sherman,3749
+J. M. Hammersley,3750
+P. Kofakis,3751
+P. Hut,3752
+Mahmoud Melkemi,3753
+C. E. Silva,3754
+I. R. Shafarevich,3755
+C. S. Biddlecombe,3756
+Ye. Dinitz,3757
+N. H. Getz,3758
+T. Sekiguchi,3759
+M. Wenzel,3760
+Michael N. Maryukov,3761
+Mahesh Rathi,3762
+I. P. Logan,3763
+Ruth Silverman,3764
+R. V. Gamkrelidze,3765
+J. B. Seery,3766
+W. R. Jacometti,3767
+A. Rema,3768
+K. W. Bowyer,3769
+A. Dhagat,3770
+N. Biggs,3771
+H. Akima,3772
+T. Woo,3773
+Rich A. Cairncross,3774
+Subir Kumar Ghosh,3775
+M. Hoshi,3776
+S. Rodger,3777
+J. D. McWhirter,3778
+J. E. Graver,3779
+J.-J. E. Slotine,3780
+S. Singh,3781
+C. Georges,3782
+R. Diestel,3783
+G. W. Peck,3784
+H. Raiffa,3785
+B. Merriman,3786
+M. Haiman,3787
+Uli Wagner,3788
+D. Lieber,3789
+Sven Schuierer,3790
+Jeong-In Doh,3791
+T. Kailath,3792
+Hung-Yi Tony Tu,3793
+Dorothea Wagner,3794
+Pinaki Mitra,3795
+R. Takiyama,3796
+B. Yang,3797
+G.-C. Rota,3798
+T. W. Reps,3799
+S. Campbell,3800
+?? Sands,3801
+J. Doellner,3802
+T. Mizoguchi,3803
+S. Huddleston,3804
+W. L. G. Koontz,3805
+The Smith Problem Solving Group,3806
+Michael E. Saks,3807
+Bruce F. Naylor,3808
+Harald Gropp,3809
+J. T. Kajiya,3810
+D. Geman,3811
+W.-T. Wu,3812
+D. R. Haynor,3813
+Iddo Hanniel,3814
+J. S. Robinson,3815
+A. Stein,3816
+B. Beresford-Smith,3817
+Xuemin Lin,3818
+Walt Donovan,3819
+Jacqueline Duquesne,3820
+J. S. Provan,3821
+Tamal K. Dey,3822
+A. Dattasharma,3823
+J.-I. Aoe,3824
+V. Levenstein,3825
+M. Lothaire,3826
+Arkady Kanevsky,3827
+J. C. Smart,3828
+M. Goresky,3829
+Soren Riis,3830
+Robert L. Cromwell,3831
+Klaus Spitzmuller,3832
+W. Cho,3833
+Christof Schultz,3834
+M. Barner,3835
+J. Cremona,3836
+J. F. Randolph,3837
+G. Hotz,3838
+S. Vishwanathan,3839
+Jack A. A. van der Veen,3840
+Anand Srivastav,3841
+Joel Conraud,3842
+A. H. Frey,3843
+C. G. Lekkerkerker,3844
+Claudio T. Silva,3845
+K. Fukunaga,3846
+W. Haverdings,3847
+M. J. Todd,3848
+C. Monma,3849
+W. Imrich,3850
+Takao Asano,3851
+T. W. Tucker,3852
+B. Fruhwirth,3853
+P. D. MacKenzie,3854
+P. Alfeld,3855
+C. Meghini,3856
+Russ Miller,3857
+S. Landau,3858
+R. C. Barr,3859
+N. M. Patrikalakis,3860
+Howard Masur,3861
+W. B. Trumbore,3862
+N. Jacobson,3863
+Anwei Liu,3864
+D. S. Sheu,3865
+D. J. Abel,3866
+Matthias Otte,3867
+Tomaz Pisanski,3868
+U. V. Vazirani,3869
+Boris Kronrod,3870
+E. A. M. Shriver,3871
+Atsuyuki Okabe,3872
+A. Demers,3873
+P. Koch,3874
+C. J. van Rijsbergen,3875
+R. Jain,3876
+L. Ferrari,3877
+J. L. Gross,3878
+Carlos Seara,3879
+M. Sivilotti,3880
+M. Kindl,3881
+Christoph Rothe,3882
+G. E. Wangdahl,3883
+A. Amir,3884
+R. Bohacek,3885
+D. K. Weisser,3886
+Vasiliki Chatzi,3887
+R. D. Shaw,3888
+M. Regnier,3889
+J. J. Rotman,3890
+D. Ellsworth,3891
+A. Heppes,3892
+M. Potemesil,3893
+P. Winkler,3894
+N. Sugie,3895
+T. Ogawa,3896
+Charles V. Stewart,3897
+D. Scott Andrews,3898
+T. Itoh,3899
+E. Trimble,3900
+H. Salmen,3901
+M. Yasuda,3902
+M. Ben-Bassat,3903
+V. G. Boltyanskii,3904
+R. Agarwala,3905
+Theo Pavlidis,3906
+D. Hestenes,3907
+M. J. Gonzalez-Lopez,3908
+S. Ranade,3909
+Nina Amenta,3910
+M. Shing,3911
+B. R. Vatti,3912
+W. R. Pulleyblank,3913
+D. H. Schaefer,3914
+Markus Kukuk,3915
+J. F. Thisse,3916
+Gabriele Blankenagel,3917
+N. Robertson,3918
+D. Cortolezzis,3919
+R. Kaas,3920
+R. Maranzana,3921
+T. S. Motzkin,3922
+S. E. Sarma,3923
+Kenneth J. Supowit,3924
+J. Nummenmaa,3925
+A. T. White,3926
+Andrei Iones,3927
+J. L. Goffin,3928
+Wolfgang Maass,3929
+Li Zhang,3930
+D. Parente,3931
+M. Mansouri,3932
+J. R. Munkres,3933
+E. P. Preyss,3934
+J. C. Fisher,3935
+J. J. Verkuil,3936
+W. D. Jones,3937
+Mia Hubert,3938
+C. D. Hodgson,3939
+Michael Clausen,3940
+L. Ficocelli,3941
+M. G. Vallet,3942
+A. Stewart,3943
+W. Cook,3944
+M. Hirsch,3945
+Ari Rappoport,3946
+R. C. Tsai,3947
+Wayne Mitzner,3948
+K.-P. Lam,3949
+C. Lo,3950
+Hermann Jung,3951
+Y.-B. Chen,3952
+R. G. Palmer,3953
+James Wen,3954
+Jacques Weber,3955
+R. Thurimella,3956
+M. M. Barash,3957
+Supriya Biswas,3958
+Michael Goldwasser,3959
+N. J. Lennes,3960
+J. Ketonen,3961
+G. S. Watkins,3962
+B. S. Thompson,3963
+S. E. Dreyfus,3964
+J. Serra,3965
+H.-L. Cheng,3966
+Kyung-Ah Han,3967
+L. A. Santalo,3968
+V. King,3969
+A. Dress,3970
+D. A. Bourne,3971
+L. Ramshaw,3972
+K. I. Joy,3973
+Gregory D. Sjaardema,3974
+B. S. Kang,3975
+Thomas W. Nehl,3976
+V. L. Dolnikov,3977
+F. C. Hobroyd,3978
+G. Chang,3979
+Bhaskar Dasgupta,3980
+S. Moen,3981
+E. Davis,3982
+A. K. Dewdney,3983
+J. Rohn,3984
+Oliver Gunther,3985
+S. Udupa,3986
+D. Stoyan,3987
+Eelco de Lange,3988
+Ulrich Kuhn,3989
+Roberto Tamassia,3990
+M. Mehta,3991
+R. Tan,3992
+M. Gorkani,3993
+D. Maier,3994
+J. Lipson,3995
+N. K. Shaw,3996
+M. Rarick,3997
+M. D. Guay,3998
+S. Morehouse,3999
+A. E. Chiou,4000
+J. Dollner,4001
+F. Mitchell,4002
+A. Ziv,4003
+A. Treasurywala,4004
+R. Chang,4005
+T. Shimanouchi,4006
+A. Bruggemann-Klein,4007
+R. W. Floyd,4008
+M. Hartman,4009
+S. W. Song,4010
+J. R. Banavar,4011
+A. Gueziec,4012
+A. Getis,4013
+P. Bezier,4014
+M. Chen,4015
+Y. S. Kuo,4016
+N. I. Badler,4017
+H. A. David,4018
+K. Fujisbiro,4019
+M. A. Conger,4020
+B. E. A. Saleh,4021
+M. D. Brice,4022
+B. Bruenning,4023
+J. Kutcher,4024
+K. Vophi,4025
+P. Hell,4026
+A. C. F. Colchester,4027
+Ming C. Lin,4028
+J. Hertz,4029
+D. B. Johnson,4030
+G. Kuperberg,4031
+Page,4032
+M. McKenna,4033
+M. Soria,4034
+R. Melter,4035
+Steven Salzberg,4036
+James E. Baker,4037
+Z. Y. Zhou,4038
+A. T. Jonassen,4039
+K. A. Semendjajew,4040
+Silvio V. F. Levy,4041
+J. R. Rice,4042
+R. Grinde,4043
+S. Peleg,4044
+Y. Shiloach,4045
+Gerhard M. Crippen,4046
+A. Lempel,4047
+H. Toben,4048
+M. Breen,4049
+V. Boltjansky,4050
+P. Townsend,4051
+D. Severance,4052
+Francois Rebufat,4053
+I. Najfeld,4054
+J. G. Cleary,4055
+C. Mead,4056
+Peter Burgisser,4057
+S. M. Morvan,4058
+Naveen Garg,4059
+L. Solomon,4060
+J. M. Wills,4061
+Seth Allen,4062
+F. X. Sillion,4063
+Asish Mukhopadhyay,4064
+Alain Turki,4065
+Darren Erik Vengroff,4066
+B. Delaunay,4067
+D. B. Arnold,4068
+G. W. C. Hall,4069
+Z. Drezner,4070
+L. Conway,4071
+Praveen Bhaniramka,4072
+J. Stern,4073
+G. D. Abrams,4074
+C. Esposito,4075
+S. Choudhury,4076
+K. Dobrint,4077
+M. Lauer,4078
+L. G. Parkomov,4079
+B. Bennett,4080
+J. S. Chang,4081
+Jovan Popovic,4082
+L. Ford,4083
+Mikael Hammar,4084
+W. Shen,4085
+M. Nosarzewska,4086
+D. H. Bailey,4087
+K. Sun,4088
+Harley Wattrick,4089
+V. P. Heuring,4090
+D. Asimov,4091
+L. B. Hostetler,4092
+Y. B. Karasik,4093
+B. B. Chaudhuri,4094
+Bruce L. Golden,4095
+A. Clement,4096
+Adrian Bowyer,4097
+M. Guisti,4098
+Torsten Thiele,4099
+J. L. Coulomb,4100
+Jean-Claude Spehner,4101
+G. Sobczyk,4102
+J. Raja,4103
+Octavian Procopiuc,4104
+Q. Feng,4105
+J. Bajon,4106
+H. Narayanan,4107
+H. Tanaka,4108
+G. M. Voronoi,4109
+D. Naddor,4110
+Y. Livnat,4111
+Y. C. Chow,4112
+M. J. DeHaemer,4113
+J. A. Guevara,4114
+K. S. Eo,4115
+C. Michelot,4116
+J. R. Rossignac,4117
+B. Cantrill,4118
+N. Kiryai,4119
+G. T. Whyburn,4120
+H. Persson,4121
+J. Green-Cottingham,4122
+J. W. Penny,4123
+R. Ramaraj,4124
+Heinrich Muller,4125
+D. L. Toth,4126
+P. Yeh,4127
+M. Benson,4128
+P. Komjath,4129
+D. Handke,4130
+Jean-Pierre Merlet,4131
+M. A. O'Connor,4132
+Boris Aronov,4133
+J. Bobowski,4134
+Robert R. Lewis,4135
+L. Caniglia,4136
+William T. Trotter,4137
+Francis Lazarus,4138
+B. Sarter,4139
+P. W. Finn,4140
+Eric A. Bier,4141
+J. Wiegley,4142
+Yossi Azar,4143
+K. Konstantinides,4144
+Nikolaos Sidiropoulos,4145
+P. Goossens,4146
+Fredo Durand,4147
+Torsten Suel,4148
+W. Hoff,4149
+David G. McKenna,4150
+Gaston H. Gonnet,4151
+J. C. Platt,4152
+M. C. Golumbic,4153
+L. Chen,4154
+J. Linhart,4155
+M. G. Sharma,4156
+John M. Snyder,4157
+V. Kamakoti,4158
+D. M. Esterling,4159
+Y. Ohsuga,4160
+W. D. Eades,4161
+K. Tamaguchi,4162
+C. D. Thompson,4163
+V. Ramaiyer,4164
+B. Akker,4165
+T. Akama,4166
+T. Phillips,4167
+F. E. Marchetti,4168
+Sabine Hanke,4169
+S. Lhuilier,4170
+J. P. Schmidt,4171
+C. Rey,4172
+A. Deguet,4173
+G. H. Polychronopoulos,4174
+Z. Gigus,4175
+Michael Sever,4176
+P. Lienhardt,4177
+G. Koppelman,4178
+L. Kitchen,4179
+R. Z. Hwang,4180
+A. Awwal,4181
+P. J. Tanenbaum,4182
+R. E. Jamison,4183
+Jian-Ming Zhou,4184
+Y. Nobert,4185
+I. M. Chen,4186
+Peter D. Eades,4187
+M. D. Atkinson,4188
+J.-Y. Lu,4189
+R. Arkin,4190
+I. G. Petrovskii,4191
+L. A. Rowe,4192
+R. A. Johnson,4193
+J. Lehman,4194
+Patrice Bertin,4195
+Mark Babikov,4196
+G. Meunier,4197
+T. P. Yunck,4198
+F. Ramme,4199
+W. Feller,4200
+A. Naamad,4201
+Thomas Ohler,4202
+M. S. Manasse,4203
+W. Wimer,4204
+C. Yang,4205
+W. Tilles,4206
+Frederico Thomas,4207
+E. Fortunato,4208
+J. Haralambides,4209
+W. Garrett,4210
+D. L. Powers,4211
+Q. Zhang,4212
+H. P. Katseff,4213
+D. S. Hirschberg,4214
+G. Caskey,4215
+Michelangelo Grigni,4216
+R. Francis,4217
+A. Mangen,4218
+M. J. Pratt,4219
+Alon Efrat,4220
+C. B. Silio,4221
+David Sun,4222
+Konstantinos G. Kakoulis,4223
+Jean Vignes,4224
+Carsten Dorgerloh,4225
+R. Aleliunas,4226
+Ronald I. Greenberg,4227
+Gunnar W. Klau,4228
+C. E. Thorpe,4229
+I. Carlbom,4230
+E. G. Kostov,4231
+A. Feldstein,4232
+H. Sagan,4233
+S. C. Loh,4234
+Y. Oishi,4235
+H. Oja,4236
+D. A. Thomas,4237
+E. Hanson,4238
+B. Jaumard,4239
+F. P. Ramsey,4240
+M. Rodeh,4241
+M. Hasegawa,4242
+C. Johnson,4243
+A. Whelan,4244
+D. Rubin,4245
+Sreedhar Vangavolu,4246
+L. G. Shapiro,4247
+Sergey Zhukov,4248
+Paolo Penna,4249
+E. Makai,4250
+W. Threlfall,4251
+Peter Gritzmann,4252
+P. Sipala,4253
+J. Weight,4254
+V. P. Roychowdhury,4255
+V. B. Le,4256
+R. Dwyer,4257
+G. L. Alexanderson,4258
+K. Kanatani,4259
+S.-Q. Zheng,4260
+V. A. Guarna,4261
+Y. Ding,4262
+Bernard Mourrain,4263
+R. M. Keller,4264
+R. Burridge,4265
+S. S. Abi-Ezzi,4266
+C. Rosenberg,4267
+R. Bayer,4268
+C. Witzgall,4269
+S. Hammond,4270
+H. Aonuma,4271
+R. Ward,4272
+Phillip Barry,4273
+Michael Deering,4274
+E. Saltel,4275
+S. N. Meshkat,4276
+L. Hyafil,4277
+S. M. Ulam,4278
+Nir Sochen,4279
+E. Grosse,4280
+H. Ratliff,4281
+H. H. Chen,4282
+J. Gill,4283
+F.-L. Krause,4284
+L. Kobbelt,4285
+G. Martin,4286
+S. Even,4287
+J. C. Molluzzo,4288
+M. I. Shamos,4289
+Keith O. Geddes,4290
+Gad M. Landau,4291
+V. Gaede,4292
+I. N. Bronstein,4293
+Christos Faloutsos,4294
+R. Solovay,4295
+S. M. Yiu,4296
+V. Torre,4297
+R. Phillips,4298
+A. Cullum,4299
+J.-B. Yu,4300
+Norman Chin,4301
+N. K. Sancheti,4302
+Norman L. Jones,4303
+P. Borwein,4304
+D. J. Volper,4305
+T. Callahan,4306
+X. Markenscoff,4307
+Maria del Carmen Hernando,4308
+E. Wachspress,4309
+M. J. Laszlo,4310
+K. Park,4311
+A. F. Beardon,4312
+Z. M. Kedem,4313
+W. Magnus,4314
+T. Shimonmura,4315
+P. M. Will,4316
+C. Spirakis,4317
+K. Sims,4318
+L. J. Bass,4319
+M. Khoshnevisan,4320
+M. Heller,4321
+W. C. Dietrich,4322
+P. B. Gibbons,4323
+S. Akella,4324
+M. Shapiro,4325
+W. H. Plantinga,4326
+Jae-Ha Lee,4327
+A. Bulow-Olsen,4328
+D. Gusfield,4329
+Richard Anderson,4330
+A. Bachem,4331
+K. M. Quinlan,4332
+T. Kiyono,4333
+Mario A. Lopez,4334
+S. Roucos,4335
+K. Borsuk,4336
+Viorel Negru,4337
+M. H. Freedman,4338
+Antoine Vigneron,4339
+C. C. Joyce,4340
+C. R. Crawford,4341
+U. Tucholke,4342
+Sylvain Lazard,4343
+S. C. Feng,4344
+S. Muller,4345
+C. Lutolf,4346
+M. Mani,4347
+T. R. Smith,4348
+J. S. Schwarz,4349
+Francois Anton,4350
+D. Rus,4351
+M. O. Rabin,4352
+J. A. Feldman,4353
+M. B. Pour-El,4354
+B. Stroustrup,4355
+H. I. Stern,4356
+N. Ramsey,4357
+W.-J. Hsu,4358
+V. Bhatt,4359
+Guoliang Xu,4360
+R. Webb,4361
+M. Barbehenn,4362
+Lori Scarlatos,4363
+J. J. Sylvester,4364
+B. Hamann,4365
+D. Cheriton,4366
+N. Max,4367
+L. J. Doctor,4368
+F. M. Rubinstein,4369
+Anneke A. Schoone,4370
+Y. Zhang,4371
+G. Hetyai,4372
+H. Muhlig,4373
+Thomas Roos,4374
+J. Beck,4375
+P. Fu,4376
+D. Priest,4377
+B. D. Ripley,4378
+P. P. Loutrel,4379
+Rainer E. Burkard,4380
+Jules Vleugels,4381
+Ian Stewart,4382
+?? Timmer,4383
+M. Nagl,4384
+Oren Nechushtan,4385
+S. Fogel,4386
+W. J. Savitch,4387
+R. B. Tilove,4388
+Steve Glassman,4389
+A. M. Day,4390
+V. Vijayan,4391
+T. C. Henderson,4392
+G. Sanniti di Baja,4393
+J. T. Oden,4394
+K. J. Waldron,4395
+M. Benedikt,4396
+A. Vince,4397
+C. M. Eastman,4398
+E. E. Rothberg,4399
+G. Georgakopoulos,4400
+O. Narayan,4401
+H. Feng,4402
+V. G. Rau,4403
+S. Bhanji,4404
+A. K. Jain,4405
+G. T. Wilfong,4406
+P. Filliman,4407
+Nadia Shouraboura,4408
+J. R. Alexander,4409
+S. Chandrasekar,4410
+R. T. Zivaljevic,4411
+M. K. Warmuth,4412
+A. A. Hough,4413
+Boaz Ben-Moshe,4414
+M. Cattoen,4415
+F. S. Cho,4416
+Y. Yeh,4417
+C. Martin,4418
+Andersson,4419
+T. Lozano-Perez,4420
+Martin L. Demaine,4421
+Laura Heinrich-Litan,4422
+N. G. de Bruin,4423
+A. Lozano,4424
+M. T. Pareschi,4425
+C. C. De Souza,4426
+J. Blomer,4427
+I. Fogg,4428
+I. Mandhyan,4429
+W. Huang,4430
+L. M. Blumenthal,4431
+K. Menger,4432
+Jonathan Shade,4433
+O. Kariv,4434
+A. E. Brouwer,4435
+T. G. Dennehy,4436
+M. Sbert,4437
+E. Triendl,4438
+J. Nedoma,4439
+T. R. S. Walsh,4440
+J. Wright,4441
+M. Hanan,4442
+J. T. Schwartz,4443
+U. S. Palekar,4444
+V. Visivanathan,4445
+G. Wang,4446
+T. A. Foley,4447
+K. H. Teo,4448
+M. A. Oliver,4449
+G. Sapiro,4450
+I. Suzuki,4451
+Borislav Simov,4452
+H.-W. Shen,4453
+M. Fuchs,4454
+Oren J. Tversky,4455
+G. Cornuejol,4456
+Volker Kaibel,4457
+D. J. Kleitman,4458
+Rich Rabbitz,4459
+S. McMains,4460
+B. Currin,4461
+Wei Chen,4462
+L. Richard Speer,4463
+C. H. Jones,4464
+Elisha Sacks,4465
+M. Tasumi,4466
+C. G. Phillips,4467
+L. B. Protsko,4468
+J. D. Mackinley,4469
+Y. Tarui,4470
+K. H. Park,4471
+K. K. Kwong,4472
+Lorenz Halbelsen,4473
+J. R. Goldman,4474
+J. Ernvall,4475
+Christophe Lemaire,4476
+F. N. Fredickson,4477
+I. J. Schoenberg,4478
+Robert Mencl,4479
+U. Groh,4480
+Joe Marks,4481
+P. L. Williams,4482
+G. Kortsarz,4483
+S. M. Pizer,4484
+S. Mukherjee,4485
+S. Iyanaga,4486
+W. B. Dowsland,4487
+S. Mai,4488
+L. S. Joel,4489
+Yinyu Ye,4490
+W. F. Tichy,4491
+James Abello,4492
+J. Eckhoff,4493
+M. M. F. Yuen,4494
+J. K. Udupa,4495
+B. Von Herzen,4496
+J. R. Reay,4497
+Hannes Krasser,4498
+J. Miller,4499
+Brian Li,4500
+J. K. Tsotsos,4501
+A. N. Podkorytov,4502
+R. Shamir,4503
+H. Carnal,4504
+A. Louri,4505
+J. Jennings,4506
+F. Ruskey,4507
+C. Mannino,4508
+T. Ozawa,4509
+E. W. Miller,4510
+Jean Ponce,4511
+T. Sarson,4512
+S. Yu,4513
+M. Z. Hasan,4514
+R. Volpe,4515
+K.-F. Bohringer,4516
+G. Benson,4517
+M. A. Bender,4518
+R. K. Guy,4519
+C. E. Kim,4520
+P. Getto,4521
+Y.-J. Tseng,4522
+D. Gomez,4523
+S. D. Phillips,4524
+P. Jeanne,4525
+Y. Rong,4526
+David P. Williamson,4527
+D. Jung,4528
+D. Beauquier,4529
+S. Mukhopadhyay,4530
+J. Krozel,4531
+T. Kawasaki,4532
+A. Orden,4533
+S. Cohn-Vossen,4534
+L. Nilsson,4535
+P. Koebe,4536
+D. Dragomatz,4537
+A. A. Schaffer,4538
+M. Hansen,4539
+G. Wahba,4540
+P. G. Mezey,4541
+C. Buchta,4542
+J. A. Brewer,4543
+M. K. Lee,4544
+Gabriele Reich,4545
+D. J. Murdoch,4546
+Tomas Feder,4547
+I. Amir,4548
+K. Kato,4549
+J. Aloimonos,4550
+H. J. Stetter,4551
+C. Borgers,4552
+Wu-Yi Hsiang,4553
+H. B. Hunt,4554
+F. F. Little,4555
+Atsushi Yamada,4556
+M. J. McCullagh,4557
+B. Rystedt,4558
+R. Hermann,4559
+K. V. Palem,4560
+K. E. Schauser,4561
+Ansgar Weissler,4562
+N. B. Goldstein,4563
+Fuhua Cheng,4564
+J. W. Chang,4565
+S. Batnitzky,4566
+I. Fournier,4567
+Thomas Rausch,4568
+H. W. Guggenheimer,4569
+Rainald Lohner,4570
+Wenke Lee,4571
+R. Withers,4572
+T. Fruchterman,4573
+A. M. Leroy,4574
+F. G. Bischoff,4575
+R. A. Rankin,4576
+L. I. Lieberman,4577
+D. Rutovitz,4578
+Rene van Oostrum,4579
+G. M. Ewing,4580
+S. Z. Selim,4581
+T. Lyche,4582
+J. T. Mowchenko,4583
+C. Vidal,4584
+M. Benelli,4585
+T. Theoharis,4586
+V. A. Dubovitskij,4587
+D. Lin,4588
+Q. Cheng,4589
+J. Ramsden,4590
+R. B. Urquhart,4591
+M. Nose,4592
+K. Ko,4593
+Y. Xu,4594
+A. Y. Chervonenkis,4595
+John C. Hart,4596
+L. Weinberg,4597
+G. C.-P. Chi,4598
+Ching-Ting Wu,4599
+S. H. Lo,4600
+O. Egecioglu,4601
+R. Cole,4602
+A. Cayley,4603
+V. W. Bryant,4604
+G. Ceder,4605
+L. Fejes Toth,4606
+P. C. Kainen,4607
+M. E. Watkins,4608
+M. Greenlinger,4609
+Atsushi Kaneko,4610
+S. Dey,4611
+C. Lee,4612
+Ovidiu Daescu,4613
+D. C. Solomon,4614
+S. Wolfram,4615
+Jan D. Wolter,4616
+Carl Smith,4617
+M. J. Longtin,4618
+A. Levy,4619
+L. Davis,4620
+D. Megherbi,4621
+A. Joukhadar,4622
+Udo Adamy,4623
+J. S. Gibson,4624
+I. Grossman,4625
+R. Canham,4626
+A. S. Rao,4627
+H. Hinterberger,4628
+D. J. R. Meagher,4629
+Christoph M. Hoffmann,4630
+A. Nakamoto,4631
+W. H. Warden,4632
+S. D. Kim,4633
+Alexander A. Migdal,4634
+J. E. Zolnowsky,4635
+Arun K. Pujari,4636
+Mathieu Desbrun,4637
+Jean-Marc Robert,4638
+W. Krull,4639
+P. Kornerup,4640
+P. J. Idicula,4641
+R. J. Kopec,4642
+P.-J. Wan,4643
+K. Nakamura,4644
+G. Krishna,4645
+W. O. J. Moser,4646
+T. Przytycka,4647
+D. T. Kasper,4648
+D. Zernik,4649
+S. Iwanowski,4650
+I. C. Braid,4651
+Evanthia Papadopoulou,4652
+Michel F. Sanner,4653
+Hanspeter Bieri,4654
+H. E. Scarf,4655
+K. B. Athreya,4656
+A. Hajnal,4657
+Urs Ramer,4658
+T. J. Wilson,4659
+G. W. Wasilkowski,4660
+V. Cappellini,4661
+K. N. Venkataraman,4662
+Piotr Berman,4663
+Robert E. Webber,4664
+L. Kavazza,4665
+E. Dengler,4666
+H.-D. Hecker,4667
+G. Santucci,4668
+Kathy Ryall,4669
+Dima Grigoriev,4670
+N. Thurston,4671
+K. Qui,4672
+M. Himsolt,4673
+C. Y. Han,4674
+W. Pugh,4675
+Samprit Chatterjee,4676
+P. Berge,4677
+M. P. Devine,4678
+Amir M. Ben-Amram,4679
+J. E. Hopcroft,4680
+J. Cloutier,4681
+C. B. Moler,4682
+C. Nash,4683
+H. Li,4684
+M. S. Sambridge,4685
+G. A. Ososkov,4686
+E. Pannwitz,4687
+G. R. DeHaan,4688
+R. L. Renka,4689
+Steve M. Robbins,4690
+Nathaniel Dean,4691
+E. Schonberg,4692
+V. V. Vazirani,4693
+R. F. Milsom,4694
+J. Weng,4695
+J. R. Chen,4696
+S. Salza,4697
+Y. Dai,4698
+M. A. Armstrong,4699
+D. Armitage,4700
+M. Adler,4701
+R. Sivan,4702
+K. Szkatula,4703
+E. Quak,4704
+S. Fudadi,4705
+J. A. Thomas,4706
+Aohan Mei,4707
+A. Below,4708
+C. Warde,4709
+Horst Bunke,4710
+William C. Thibault,4711
+V. S. Alagar,4712
+M. Styness,4713
+L. J. Shustek,4714
+Suboth Kumar,4715
+I. Bruss,4716
+J. Steiner,4717
+K. Kendig,4718
+Jose Caceres,4719
+M. Korp,4720
+H. Jin,4721
+J. Emert,4722
+T. R. S. Walsch,4723
+M. Spivak,4724
+Anthony Spatharis,4725
+P. Ragde,4726
+S. Mehta,4727
+Jan Petersson,4728
+W. Guida,4729
+H. Patel,4730
+E. Sontag,4731
+R. Taylor,4732
+J. MacGregor Smith,4733
+J. Toriwaki,4734
+A. Jacques,4735
+P. A. P. Moran,4736
+I. G. Gowda,4737
+M. L. C. Sluiter,4738
+H. Pfister,4739
+H. T. Kung,4740
+M. Berger,4741
+E. Grosswald,4742
+N. G. Bourbakis,4743
+Michael Seel,4744
+T. Lindholm,4745
+R. F. Franklin,4746
+K. Wagner,4747
+J. W. Song,4748
+E. Kishon,4749
+V. Vogelmann,4750
+R. M. Lewitt,4751
+L. L. Deneen,4752
+M. Stoer,4753
+K. S. Arun,4754
+A. B. By,4755
+E. Wong,4756
+I. Bennour,4757
+L. Calabi,4758
+J. Pegna,4759
+E. K. Ressler,4760
+Remco C. Veltkamp,4761
+M. N. Huxley,4762
+M. Sakamoto,4763
+M. McClellan,4764
+W. Shi,4765
+R. M. Idury,4766
+R. Burton,4767
+Norio Katayama,4768
+C. J. Palermo,4769
+Jean-Francois Doue,4770
+Chao-Kuei Hung,4771
+O. G. Okunev,4772
+Raimund Seidel,4773
+S. Verblunsky,4774
+T. J. Sebok,4775
+R. Gordon,4776
+David Zhu,4777
+John Keyser,4778
+Jerome Galtier,4779
+D. Landgrebe,4780
+Cavit Aydin,4781
+J. L. Kelley,4782
+M. Schaffter,4783
+R. F. Riesenfeld,4784
+P. G. Comba,4785
+J. E. Bresenham,4786
+J. L. Szwarcfiter,4787
+L. Pyber,4788
+W. Swelden,4789
+N. Kanamaru,4790
+C. T. Howie,4791
+Y.-T. Ching,4792
+J. E. Castillo,4793
+P.-T. Lan,4794
+T. C. Hu,4795
+D. Ruoff,4796
+Edward F. Grove,4797
+Adi Rosen,4798
+K. K. Wang,4799
+Cecilia M. Procopiuc,4800
+A. V. Shaidenko,4801
+P. Gburzynski,4802
+M. Ishijama,4803
+Jurgen Richter-Gebert,4804
+C. M. Kong,4805
+S. R. Ala,4806
+H. Schroder,4807
+S. Cormack,4808
+D. Tan,4809
+T. Chomut,4810
+S. Dao,4811
+L. J. Porcello,4812
+K. Wolfrum,4813
+C. Cattani,4814
+S. Arnborg,4815
+W. Whitney,4816
+W. E. Snyder,4817
+A. Meyer,4818
+S. V. Avgustinovich,4819
+A. Orlitsky,4820
+Noud Gademann,4821
+R. J. LeMaster,4822
+D. W. Moore,4823
+F. Vogt,4824
+G. D. Finlayson,4825
+D. J. R. Maegher,4826
+George Wolberg,4827
+N. M. Beskin,4828
+Filippo Tampieri,4829
+L. L. Rose,4830
+R. Edmonds,4831
+Mourad Djebali,4832
+S. P. Marin,4833
+P. Marzano,4834
+S. Grossberg,4835
+Shinichi Satoh,4836
+J. H. Rubinstein,4837
+Piotr Indyk,4838
+Michal Shapira Etzion,4839
+Peter Orlik,4840
+R. Sriram,4841
+W. L. Hightower,4842
+M. Hawrylycz,4843
+G. Matheron,4844
+M. Farach,4845
+Salvador Dominguez,4846
+J. Sage,4847
+J. R. Slagle,4848
+Sonja A. L. Meerbaum,4849
+A. Tyagi,4850
+Janet M. Six,4851
+H. B. Voelcker,4852
+Moises Lejter,4853
+J. Peraire,4854
+D. Bartz,4855
+D. Sivakumar,4856
+Belen Palop,4857
+M. Y. Hsueh,4858
+R. Olshen,4859
+V. Harinarayan,4860
+D. Haken,4861
+J. Rosenblatt,4862
+A. T. Campbell,4863
+C. H. Edwards,4864
+L. Kaufman,4865
+N. Santoro,4866
+A. E. Howe,4867
+A. Jameson,4868
+Jody Fanto,4869
+U. Shani,4870
+O. Sudarsky,4871
+Y. Martin,4872
+S. T. Tuohy,4873
+S. Hutchinson,4874
+David Marimont,4875
+P. J. de Rezende,4876
+M. A. Peshkin,4877
+Christoph Brocker,4878
+V. S. Krikun,4879
+D. Peleg,4880
+Julia Flototto,4881
+Naoki Katoh,4882
+K. Inoue,4883
+J. P. Twarog,4884
+S. S. Kapur,4885
+S. Macdonald,4886
+C. R. Weisbin,4887
+Petru Pau,4888
+Frederick J. Wicklin,4889
+H. Hancock,4890
+K. H. Pribram,4891
+A. Pelc,4892
+E. Bar-Eli,4893
+D. Cieslik,4894
+Masatsugu Urabe,4895
+K. K. Paliwal,4896
+Michael Godau,4897
+J. D. Bernal,4898
+Achilleas Papakostas,4899
+P. P. Das,4900
+R. Shapira,4901
+M. C. McCord,4902
+E. Ben-Hanoch,4903
+M. Dorr,4904
+M. L. Fredman,4905
+Greg Ward,4906
+Y. Kajitani,4907
+C. Mack,4908
+G. T. Herman,4909
+M. Schiwietz,4910
+Jong-Soo Kim,4911
+M. A. Soss,4912
+Paul-Louis George,4913
+L. K. Kyprianou,4914
+D. W. Matula,4915
+N. Chetayav,4916
+J. Paris,4917
+H. T. Loh,4918
+R. Howe,4919
+M. Ohta,4920
+Alexander Hufnagel,4921
+A. Kuba,4922
+B. D. McKay,4923
+C. Garbay,4924
+L. Kuklinski,4925
+S. P. Ghosh,4926
+J. Ophir,4927
+Schrader,4928
+J. Lucas,4929
+V. Rosta,4930
+C.-C. Wang,4931
+A. Cantoni,4932
+Y. P. Aneja,4933
+M. Casale,4934
+Y. C. Yao,4935
+Roger Crawfis,4936
+Gunter Rote,4937
+A. Borning,4938
+S. B. Chalasani,4939
+T. Porter,4940
+G. Piccioli,4941
+Jinhui Xu,4942
+Y. Wang,4943
+N. Koudas,4944
+V. Y. Lum,4945
+C. A. Phillips,4946
+Hanan Samet,4947
+O. Serra,4948
+D. Girault-Beauquier,4949
+Daoning Ying,4950
+Oliver Karch,4951
+Serge Lang,4952
+A. K. Hope,4953
+K. Youcef-Toumi,4954
+C. Ho,4955
+K. Vob,4956
+S. Kawai,4957
+R. H. Campbell,4958
+L. Trevisan,4959
+Doron Nussbaum,4960
+N. Baek,4961
+Jay Sipelstein,4962
+S. M. Stanley,4963
+R. Terada,4964
+Helymar Balza-Gomez,4965
+D. W. Johnson,4966
+C. T. Abraham,4967
+Petra Mutzel,4968
+Igor Pouchkarev,4969
+F. Alizadeh,4970
+Claude Puech,4971
+P. L. Levin,4972
+T. Garrity,4973
+Y. T. Lee,4974
+R. V. Amorim,4975
+S. M. Hashemi,4976
+H. McQueen,4977
+V. Shapiro,4978
+M. T. Ko,4979
+R. Washington,4980
+A. Ghosh,4981
+G. W. Furnas,4982
+M. Imase,4983
+A. Ghose,4984
+E. Zemel,4985
+J. Bochnak,4986
+L. Dong,4987
+J. El-Sana,4988
+A. Schur,4989
+Marco Pellegrini,4990
+Thomas Schilz,4991
+D. Peeters,4992
+John Schlag,4993
+J. Cheriyan,4994
+Michel Roch,4995
+H. P. Wynn,4996
+L. W. Foster,4997
+J. Roberts,4998
+S. Joshi,4999
+H. Kuhn,5000
+F. Gavril,5001
+E. J. Cockayne,5002
+M. Hellwich,5003
+A. A. Oloufa,5004
+A. L. Hinde,5005
+H. P. Moravec,5006
+J. M. Nash,5007
+C. Imielinska,5008
+C. C. Adams,5009
+H. Woll,5010
+R. Gershbein,5011
+Steven K. Feiner,5012
+S. A. Cameron,5013
+B. Lang,5014
+Yannis Manolopoulos,5015
+T. Willhalm,5016
+V. Ramesh,5017
+C. Lautemann,5018
+J. J. Cannon,5019
+K. Koyamada,5020
+D. G. Schiller,5021
+A. Guzman,5022
+V. Turau,5023
+A. G. Khovanskii,5024
+E. Marom,5025
+A. Borodin,5026
+M. K. Vamanamurthy,5027
+D. H. McLain,5028
+T. Singh,5029
+Saroja P. Kanchi,5030
+S. Rajagopalan,5031
+C. Stiel,5032
+R. Shrairaman,5033
+S. Negami,5034
+H. L. Abbott,5035
+I. Rigoutsos,5036
+L. Uhr,5037
+Christoph Burnikel,5038
+C. Petersson,5039
+Eric Veach,5040
+A. Guttman,5041
+T. Speevak,5042
+S. Aubry,5043
+A. Symvonis,5044
+A. A. Nudelman,5045
+A. Gibbons,5046
+S. Safavian,5047
+A. Klinger,5048
+Siddhartha Chatterjee,5049
+Edmund Ihler,5050
+N. J. A. Sloane,5051
+I. Fudos,5052
+M. G. Krein,5053
+T. Greer,5054
+D. Fernandez-Baca,5055
+Pavan K. Desikan,5056
+V. Grolmusz,5057
+J. K. Sircar,5058
+S. L. Hakimi,5059
+Kyriakos Zervoudakis,5060
+S. Mann,5061
+J. A. Galt,5062
+Katsuhiko Tanaka,5063
+L. Sander,5064
+E. Sonatg,5065
+M. Brodie,5066
+C. W. Reynolds,5067
+A. Mehrez,5068
+W. A. Stahel,5069
+A. Inoue,5070
+M. O. Ward,5071
+L. S. Pontryagin,5072
+J.-C. Fiorot,5073
+G. Kronin,5074
+H. Halberstam,5075
+W. Bonnice,5076
+K. Lange,5077
+A. C. Kak,5078
+R. N. Wolfe,5079
+O. A. Oleinik,5080
+Lavakusha,5081
+K. Krithivasan,5082
+J. Karkazis,5083
+S. M. Gelston,5084
+S. Roseman,5085
+G. Iribarren,5086
+E. Danaher,5087
+G. S. Malindzak,5088
+R. A. Dwyer,5089
+T. Wong,5090
+D. G. Feitelson,5091
+J.-S. Wang,5092
+Thorsten Graf,5093
+J. N. Pato,5094
+J. Bar-Ilan,5095
+G. Ressler,5096
+F. W. Edge,5097
+M. Sharna,5098
+M. Mihal,5099
+Flip Korn,5100
+A. E. Middleditch,5101
+L. S. Davies,5102
+E. B. Baum,5103
+Alberto Paoluzzi,5104
+P. Oelhafen,5105
+H. S. McFaddin,5106
+D. O. Pederson,5107
+K. Fleischer,5108
+H. Devarajan,5109
+S. Salinger,5110
+L. V. Ahlfors,5111
+B. Reed,5112
+I. Baranav,5113
+K. Thompson,5114
+R. Mullin,5115
+R. Hoover,5116
+G. Eichman,5117
+K. J. Jacquemin,5118
+J. E. Beasley,5119
+Jorge Urrutia,5120
+P. Yan,5121
+Amit Sahai,5122
+K. H. Sears,5123
+G. M. Nielson,5124
+S. Kelley,5125
+M. Handy,5126
+G. Chrystal,5127
+P. Kearney,5128
+W. Brostow,5129
+S. R. Schubert,5130
+??,5131
+A. A. Kzylov,5132
+M.-M. Yau,5133
+J. M. Hart,5134
+K. Lee,5135
+J. A. Zarge,5136
+J. Misra,5137
+Glen Y. Watabayishi,5138
+N. Silver,5139
+R. L. Kashyap,5140
+Margrit Betke,5141
+C. Weigle,5142
+Bernard M. E. Moret,5143
+Jurgen Teich,5144
+J. Bruck,5145
+M. H. Nodine,5146
+Jeffrey S. Salowe,5147
+G. Rinaldi,5148
+H. Andrews,5149
+F. Modugno,5150
+R. F. Tobler,5151
+A. Vinacua,5152
+Stefan Nickel,5153
+R. M. Thrall,5154
+Arne Frick,5155
+R. M. Haralick,5156
+Sheung-Hung Poon,5157
+L. S. Milor,5158
+C. Mathieu,5159
+J. H. Chuang,5160
+Ngoc-Minh Le,5161
+D. J. Newman,5162
+H. S. Baird,5163
+P. K. Simpson,5164
+M. R. Garey,5165
+A. Abrous,5166
+Tomio Hirata,5167
+M. Vimawala,5168
+L. M. Billow,5169
+R. Giaccio,5170
+Erich Gamma,5171
+Jim Hollan,5172
+S. Kauffman,5173
+J. Ignatowicz,5174
+A. Toomre,5175
+Baruch Schieber,5176
+S. N. Bhatt,5177
+A. Joffe,5178
+Dinesh Bhatia,5179
+A. J. Cole,5180
+Yung-Chen Hung,5181
+C. Rosati,5182
+E. Sinajova,5183
+A. Josefczyk,5184
+E. Straus,5185
+D. J. Evans,5186
+E. H. William,5187
+S. Sechrest,5188
+Fujio Yamaguchi,5189
+C. P. Foo,5190
+A. B. van der Lugt,5191
+Ch. Kreitz,5192
+M. E. Newell,5193
+J. Y. Kim,5194
+B. Bhattacharya,5195
+R. Chadha,5196
+Thomas A. Funkhouser,5197
+A. Schweikard,5198
+D. E. Koditschek,5199
+D. Comer,5200
+Robin Liu,5201
+G. J. B. Williams,5202
+W. T. Tutte,5203
+T. Duchamp,5204
+V. Jarnik,5205
+Michael R. Fellows,5206
+E. F. D'Azevedo,5207
+W. Thomas,5208
+J. I. Naus,5209
+M. Werner,5210
+R. T. Farouki,5211
+P. Hertling,5212
+A. Y. Uteshev,5213
+Sherif Ghali,5214
+Fr. Fabricius-Bjerre,5215
+T. Huttner,5216
+A. Ludwig,5217
+G. Haring,5218
+A. Lazanas,5219
+M. J. Carpano,5220
+J. Demmel,5221
+S. Chattopadhyay,5222
+L. O'Brian,5223
+P. C. P. Carvalho,5224
+Philip Katner,5225
+Y. Yamamoto,5226
+C. Caratheodory,5227
+V. S. Tikunov,5228
+Gerth Stolting Brodal,5229
+W. V. D. Hodge,5230
+P. Gao,5231
+Per-Olof Fjallstrom,5232
+A. Marchetti-Spaccamela,5233
+M. Kreeb,5234
+Pedro Ramos-Alonso,5235
+V. Di Gesu,5236
+K. P. K. Nair,5237
+P. Sauer,5238
+C. M. Kyung,5239
+L. Mezzalira,5240
+M. Sudan,5241
+T. Christof,5242
+W. R. Hamilton,5243
+P. E. Gill,5244
+R. Aharoni,5245
+E. Erkut,5246
+S. J. Buckley,5247
+C. Gu,5248
+G. Reeb,5249
+J. Hoschek,5250
+B. Darce Wright,5251
+G. Delott,5252
+I. Adler,5253
+F. Al-Thukair,5254
+J. Chomicki,5255
+A. Charnes,5256
+G. Leach,5257
+G. R. Shevare,5258
+D. Forsyth,5259
+K. A. Savastyanov,5260
+Y. Kim,5261
+J. A. Dean,5262
+Y.-C. Wong,5263
+H. Toriya,5264
+N. Naor,5265
+D. L. Taylor,5266
+Jeffrey Scott Vitter,5267
+Z. T. Chen,5268
+S. E. O. Saeed,5269
+A. F. Smeaton,5270
+M. Furer,5271
+I. Nisbigaki,5272
+J. Zhang,5273
+D. Reiner,5274
+V. Srilakshmi,5275
+H. Fujimoto,5276
+Y. Hamidoune,5277
+Markus Welsch,5278
+Gyorgy Csizmadia,5279
+D. Gemmill,5280
+M. Goldstein,5281
+W. D. Hoskins,5282
+A. Kaldewaij,5283
+C. Arcelli,5284
+M. J. Lorenzetti,5285
+R. V. Benson,5286
+Alan W. Paeth,5287
+M. Farach-Colton,5288
+Azriel Rosenfeld,5289
+Hwan Pyo Moon,5290
+Y. L. Kergosien,5291
+Haim J. Wolfson,5292
+D. Vernon,5293
+D. P. Sanders,5294
+J. E. Rhodes,5295
+H. Griffiths,5296
+J. Semple,5297
+P. Brou,5298
+Jain,5299
+Andrew J. Hanson,5300
+J. Boreddy,5301
+J. E. Gary,5302
+P. Jacobs,5303
+E. Silla,5304
+J. E. Taylor,5305
+J. W. Roach,5306
+C. M. Hoffman,5307
+J. Brock,5308
+K. E. Batcher,5309
+D. Du,5310
+T. M. Nicholl,5311
+Cho Hwan-Gue,5312
+D. Shallcross,5313
+R. G. Jeroslow,5314
+R. C. Kirby,5315
+Ileana Streinu,5316
+E. Schwarzenecker,5317
+S. M. Pollock,5318
+J. Pearl,5319
+R. J. Walker,5320
+J. Manning,5321
+Qiong-Hua Zhan,5322
+B. W. Weide,5323
+Patrick Healy,5324
+Wein Chung Jiaan,5325
+T. Kat,5326
+V. Ph. Nguyen,5327
+J. A. Hoskins,5328
+Stephane Nullans,5329
+V. Soltan,5330
+S. Smale,5331
+J. I. Munro,5332
+V. Bokka,5333
+Paul Beame,5334
+G. Ziegler,5335
+Sven Skyum,5336
+J. L. Encarnacao,5337
+D. Roytenberg,5338
+Matthias John,5339
+M. W. Koch,5340
+W. Lipski,5341
+A. Maus,5342
+P. P. Chakrabarti,5343
+T. Shibuya,5344
+M. Nozik,5345
+Xiaotie Deng,5346
+Y. Huang,5347
+R. Zhao,5348
+M. Y. Chiu,5349
+K. Jogdeo,5350
+Goran Konjevod,5351
+D. Dolev,5352
+N. Levitt,5353
+B. Iyer,5354
+P. B. Mirchandani,5355
+M. Deza,5356
+M. Davis,5357
+T. Goldberg,5358
+W. Boehm,5359
+P. van Hentenryk,5360
+Han Wang,5361
+J. Darnauer,5362
+Wen-Hsiang Tsai,5363
+E. Bibelnieks,5364
+R. P. Burton,5365
+G. F. Carey,5366
+D. N. Shenton,5367
+T. H. Ma,5368
+J. Spencer,5369
+V. Swaminathan,5370
+H.-J. Luthi,5371
+G. Rives,5372
+Hiroshi Noborio,5373
+D. Chithra Prasad,5374
+G. M. Morton,5375
+F. R. Feito,5376
+T. Han,5377
+K. C. Gowda,5378
+J. Edington,5379
+E. Artzy,5380
+Hiroshi Sekigawa,5381
+M. Hausner,5382
+M. Capobianco,5383
+S. Coquillart,5384
+H. Shin,5385
+L. Parida,5386
+Colm O'Dunlaing,5387
+R. Raman,5388
+Albert H. J. Christensen,5389
+P. Effernan,5390
+E. S. Baugher,5391
+I. Kamel,5392
+K. Morgan,5393
+G. Stumme,5394
+K. Fukuda,5395
+R. H. J. M. Otten,5396
+A. Bookstein,5397
+J. Gretenkort,5398
+S. M. Rubin,5399
+C. Takizawa,5400
+Hartmut Noltemeier,5401
+L. Asimov,5402
+Ali Jaoua,5403
+L. Yu,5404
+I. E. Sutherland,5405
+Yih-Ping Huang,5406
+E. Strauss,5407
+G. Coleman,5408
+S. Nahar,5409
+W. Gellert,5410
+Thomas Wahl,5411
+Shelley Skinner,5412
+B. N. Clark,5413
+C. Hess,5414
+L. Lopez-Buriek,5415
+W. Thompson,5416
+A. R. Forrest,5417
+Keiko Imai,5418
+O. Kunieda,5419
+Gabor Tardos,5420
+Peter M. Remmele,5421
+M. A. Bernard,5422
+G. Ramanathan,5423
+M. S. Hecht,5424
+E. A. Sadek,5425
+K. W. Chan,5426
+A. Wu,5427
+C. K. Johnson,5428
+T. W. Stacey,5429
+K. Myszkowski,5430
+A. D. Robison,5431
+R. Hartshorne,5432
+G. C. Shepard,5433
+R. P. Boland,5434
+J.-L. Chu,5435
+G. O. Wesolowsky,5436
+Xiao-Yi Jiang,5437
+R. Weibel,5438
+Y. Inagaki,5439
+L. Buti,5440
+A. Plaza,5441
+J. Gray,5442
+T. F. Koetzle,5443
+Jian Huang,5444
+E. Moise,5445
+E. Szeto,5446
+H. S. Witsenhausen,5447
+Frederick T. Evers,5448
+T. A. Angelov,5449
+C. H. Sequin,5450
+J.-O. Lachaud,5451
+E. A. Patrick,5452
+W. Still,5453
+E. Clufff,5454
+I. M. Lucewicz,5455
+Friederike Korner,5456
+O. J. Murphy,5457
+R. Rasch,5458
+Anders Bjorner,5459
+S. J. Friedman,5460
+Elias Fayyad,5461
+J. Beardwood,5462
+Rodrigo Farias,5463
+P. T. Metaxas,5464
+P. C. Gilmore,5465
+Natalia de Castro,5466
+P. Kundu,5467
+F. Aschim,5468
+S. Srivastava,5469
+T. Hiraguchi,5470
+K. Preston,5471
+Tony C. Woo,5472
+Scott H. Lamson,5473
+K. I. Ikeuchi,5474
+I. Navazo,5475
+P. Malraison,5476
+P. Dario,5477
+Frank Hoffman,5478
+S. Onn,5479
+K. Hayashi,5480
+R. E. Bellman,5481
+T. Mietzener,5482
+K. Ray,5483
+D. L. Bodian,5484
+M. A. Hearst,5485
+N. Deo,5486
+John Danskin,5487
+G. Rhee,5488
+D. Bridges,5489
+J. Mohan,5490
+H. F. Durrant-Whyte,5491
+D. Eu,5492
+D. Zeltzer,5493
+P. B. Snedecor,5494
+H.-S. Chang,5495
+H. S. Ou,5496
+J. X. Rampon,5497
+S. T. Jones,5498
+M. Freestone,5499
+J. Wilhelms,5500
+M. A. Ganter,5501
+S. K. M. Wong,5502
+Th. Chadzelek,5503
+F.-S. Shieh,5504
+G. Cross,5505
+Wenhong Zhu,5506
+S. S. Ravi,5507
+Paz Carmi,5508
+F. Morgan,5509
+J. Bazik,5510
+Thomas Schreiber,5511
+P. J. McKerrow,5512
+Y. H. Chin,5513
+R. Hilbert,5514
+G. Gane,5515
+J. Greene,5516
+K. Sarkaria,5517
+Julius Konig,5518
+M. J. Castro-Diaz,5519
+P. O'Donnel,5520
+H. M. Alnuweiri,5521
+W. Wang,5522
+Naser S. Barghouti,5523
+I. Szalkai,5524
+F. C. Crow,5525
+I. N. Savvides,5526
+A. C. McKellar,5527
+A. Maciel,5528
+J. S. M. Vergeest,5529
+M. Reid,5530
+M. Strani,5531
+Frank Bartling,5532
+L. G. Proll,5533
+U. Manber,5534
+J. H. Wilkinson,5535
+P. C. Fishburn,5536
+A. Germa,5537
+F. W. Jansen,5538
+J. Plesnik,5539
+M. Lounsbery,5540
+J. Thackara,5541
+D. Kramlich,5542
+F. Flohr,5543
+H. R. Schwarz,5544
+J. Peiro,5545
+K. Culik,5546
+T. Yamanouchi,5547
+H. Gould,5548
+V. Yriarte,5549
+J. J. Troy,5550
+S. P. Madur,5551
+A. Chubarev,5552
+O. Zajicek,5553
+J. W. Hagerman,5554
+T. Creutzburg,5555
+K. R. Anderson,5556
+S. Pedroni,5557
+Randeep Bhatia,5558
+L. A. Piegl,5559
+J. Ryan,5560
+F. Glover,5561
+E. Caspary,5562
+Franz Aurenhammer,5563
+M. R. Anderberg,5564
+W. Du,5565
+Lyuba S. Alboul,5566
+M. S. Monmonier,5567
+J. Rooney,5568
+S. Jadhav,5569
+K. J. Falconer,5570
+A. Dolenc,5571
+P. Sprague,5572
+S. Sevec,5573
+M. F. Goodchild,5574
+L. Melkemi,5575
+Y.-H. Hwang,5576
+G. Polya,5577
+Thomas Kao,5578
+T. Ono,5579
+M. Boyer,5580
+Dorin Mangu,5581
+S. N. Srihari,5582
+C. M. Kenyon-Mathieu,5583
+L. Joskowicz,5584
+H. H. Barett,5585
+L. Bodin,5586
+G. Reinelt,5587
+M. B. Phillips,5588
+M. E. Mortenson,5589
+A. Tel,5590
+R. Kenyon,5591
+F. Haray,5592
+H. Honda,5593
+A. Lent,5594
+J. M. S. Prewitt,5595
+S. Saito,5596
+D. R. Chand,5597
+W. A. Barrett,5598
+Goos Kant,5599
+C. Jones,5600
+M. Bezem,5601
+Ian O. Angell,5602
+C.-J. Jeong,5603
+D. K. Pai,5604
+Pierre Kauffmann,5605
+A. Lastra,5606
+M. Ajtai,5607
+T. L. Isenhour,5608
+S. Parker,5609
+R. M. Gray,5610
+A. Wigderso,5611
+V. Murthy,5612
+Peter Auer,5613
+W. G. Aref,5614
+R. E. van Kampen,5615
+M. R. Hestens,5616
+Gerhard Klar,5617
+D. Y. Montuno,5618
+Bernd Behrends,5619
+C. Laugier,5620
+G. Fejes Toth,5621
+B. Dietrich,5622
+H. Freeman,5623
+Y. Zhuang,5624
+G. L. Nemhauser,5625
+M. Reddy,5626
+Y.-M. Chen,5627
+T. Zaslavsky,5628
+J. Vygen,5629
+A. Hansen,5630
+Y. Kaplan,5631
+Nicole Morawe,5632
+B. Chandra,5633
+D. L. B. Jupp,5634
+S. R. Alpert,5635
+U. Roy,5636
+R. Riesenfeld,5637
+D. A. Klip,5638
+J. W. Krussel,5639
+J. Bohm,5640
+R. Hope,5641
+R. D. Andreev,5642
+T. T. Warnock,5643
+A. Renyi,5644
+D. Vista,5645
+L. Lim,5646
+C. G. J. Jacobi,5647
+D. P. Huttenlocher,5648
+Atul Narkhede,5649
+W. Goddard,5650
+N. Ahuia,5651
+G. B. Dantzig,5652
+Jurg Nievergelt,5653
+R. Jayaraman,5654
+G. Martelli,5655
+Arunabha Sen,5656
+D. Zhou,5657
+E. M. Cagley,5658
+S. Cameron,5659
+H. Sato,5660
+J. Cong,5661
+T. Ohashi,5662
+L. Kuttner,5663
+D. Allen,5664
+J. Salmon,5665
+M. Mundhenk,5666
+B. Curless,5667
+Jiri Matousek,5668
+B. V. Dekster,5669
+A. Florian,5670
+C. B. Jones,5671
+M. A. Yerry,5672
+R. J. Bumcrot,5673
+V. Auletta,5674
+A. Ghos,5675
+R. E. Sweet,5676
+V. Rodel,5677
+R. J. Duffin,5678
+D. Cohen-Or,5679
+A. G. Ryman,5680
+V. J. Lumelsky,5681
+Eric A. Haines,5682
+J. L. Cleary,5683
+R. Pacheco,5684
+Joan Antoni Sellares,5685
+J. van Leeuwen,5686
+W. Mumbeck,5687
+Shoji Tominaga,5688
+Kwun-Nan Lin,5689
+M. A. Mendez,5690
+R. J. Anderson,5691
+Charles Delman,5692
+M. Collins,5693
+Hisamoto Hiyoshi,5694
+C. Hazlewood,5695
+Andrew Wallis,5696
+E. Le Bras-Mehlman,5697
+U. Pferschy,5698
+H. Seifert,5699
+J. Kripac,5700
+U. G. Gujar,5701
+J. L. Gerver,5702
+J. P. Hutchinson,5703
+L. T. Steyaert,5704
+D. Lishinski,5705
+P. Kelly,5706
+B. J. Schachter,5707
+J. D. Lawrence,5708
+J. E. Morais,5709
+D. Gardy,5710
+S. C. Chang,5711
+A. Strong,5712
+W. Burton,5713
+G. Swiatek,5714
+I. S. Manoach,5715
+M. A. G. Abushagur,5716
+M. Laborie,5717
+Behzad Shariat,5718
+Eyal Flato,5719
+Christopher R. Johnson,5720
+M. Senechal,5721
+G. Markowsky,5722
+P. F. Fisher,5723
+A. Rosenberg,5724
+W. Murray,5725
+D. S. Majcher,5726
+J. Incerpi,5727
+Roman Smolensky,5728
+S. G. Shulyak,5729
+R. B. McMaster,5730
+K. Singhal,5731
+Raj Shekhar,5732
+C. Douglass Bateman,5733
+A. V. Pogorelov,5734
+J. Eckstein,5735
+V. Neumann-Lara,5736
+J. Snively,5737
+J. Mark Keila,5738
+H. L. Tan,5739
+Fumihiko Takeuchi,5740
+A. K. Lin,5741
+S. Rane,5742
+M. Eisner,5743
+H. Vaccaro,5744
+P. Sarnak,5745
+D. J. A. Welsh,5746
+Kokichi Sugihara,5747
+D. Eggert,5748
+C.-L. Chen,5749
+W. J. Kaufmann,5750
+A. Oxley,5751
+A. Arya,5752
+H. Freeston,5753
+Y. Han,5754
+Rudiger Rudolf,5755
+Michael Wolfrath,5756
+Z. M. Ozsoyoglu,5757
+M. Garland,5758
+P. Lemke,5759
+J. R. Driscoll,5760
+H. A. G. Wijshoff,5761
+Stefan Funke,5762
+Yana Yarmovski,5763
+C. McCreary,5764
+E. M. Wright,5765
+Y. K. Hwang,5766
+B. Buttenfield,5767
+P. R. Turner,5768
+R. Ayala,5769
+P. Kortum,5770
+S. Matsui,5771
+J. C. Maxwell,5772
+J.-M. Steyaert,5773
+C. C. Jorgensen,5774
+P. Kochevar,5775
+J.-P. Faye,5776
+R. M. Mason,5777
+R. D. Duppe,5778
+R. Reiterman,5779
+Edward J. Coyle,5780
+R. C. Rosenberg,5781
+J. Radon,5782
+T. J. Peters,5783
+L. Velho,5784
+C. L. Monma,5785
+R. Lancewicki,5786
+L. Martha,5787
+A. de Pennington,5788
+Eugenio Roanes-Lozano,5789
+S. Fukuda,5790
+A. Mostowski,5791
+W. Carruthers,5792
+M. Fidrich,5793
+G. Turk,5794
+S. Molnar,5795
+L. S. David,5796
+F. Chung,5797
+D. Dodson,5798
+R. J. Donaghy,5799
+M. Manav,5800
+M. Raghavan,5801
+D. Kirk,5802
+Y. Lin-Kriz,5803
+S. Ceri,5804
+J. V. Whittaker,5805
+S. Fisk,5806
+B. Raghavachari,5807
+N. G. de Bruijn,5808
+C. Dwork,5809
+Zhenbing Zeng,5810
+R. B. Hayward,5811
+S. J. Wan,5812
+J. A. Goldack,5813
+G. Sonnevend,5814
+G. Ding,5815
+Hansong Zhang,5816
+M. Muller,5817
+F. M. Richards,5818
+A. Tuchman,5819
+E. Jansen,5820
+Stan Wagon,5821
+E. Sedgwick,5822
+A. G. Ranade,5823
+Lluis Ros,5824
+C. Ding,5825
+W. K. Luk,5826
+Shiaofen Fang,5827
+Daniel Cohen,5828
+N. Ahuja,5829
+H. Bruggesser,5830
+J. Gravesen,5831
+C. Wetherell,5832
+B. S. Duncan,5833
+Christian Icking,5834
+R. Berger,5835
+G. S. Moss,5836
+N. S. Wee,5837
+W. Y. Sit,5838
+A. Ambler,5839
+S. Nagashima,5840
+A. Smellie,5841
+K. Sekitani,5842
+T.-Y. Li,5843
+D. Vallejo,5844
+D. L. Huff,5845
+J. Kincses,5846
+T. S. Huang,5847
+R. Kaye,5848
+E. Helly,5849
+Stefan Felsner,5850
+K. Morken,5851
+R. J. Woodham,5852
+A. Layman,5853
+C. Wieners-Lummer,5854
+Y. Ichioka,5855
+S. J. Bridgett,5856
+A. Rudich,5857
+P. Biscondi,5858
+C. Saona-Vazquez,5859
+G. Srinivasaraghavan,5860
+Sergei N. Bespamyatnykh,5861
+Shmuel Gal,5862
+Joseph O'Rourke,5863
+N. Sauer,5864
+Chandrasekhar Narayanaswami,5865
+F. Bancilhon,5866
+R. Hyde,5867
+R. Franke,5868
+C. Godard,5869
+Reinhard Hainz,5870
+Oliver Sniehotta,5871
+R. G. Bland,5872
+M. Lu,5873
+R. J. P. de Figueiredo,5874
+P. Erdos,5875
+D. S. Tudhope,5876
+Riko Jacob,5877
+A. T. Fomenko,5878
+H. Koike,5879
+D. R. Reddy,5880
+M. M. Kapranov,5881
+R. Gillespie,5882
+Drago Krznaric,5883
+L. Meertens,5884
+Ivana Kolingerova,5885
+T. Barrera,5886
+J. Goldsmith,5887
+Elsa Omana-Pulido,5888
+D. A. Keim,5889
+Sergio Jesus,5890
+J. Levin,5891
+R. C. Brost,5892
+R. J. Gardner,5893
+Charles L. Lawson,5894
+P. Marchioro,5895
+J. J. Dongarra,5896
+D. Scott,5897
+A. Melkman,5898
+Klaus Kursawe,5899
+P. G. Bao,5900
+M. Jerrum,5901
+G. H. Hostetter,5902
+J. B. Dezell,5903
+Geetika Tewari,5904
+G. A. Kabatjansky,5905
+J. A. Yorke,5906
+R. A. Brooks,5907
+A. H. Stroud,5908
+J. Siegel,5909
+Narcis Coll,5910
+P. Ungar,5911
+Colin Verrilli,5912
+W. J. Milne,5913
+David Harel,5914
+C. Crane,5915
+C. Sturtivant,5916
+S. V. N. Rao,5917
+A. Medepalli,5918
+B. Zalik,5919
+C. Stein,5920
+F. Newbery,5921
+O. Monga,5922
+Olivier Devillers,5923
+A. A. Stepanov,5924
+S. Rajasekaran,5925
+L. Hodes,5926
+John Rawlinson,5927
+A. Rodriguez-Chia,5928
+C. Batini,5929
+F. Baskett,5930
+Y. Du Terrail,5931
+C. Levin,5932
+G. L. Xue,5933
+A. A. LaPaugh,5934
+H. I. Price,5935
+P. C. Mathias,5936
+Y. Yemini,5937
+A. Baltsan,5938
+E. E. Abola,5939
+R. Petreschi,5940
+E. P. F. Chan,5941
+G. Musiol,5942
+H. F. Jordan,5943
+E. J. McShane,5944
+M. Shantz,5945
+S. Rubinstein,5946
+Q. Hu,5947
+Mohan S. Kankanhalli,5948
+P. Volino,5949
+D. Pierre,5950
+S. Dasgupta,5951
+M. L. Marquez Garcia,5952
+M. Zubaer,5953
+P. Plassman,5954
+D. Herbison-Evans,5955
+J. Aspnes,5956
+M. Reid-Miller,5957
+C. W. Lee,5958
+M. Gross,5959
+W. Leister,5960
+Ben-Tzvi,5961
+J. Edwards,5962
+L. A. McGeoch,5963
+G. M. Hunter,5964
+J. E. S. Macleod,5965
+W. Sharp,5966
+H. D. Shapiro,5967
+P. K. Sen,5968
+P. Dublish,5969
+M. E. Corthout,5970
+A. Galligo,5971
+W. S. Massey,5972
+T. S. Gieng,5973
+D. J. Orser,5974
+S. B. M. Bell,5975
+I. J. Palmer,5976
+Christian R. Shelton,5977
+W. J. Fitzgerald,5978
+R. Featherstone,5979
+D. H. Lewis,5980
+P. Stangier,5981
+Ilya Eckstein,5982
+J. Bokowski,5983
+G. G. Robertson,5984
+B. M. Steward,5985
+M. F. Cohen,5986
+T. Leipaelae,5987
+P. F. Stiller,5988
+Y. Pomeau,5989
+T. Whelan,5990
+S. W. Bova,5991
+V. J. Dielissen,5992
+J. P. Walsh,5993
+C. Shen,5994
+L.-Q. Pan,5995
+W. I. Grosky,5996
+H. S. M. Coxeter,5997
+M. Iwayama,5998
+K. P. Vo,5999
+J. McGrew,6000
+R. S. Wenocur,6001
+Sylvain Pion,6002
+Y. T. Chien,6003
+R. G. Cromley,6004
+M. Penttonen,6005
+P. R. Meyer,6006
+J. Eyles,6007
+M. D. Hendy,6008
+Shih-Chuan Hung,6009
+R. Alami,6010
+M. Schkolnick,6011
+B. Simeone,6012
+J. Ashley,6013
+Andy Mirzaian,6014
+J. A. Cerbrian,6015
+R. J. Garnder,6016
+D. Bini,6017
+Jesus Valenzuela,6018
+B. Harris,6019
+T. Miyazawa,6020
+J. C. Zamiska,6021
+L. V. Nosov,6022
+Constantinos Siniolakis,6023
+Russell Woodroofe,6024
+Luis F. Garcia,6025
+K. Aardel,6026
+D. Nath,6027
+C. O. Frederick,6028
+S. C. DeSarkar,6029
+M. T. Mason,6030
+L. Jackson,6031
+R. K. Bullough,6032
+S. Edmondson,6033
+G. Fowler,6034
+Jingsen Chen,6035
+N. Zadeh,6036
+H. Fuchs,6037
+G. J. Ward,6038
+Uwe Behrens,6039
+Satyan Coorg,6040
+P. Vincensini,6041
+S. Ganapathy,6042
+S. K. Stein,6043
+A. J. van Doorn,6044
+D. E. Hewgill,6045
+Antonio Oliveira,6046
+R. G. Wilson,6047
+A. Krawczyk,6048
+R. Descartes,6049
+J. Hafner,6050
+Y. Ke,6051
+L. J. H. Pannan,6052
+S. Mori,6053
+M. Nakajima,6054
+N. Kehtarnavaz,6055
+D. Zhang,6056
+Vincent Lefevre,6057
+P. Bozanis,6058
+R. Ray,6059
+P. Kleinschmidt,6060
+J.-M. Tang,6061
+Virginia Urrutia-Galicia,6062
+D. Hoey,6063
+B. P. Johnston,6064
+C. Adams,6065
+C. J. Van Westen,6066
+H. Goldstein,6067
+B. Carlisle,6068
+R. Barrera,6069
+S. Osher,6070
+Leo Joskowitz,6071
+Juliette Leblond,6072
+M. B. Sandler,6073
+Ronald Beirouti,6074
+C. Storb,6075
+M. Kolinek,6076
+D. D. Grossman,6077
+David Hsu,6078
+J. Hynd,6079
+M. Ranganathan,6080
+R. Jayakumar,6081
+E. Ochoa,6082
+Armando Parise,6083
+S. Teig,6084
+I. J. Boxma,6085
+E. Gilbert,6086
+L. N. Kanal,6087
+D. Naor,6088
+J. S. Sandberg,6089
+D. W. Jones,6090
+Y. C. Chen,6091
+F. S. Hill,6092
+O. Chein,6093
+Sarofim,6094
+J. A. Sreider,6095
+P. E. Hart,6096
+G. C. Carey,6097
+J. C. Herve,6098
+K. Asano,6099
+D. Gunopulos,6100
+M. Stark,6101
+R. Hacker,6102
+M. Yokayama,6103
+J. S. Tilford,6104
+O. Berkman,6105
+E. G. Hoffman,6106
+B. Y. S. Wong,6107
+M. J. D. Powell,6108
+L. Pitt,6109
+M. Lassak,6110
+D. Crockett,6111
+A. Vijh,6112
+E. A. Dinitz,6113
+S. E. Poltrock,6114
+M. Dao,6115
+D. Mumford,6116
+Karl Abrahamson,6117
+R. E. Miller,6118
+Albrecht Durer,6119
+R. Muller,6120
+Ala Eddine Barouni,6121
+J. Dolan,6122
+C. S. Helvig,6123
+J. L. Schwing,6124
+D. S. Mitrinovic,6125
+Marcel Worring,6126
+Mohammadreza Razzazi,6127
+C. Livingston,6128
+R. P. Paul,6129
+L. Stockmeyer,6130
+J. Maekawa,6131
+Michael Gervautz,6132
+T. G. Tarjan,6133
+J. H. Spencer,6134
+G. Elekes,6135
+J. Kobler,6136
+Christoph A. Hipke,6137
+Elena Degtiariora-Kostova,6138
+Javier Tejel,6139
+N. Littlestone,6140
+P. A. Tanguy,6141
+J. Lee,6142
+T. Catarci,6143
+D. Singerman,6144
+L. W. Nagel,6145
+J. P. Ignizio,6146
+S. Youssef,6147
+B. Davis,6148
+R. Mannss,6149
+J. Richter,6150
+F. Newbery Paulisch,6151
+D. Blackmore,6152
+J. Tygar,6153
+D. W. Barnette,6154
+K. Kaugars,6155
+K. Mahler,6156
+B. N. Chatterji,6157
+B. Bollobas,6158
+J. J. Uhl,6159
+P. Schapira,6160
+Richard Helm,6161
+G. H. Jense,6162
+T. Smith,6163
+R. M. Dudley,6164
+J. Nesetril,6165
+M. L. Kersten,6166
+T. J. Wagner,6167
+S. B. Navathe,6168
+N. Huang,6169
+M. Tikkanen,6170
+G. O. Wesolowski,6171
+Alexandra Fronville,6172
+Attawith Sudsang,6173
+K. Shim,6174
+H. G. Robertson,6175
+K. Mukhopadhyaya,6176
+A. Saint-Paul,6177
+Chen Li,6178
+Bih-Yaw Shih,6179
+G. Perrot,6180
+P. W. Fowler,6181
+N. Szafran,6182
+M. Minoux,6183
+R. C. Woo,6184
+Garret,6185
+D. C. S. Allison,6186
+Robert V. Rubin,6187
+G. P. Barker,6188
+Christian Zelle,6189
+T. Dokken,6190
+A. A. Diwan,6191
+J. W. Tukey,6192
+S. Nordbeck,6193
+C. K. Ray,6194
+K. P. Bogart,6195
+Robert Laurini,6196
+R. Wille,6197
+I. Weiss,6198
+L. Goddyn,6199
+T. Bially,6200
+J. JaJa,6201
+A. Lubotzky,6202
+P. M. Lankford,6203
+W. I. Pribble,6204
+P. Slusallek,6205
+B. J. Sanderson,6206
+Serge Pontier,6207
+L.-L. Chen,6208
+G. P. J. F. M. Maas,6209
+H. N. Gursoy,6210
+M. T. Eismann,6211
+D. L. Hansen,6212
+M. J. Lai,6213
+M. Queyranne,6214
+E. Zijlstra,6215
+P. Chou,6216
+P. Dierckx,6217
+R. Bott,6218
+Y.-C. Chou,6219
+Dana Lischinski,6220
+D. C. Anderson,6221
+Darka Mioc,6222
+S. Raghothama,6223
+C. Wayne Mastin,6224
+H. Harborth,6225
+E. Wolfson,6226
+T. Munzner,6227
+G. Davis,6228
+P. Milne,6229
+L. R. Nackman,6230
+Harald Lauer,6231
+J. Baracs,6232
+K. Tonnies,6233
+B. Garlick,6234
+M. McLeish,6235
+Luis M. Pardo,6236
+A. Huang,6237
+H. Y. F. Feng,6238
+L. Habsieger,6239
+Y. S. Kupitz,6240
+D. F. Rogers,6241
+G. Even,6242
+C. Ballieux,6243
+C. D. Gelatt,6244
+C. Suen,6245
+Chandra Chekuri,6246
+W. R. Oakes,6247
+M. Sobel,6248
+A. Bogomolny,6249
+M. Zachariasen,6250
+S. Troubetzkoy,6251
+D. J. Guan,6252
+S. Openshaw,6253
+Sudipto Guha,6254
+C. B. Allendoerfer,6255
+D. Broch,6256
+Limin Hu,6257
+R. Glen,6258
+S. A. Orszag,6259
+S. B. Akers,6260
+W. Hansmann,6261
+P. Dagum,6262
+D. A. Plaisted,6263
+R. MacPherson,6264
+J. Stoer,6265
+I. Paschinger,6266
+M. Naor,6267
+K.-I. Ko,6268
+D. S. Fussell,6269
+G.-V. Jourdan,6270
+R. A. Walpole,6271
+Tom Roxborough,6272
+H. Whitney,6273
+W. A. Burkhard,6274
+J. K. Krouse,6275
+P. Madden,6276
+G. Lukacs,6277
+S. A. Coons,6278
+G. Appa,6279
+A. Meng,6280
+A. I. Sourin,6281
+W. J. Bouma,6282
+F. D. Torrisi,6283
+Mircea Dragan,6284
+W. Niblack,6285
+D. E. Culler,6286
+E. Feig,6287
+A. B. Forbes,6288
+N. Papadakis,6289
+Anne Sjerp Troelstra,6290
+H. Kastner,6291
+R. Sedgewick,6292
+R. Brand,6293
+L. C. Chalmet,6294
+B. W. Silverman,6295
+P. Wolfe,6296
+Maritin Jones,6297
+R. Suaya,6298
+E. Lockwood,6299
+Lihong Ma,6300
+G. Hernandes,6301
+H. J. Sussmann,6302
+S. Louis Hakimi,6303
+Kurt Mehlhorn,6304
+F. Stenger,6305
+D. Gries,6306
+T. Davis,6307
+Jochen Konnemann,6308
+C. Bliek,6309
+M. Benouamer,6310
+M. Weiss,6311
+G. Carey,6312
+F. P. Fisher,6313
+Da-Wei Wang,6314
+R. Beigel,6315
+Karsten Weihe,6316
+W. M. Schmidt,6317
+K. J. Lieberherr,6318
+A. B. Gurevich,6319
+Y. Eldar,6320
+M. Alfaro,6321
+A. Mirante,6322
+P. V. Poblete,6323
+P. Fischer,6324
+Michael E. Houle,6325
+Y. Rabani,6326
+Takashi Hoshino,6327
+Q. S. Peng,6328
+D. P. Bertsekas,6329
+J. A. Rush,6330
+Frank J. Bossen,6331
+D. W. Krumme,6332
+Dana S. Nau,6333
+A. Koutsou,6334
+T. Kamada,6335
+F. R. K. Chang,6336
+J. Foisy,6337
+D. Ferguson,6338
+Jean-Pierre Reveilles,6339
+B. M. Mostue,6340
+P. Rheingans,6341
+C. E. Blair,6342
+H. Yahia,6343
+M. Hall,6344
+A. G. Guy,6345
+Soo-Won Chae,6346
+K. Sridharan,6347
+S. Dubowsky,6348
+S. A. Burr,6349
+A. Baer,6350
+T. Gallai,6351
+P. Brown,6352
+Christoph Rohrer,6353
+R. Brockett,6354
+P. Charrot,6355
+W. Dankwort,6356
+V. N. Hanh,6357
+A. Raghunathan,6358
+J. Araoz,6359
+Derek Holton,6360
+W. Bucher,6361
+N. C. MacDonald,6362
+T. H. Hong,6363
+J. Bose,6364
+U. Grenander,6365
+A. Montanvert,6366
+V. J. Kollias,6367
+J. K. Ousterhout,6368
+H. Tu,6369
+G. Schaufler,6370
+Paul-Andre Monney,6371
+R. D. Lou,6372
+Thomas Fevens,6373
+Caterina Pienovi,6374
+L. C. Larson,6375
+J. F. Weng,6376
+S. Ludke,6377
+Walter Whiteley,6378
+Ravi Kumar,6379
+Joel Hass,6380
+G. T. Houlsby,6381
+Fladt,6382
+J. R. Munkers,6383
+J. Q. Walker,6384
+R. Schreiber,6385
+Y. Hara,6386
+P. T. Bateman,6387
+D. W. Hall,6388
+N. Sleumer,6389
+M. E. Rudin,6390
+L. Huguet,6391
+J. H. Rohlf,6392
+Ulrich Finke,6393
+T. Milo,6394
+D. E. G. Hare,6395
+M. Stefik,6396
+S. Chaiken,6397
+M. de Carmo,6398
+J. Zhu,6399
+J. W. Boyse,6400
+D. A. White,6401
+Weiqing He,6402
+L. Lovaz,6403
+H. Sowizral,6404
+G. W. Hart,6405
+E. Johnson,6406
+L. K. Dale,6407
+M. Naranjo,6408
+N. Blum,6409
+O. Zariski,6410
+S. Foldes,6411
+W. Whitely,6412
+B. H. Houston,6413
+D. H. Laidlaw,6414
+A. Yoshida,6415
+N. C. Kenkel,6416
+D. Lichtenstein,6417
+R. Kent Goodrich,6418
+Z. J. Wang,6419
+F. John,6420
+I. S. Filotti,6421
+J. A. White,6422
+D. Glasser,6423
+P. Garvan,6424
+S. K. Murthy,6425
+V. J. Lumelski,6426
+P. Valentin,6427
+B. J. Park,6428
+D. Tallot,6429
+Z. C. Shih,6430
+G. Vanecek,6431
+K. B. Salomon,6432
+K. W. Mahin,6433
+P. Bratley,6434
+S. Chou,6435
+J. Dozier,6436
+P. M. Dearing,6437
+D. P. Wang,6438
+A. Hensel,6439
+A. Hicks,6440
+W. M. Newman,6441
+P. D. Gilbert,6442
+C.-F. Shen,6443
+G. Dettori,6444
+G. Poole,6445
+C. Schevon,6446
+H. Hirukawa,6447
+R. Hoshino,6448
+E. Hertel,6449
+R. A. Schumacker,6450
+B. Birgisson,6451
+D. Applegate,6452
+M. Dietzfelbinger,6453
+R. Norwood,6454
+S. Gao,6455
+James W. Cooper,6456
+Mark Gammon,6457
+D. T. Kuan,6458
+Ralph Johnson,6459
+R. J. Marisa,6460
+N. Nakajima,6461
+H. David Mathias,6462
+Tiziana Calamoneri,6463
+Rakesh D. Barve,6464
+E. R. Berlekamp,6465
+K. Suresh,6466
+H. Kustner,6467
+G. F. Sullivan,6468
+J. MacQueen,6469
+T. Risset,6470
+A. Tamura,6471
+Stefan Langerman,6472
+F. W. Burton,6473
+Y.-L. Lin,6474
+A. Brandstadt,6475
+S. Kasif,6476
+F. Krueger,6477
+M. Brokowski,6478
+V. Ramasubramanian,6479
+S. Ansaldi,6480
+S. E. Laux,6481
+M. H. Raibert,6482
+A. Lin,6483
+R. Galimberti,6484
+B. Seeger,6485
+Robert D. Miller,6486
+J. Stolfi,6487
+D. H. Withers,6488
+S. Kobayashi,6489
+Waldir L. Roque,6490
+C. A. Neff,6491
+K. Yamaguchi,6492
+M. E. Lesk,6493
+J. May,6494
+A. Brini,6495
+T. Cassen,6496
+S. Papert,6497
+F. Gracer,6498
+I. Koren,6499
+G. Van den Bergen,6500
+Nicolas C. Wormald,6501
+M. J. Spriggs,6502
+P. Parodi,6503
+I. M. Sobol,6504
+E. Soisalon-Soininen,6505
+J. A. Wald,6506
+R. L. Chazin,6507
+M. Bousset,6508
+H. C. Morris,6509
+A. Balog,6510
+Y. Kotidis,6511
+S. Geman,6512
+Mikkel Thorup,6513
+J. Cowles,6514
+M. W. Brucker,6515
+M. T. Noga,6516
+Z. L. Cao,6517
+M. J. Cieselski,6518
+P. Brunetti,6519
+W. Garret,6520
+N. DeJong,6521
+A. Moran,6522
+L. Antoine,6523
+I. Beichl,6524
+G. Kedem,6525
+K. J. Scott,6526
+David Bremmer,6527
+Y. Ohta,6528
+F. G. Boese,6529
+H. Minkowski,6530
+E. L. Lloyd,6531
+B. Mohammadi,6532
+G. Bohlender,6533
+M. Shub,6534
+J. Ahn,6535
+G. M. Birtwistle,6536
+R. Kong,6537
+Stuart M. Schieber,6538
+D. G. Thielman,6539
+M. Friedell,6540
+G. L. Ritter,6541
+A. V. Royappa,6542
+H. K. Choi,6543
+S. Berchtold,6544
+G. Dahlquist,6545
+R. Grinwald,6546
+L. Israel,6547
+A. H. Barr,6548
+G. Miller,6549
+M. D. Altschuler,6550
+J. Csima,6551
+C. C. Lee,6552
+P. M. Lewis,6553
+R. A. Wagner,6554
+Eugene Fink,6555
+K. M. Lynch,6556
+K. Simon,6557
+H. P. Croft,6558
+C. Chryssostomidis,6559
+L. Greengard,6560
+H. C. Andrews,6561
+D. Wilkins,6562
+V. Hauk,6563
+E. G. Coffman,6564
+Y. Montaudin,6565
+T. M. Cover,6566
+Pierre-Marie Gandoin,6567
+T. Zhou,6568
+T. C. Tuan,6569
+S. Anderson-Freed,6570
+D. Chetverikov,6571
+W. Stuerzlinger,6572
+D. Zepf,6573
+A. S. Besicovitch,6574
+T. Sellis,6575
+D. J. Brown,6576
+D. Doo,6577
+Saul I. Gass,6578
+D. Dor,6579
+D. H. Hubel,6580
+D. M. Mark,6581
+L. G. Jones,6582
+Yin-Feng Xu,6583
+Curtis R. Mitchell,6584
+P. L. Powar,6585
+R. Ronfard,6586
+H. Taniguchi,6587
+K. Y. Fung,6588
+L. Robbiano,6589
+M. Homma,6590
+M.-C. Forgue,6591
+D. G. Larman,6592
+G. P. Robinson,6593
+A. K. Noor,6594
+J. Tanida,6595
+E. Chapuis,6596
+S. K. Parui,6597
+B. Monien,6598
+Jyh-Jong Fu,6599
+V. K. Prasanna,6600
+G. Fabella,6601
+Masatoshi Niizeki,6602
+E. Bombieri,6603
+K. A. Dowsland,6604
+A. Bar-Noy,6605
+K. Hayase,6606
+F. Herzog,6607
+A. Friedberg,6608
+A. Zucco,6609
+T. C. Enns,6610
+M. Tuceryan,6611
+R. J. Lipton,6612
+Michael G. Lamoureux,6613
+G. R. Veldkamp,6614
+G. M. Faust,6615
+R. K. Culley,6616
+L. Wernisch,6617
+E. Dahlhaus,6618
+Murtagh,6619
+R. J. Schilling,6620
+M.-E. Vafiadou,6621
+K. E. Magurn,6622
+O. R. Oellermann,6623
+D. Alberts,6624
+U. Flemming,6625
+Allan Hatcher,6626
+R. A. Jinkerson,6627
+J. W. Liu,6628
+D. Salzman,6629
+G. Pick,6630
+D.-Y. Liu,6631
+A. T. Pang,6632
+Z. Galil,6633
+W. B. Seals,6634
+Ivan J. Balaban,6635
+Y. E. Kalay,6636
+H.-K. Zhao,6637
+K. Onoguchi,6638
+P. Mennecke,6639
+S. Winograd,6640
+R. K. Shyamasundar,6641
+M. L. Stein,6642
+A. Scott,6643
+O. B. Widlund,6644
+K. Chan,6645
+Greg Nelson,6646
+S. Kleiman,6647
+J. Renegar,6648
+J. Jameson,6649
+O. Brynghdahl,6650
+P. Rousseau,6651
+N. Alon,6652
+P. N. Klein,6653
+J. Levy-Vehel,6654
+J. Schwartz,6655
+C. W. Dodge,6656
+Auxiliadora Moreno-Gonzalez,6657
+Klaus Kriegel,6658
+S. A. Plotkin,6659
+C. Watt,6660
+R. P. Dilworth,6661
+N. D. McKay,6662
+T. P. Murtagh,6663
+B. Brunet,6664
+B. Rennie,6665
+A. Gorpinevich,6666
+A. Dessmark,6667
+R. P. Krishnaswamy,6668
+K. Vesztergombi,6669
+R. S. Francis,6670
+A. Schonhage,6671
+V. V. Nikulin,6672
+K. Appel,6673
+D. Muller,6674
+Jun-Ya Takahashi,6675
+Martin Stumpf,6676
+A. A. Kooshesh,6677
+J. R. Meehan,6678
+Tran Quoc Nam,6679
+H. S. Chao,6680
+S. Li,6681
+V. Radhakrishnan,6682
+T. Jiang,6683
+Jonathan Berry,6684
+G. Richelli,6685
+U. Shaft,6686
+D. Walkup,6687
+S. W. Hornick,6688
+R. Saigal,6689
+T. E. Fuhrman,6690
+E. M. Ronchetti,6691
+J. Flaquer,6692
+Bhargab B. Bhattacharya,6693
+Tim Culver,6694
+N. Hodges,6695
+M. Delarche,6696
+T. Gargiulo,6697
+R. B. Simpson,6698
+D. Wilson,6699
+G. F. Voronoi,6700
+Z. Furedi,6701
+J. Singer,6702
+C. Kruskal,6703
+H. Rosenberger,6704
+Gerd Stockl,6705
+A. Garcia-Alonso,6706
+Y. Zhu,6707
+T. Y. Kong,6708
+Frank Hwang,6709
+M. A. Stuff,6710
+X. L. Li,6711
+M. A. Gantner,6712
+B. K. Schmidt,6713
+A. A. Goldstein,6714
+H. J. Sussman,6715
+R. Walker,6716
+Gerhard M. Trippen,6717
+T. Zhang,6718
+A. van Dam,6719
+Daniel A. Spielman,6720
+L. Weitzman,6721
+Bettina Speckmann,6722
+D. A. Patterson,6723
+W. H. E. Day,6724
+J. Spiegels,6725
+N. E. Steenrod,6726
+A. S. Argon,6727
+P. Woon,6728
+R. Klette,6729
+Werner Hoelbling,6730
+H. W. Calkins,6731
+P. Di Francesco,6732
+Stephane Perennes,6733
+Karin Weinbrecht,6734
+M. Elbaz,6735
+D. A. Schaefer,6736
+S. Kahn,6737
+O. B. Bayazit,6738
+C. Neumann-Lara,6739
+Shang-Sheng Liu,6740
+B. Jeromin,6741
+V. C. Bhavsar,6742
+Lori Freitag,6743
+R. J. Popplestone,6744
+F. Bagemihl,6745
+R. A. Jarvis,6746
+O. Kakusho,6747
+B. Roth,6748
+E. Althaus,6749
+J. Teuhola,6750
+F. J. Newbery,6751
+P. C. P. Bhatt,6752
+D. Reif,6753
+C. Coullard,6754
+J. P. Pratt,6755
+P. E. Ehrlich,6756
+A. Szymczak,6757
+M. Lindenbaum,6758
+I. Ihm,6759
+T. L. Morin,6760
+D. R. Fowler,6761
+Y. F. Wang,6762
+A. P. Akimov,6763
+E. Balas,6764
+Xin He,6765
+E. Boender,6766
+LeonBattista Donati,6767
+J. R. Bunch,6768
+Tatiana Surazhsky,6769
+R. D. Merrill,6770
+H. Jaouni,6771
+J. Vandergraft,6772
+Dave Logothetti,6773
+Sung Yong. Shin,6774
+Jean-Michel Muller,6775
+Clovis Maliska,6776
+Giuseppe di Battista,6777
+P. Schmitt,6778
+Phillips,6779
+Gregorio Hernandez-Penalver,6780
+R. Thomas,6781
+D. E. Muller,6782
+K. Bohmer,6783
+R. Durier,6784
+N. Graham,6785
+N. Yazdani,6786
+M. Roussille,6787
+M.-S. Chern,6788
+H. G. Eggleston,6789
+Jianer Chen,6790
+Y. Maon,6791
+R. S. Palmer,6792
+C. W. Clenshaw,6793
+R. Swaminathan,6794
+H. J. Frost,6795
+L. Andor,6796
+G. F. Jenks,6797
+Hank Chien,6798
+H.-C. Lee,6799
+P. Epstein,6800
+I. Kojima,6801
+E. Bishop,6802
+J. E. Greivenkamp,6803
+B. L. Fox,6804
+J. J. Bausch,6805
+N. R. Sakevile Hamilton,6806
+R. Rasala,6807
+C. Lantuejoul,6808
+?? Tezuka,6809
+K.-I. Lin,6810
+O. Giering,6811
+D. J. Bertsimas,6812
+W. Eric,6813
+V. G. Ajjanagadde,6814
+K. E. Brassel,6815
+Jeffrey C. F. Tsang,6816
+H. Saran,6817
+I. Kalantari,6818
+J. Hinds,6819
+R. Lin,6820
+C. T. Zahn,6821
+D. C. Gossard,6822
+Alexander Wolf,6823
+D. Yellin,6824
+R. Schindler,6825
+F. L. Allgower,6826
+D. Al-Khalili,6827
+K. Y. Hung,6828
+M. R. Henderson,6829
+A. Misra,6830
+R. Adamec,6831
+P. Rogerson,6832
+K. F. Stout,6833
+L. R. Simar,6834
+H. P. F. Swinnerton-Dyer,6835
+H. Groemer,6836
+Dmitry Nekhayev,6837
+A. Sirjani,6838
+W. Hamel,6839
+J. Gilbert,6840
+R. Randell,6841
+Sara do Nascimento,6842
+J. E. Gilchrist,6843
+Alejo Hausner,6844
+W. A. Hunt,6845
+J. Tang,6846
+J. E. Wetzel,6847
+A. Steger,6848
+G. Springer,6849
+Y. Shiloac,6850
+A. Dumitrescu,6851
+J. A. Wieacker,6852
+J. G. van Wijk,6853
+G. Laporte,6854
+K. Maruyama,6855
+S. Levialdi,6856
+Y. Mansour,6857
+A. Menn,6858
+P. Meek,6859
+B. Evans,6860
+A. Y. Yu,6861
+P. Meer,6862
+R. Jegan,6863
+Daniel Scharstein,6864
+H. Robbins,6865
+M. Aigner,6866
+Kim Marriott,6867
+M. Cosnard,6868
+K. B. Reid,6869
+E. N. Leight,6870
+F. W. J. Olver,6871
+P. Jaillon,6872
+J. F. Ritt,6873
+J. Balcazar,6874
+T. A. Ralston,6875
+R. V. Subramaniyam,6876
+K. Misue,6877
+G. Fibich,6878
+R. Kuchem,6879
+A. O. Farahat,6880
+H. A. Karimi,6881
+M. E. Gaddis,6882
+Y. Yesha,6883
+D. M. Acketa,6884
+E. R. Candfield,6885
+Vladimir Oliker,6886
+H. Busemann,6887
+H. Flanders,6888
+Antonio Leonforte,6889
+H. Desaulniers,6890
+P. Willet,6891
+M.-E. Wang,6892
+P.-C. Chen,6893
+Michael Soss,6894
+P. Jeannin,6895
+B.-C. Liaw,6896
+P. Raghawan,6897
+Laureano Gonzalez-Vega,6898
+Alexey Lvov,6899
+A. Kumar,6900
+Gokturk Ucoluk,6901
+Vineet Bafna,6902
+Christian Pellegrini,6903
+T. S. Tay,6904
+J. K. Mullin,6905
+G. Gentili,6906
+K. F. Roth,6907
+V. L. Klee,6908
+L. K. Jones,6909
+D. F. Rearick,6910
+A. Kolen,6911
+K. Wittenburg,6912
+Michael E. Agishtein,6913
+K. Hanson,6914
+H. L. Bodlaender,6915
+H. A. Maurer,6916
+P. J. Federico,6917
+O. Waarts,6918
+T. Kovari,6919
+F. C. A. Groen,6920
+D. Tonnesen,6921
+Jan Vahrenhold,6922
+R. Ravi,6923
+J. Lengyel,6924
+J. Hilden,6925
+D. Andrisani,6926
+R. A. Fisher,6927
+D. Moore,6928
+Yoshikazu Ohashi,6929
+D. Sherman,6930
+R. Regal,6931
+J. Goldstein,6932
+A. Ingraffea,6933
+G. Hooper,6934
+L. Stauffer,6935
+W. Narkiewicz,6936
+Stefan Thome,6937
+L. E. Dubins,6938
+Y. Chen,6939
+J. A. Fayman,6940
+L. S. Narasimhan,6941
+L. H. Harper,6942
+R. H. Henry,6943
+J. Rivero,6944
+S. B. Tor,6945
+R. Ramamurthy,6946
+B. Z. Dong,6947
+D. Lozevanu,6948
+K. Y. Whang,6949
+G. H. Hardy,6950
+A. Ahuja,6951
+S. Tagawa,6952
+I. Fried,6953
+W. C. Wu,6954
+L. Pagli,6955
+G. Sazaklis,6956
+Alexander Wolff,6957
+M. A. Najork,6958
+N. G. Kendall,6959
+S. R. Das,6960
+Fabrizio d'Amore,6961
+J. W. Klumper,6962
+B. M. Trager,6963
+C. P. Kruskal,6964
+D. Prill,6965
+L. Breiman,6966
+B. Mendelson,6967
+P. J. Davis,6968
+S. F. Weiss,6969
+K. Schulten,6970
+M. Anthony,6971
+Joachim von zur Gathen,6972
+C.-W. Ho,6973
+Augustin L. Cauchy,6974
+?? Stern,6975
+David H. Douglas,6976
+C. Stone,6977
+H. So,6978
+T. Hickey,6979
+J. Shilleto,6980
+L. Rudolph,6981
+K. H. Hunt,6982
+P. Young,6983
+J. Veenstra,6984
+D. Leven,6985
+Margaret Nichols,6986
+C. J. A. Delfinado,6987
+K. von Haam,6988
+G. Stengle,6989
+Wendy Spratte,6990
+K. Murota,6991
+Thierry Giordano,6992
+F. K. Zadeck,6993
+W. R. Hare,6994
+T. Matsuyama,6995
+A. Jozwik,6996
+M. Gilliland,6997
+D. Bechmann,6998
+D. Dorling,6999
+W. Ray,7000
+C. Sansoni,7001
+C. Gram,7002
+Norel Raquel,7003
+K. Kaneda,7004
+S. Auerbach,7005
+T. Terlaky,7006
+N. Ayache,7007
+A. Gualtieri,7008
+J. Soares,7009
+U. Nanni,7010
+J. Cahill,7011
+C. Christensen,7012
+D. Arques,7013
+A. Giammarco,7014
+T. Auer,7015
+R. Hassin,7016
+M. S. Spach,7017
+R. Sundaram,7018
+N. A. Alexandridis,7019
+Jens Lussem,7020
+A. Swami,7021
+N. Sarnak,7022
+A. Pollack,7023
+Joseph K. Berry,7024
+M. Takagi,7025
+Franz Winkler,7026
+M. Habar,7027
+G. R. Burton,7028
+U. Maydell,7029
+G. Chartrand,7030
+J. Gustedt,7031
+H. Martini,7032
+P. Hansen,7033
+Y. V. Silva Filho,7034
+G. R. Hjaltason,7035
+M. Cost,7036
+M. Kim,7037
+W. McCune,7038
+Y. G. Huang,7039
+H. B. Woodruff,7040
+Zhong-Liang Yu,7041
+J. Gosling,7042
+G. Goertzel,7043
+Peter Shirley,7044
+R. S. Tsay,7045
+M. Krivanek,7046
+I. Cederbaum,7047
+F. R. K. Chung,7048
+M. Maille,7049
+G. B. Beretta,7050
+E. D. Grant,7051
+Y. Yacoob,7052
+J. A. Adams,7053
+J.-Y. Fourquet,7054
+W. Rytter,7055
+M. Hsieh,7056
+M. Erion,7057
+Bureau of the Census,7058
+John C. Tipper,7059
+E. R. Magnus,7060
+R. Dilao,7061
+R. A. Botafogo,7062
+R. H. Taylor,7063
+A. Crosnier,7064
+H. Lukatela,7065
+Z. U. A. Warsi,7066
+S. Fujishige,7067
+A. Raghuram,7068
+S. Hart,7069
+Y. Ghallab,7070
+C. S. Peskin,7071
+Scott S. Snibbe,7072
+G. Salton,7073
+D. A. Griffith,7074
+I. Y. Song,7075
+H. Gish,7076
+Donald P. DeBoer,7077
+Franck Bellemain,7078
+M. S. Klamkin,7079
+A. Leblanc,7080
+T. Fischer,7081
+X. J. Shen,7082
+R. Sarraga,7083
+Eli Packer,7084
+E. Kushilevitz,7085
+E. M. Andreev,7086
+J. H. Halton,7087
+J. Shawe-Taylor,7088
+E. V. Mironenko,7089
+J. DeLazzer,7090
+R. Giancarlo,7091
+R. J. Faudree,7092
+A. Proskurowski,7093
+A. Gersho,7094
+D. F. Stanat,7095
+D. S. Wilson,7096
+S. L. Greitzer,7097
+H. Weghorst,7098
+C. Esperanca,7099
+H. Federer,7100
+S. L. Fritz,7101
+E. R. Tufte,7102
+T. Bailey,7103
+A. Crauser,7104
+K. Ewacha,7105
+H. Maitre,7106
+N. Valiveti,7107
+G. D. Song,7108
+D. Laksov,7109
+M. Perrin,7110
+J. S. Doerschler,7111
+J. A. Thom,7112
+R. Steinberg,7113
+M. Sata,7114
+T. Helgason,7115
+R. E. Reinke,7116
+N. Roussopoulos,7117
+R. Gambini,7118
+G. Y. Ting,7119
+J. D. Berman,7120
+K. S. Fu,7121
+Dz-Mou Jung,7122
+H. O. Pollak,7123
+J. R. Woodwork,7124
+R. Peralta,7125
+E. Shamir,7126
+Philip Klein,7127
+Volker Weispfennig,7128
+Vladimir Bagatelj,7129
+P. Assouad,7130
+O. Wing,7131
+J. Borowski,7132
+Vladimir Kostov,7133
+H. Nowacki,7134
+W. Schempp,7135
+D. Metha,7136
+R. Lacher,7137
+I. Barany,7138
+B. B. Bederson,7139
+D. M. Robinson,7140
+Y. Ooishi,7141
+S. Chandran,7142
+J. U. Korien,7143
+M. D. Hill,7144
+S. M. Selkow,7145
+M. Toda,7146
+M. Sardas,7147
+I. Kokubo,7148
+F. R. Hsu,7149
+Ulrich Hoffmann,7150
+E. Zadicario,7151
+R. Riedinger,7152
+Z. Zhang,7153
+V. V. Ilyukhin,7154
+R. Velicescu,7155
+A. Iftikhar,7156
+R. Victor Klassen,7157
+H. Zischler,7158
+J. K. Hodgins,7159
+D. K. Friesen,7160
+Robert W. Scheifler,7161
+P. Hajnal,7162
+S. Iyenger,7163
+D. McCallum,7164
+V. U. Degtyar,7165
+J. Engelfriet,7166
+N. Karmarkar,7167
+J. S. Choi,7168
+F. Rendl,7169
+L. Lauther,7170
+R. McGhee,7171
+A. Meir,7172
+Y. Kurozumi,7173
+B. Aspvall,7174
+J. F. O'Brien,7175
+S.-H. Hong,7176
+M. J. Herbert,7177
+L. J. Schulman,7178
+D. I. Reisis,7179
+Marcel Steiner,7180
+R. R. Murphy,7181
+R. M. Robinson,7182
+B. J. Oommen,7183
+C. Cordes,7184
+Manoj Seshan,7185
+P. C. Dykstra,7186
+T. Tokunaga,7187
+W. Kern,7188
+S. Heep,7189
+Mark J. van Kreveld,7190
+Y. Lamdan,7191
+Q. Huang,7192
+A. van der Sluis,7193
+D. Kozen,7194
+J. Moore,7195
+E. Kaltofen,7196
+Mahesh M. Athavale,7197
+A. Brazma,7198
+P. Atherton,7199
+H. P. A. Haas,7200
+C. L. Odet,7201
+H. C. Fischer,7202
+Eduard Sojka,7203
+A. Hurter,7204
+B. E. Hirsch,7205
+R. Valiveti,7206
+G. Tourlakis,7207
+K. H. Roh,7208
+Karel Zuiderveld,7209
+S. A. Cook,7210
+I. Buchanan,7211
+V. D. Chepoi,7212
+J. Paciorek,7213
+M. L. Brady,7214
+Michael Taschwer,7215
+F. Aoudja,7216
+E. R. Scheinerman,7217
+S. B. Shauck,7218
+B. J. Hansen,7219
+W. de Pauw,7220
+K.-U. Jahn,7221
+Serkan Hosten,7222
+Y. Z. Liao,7223
+C. Berge,7224
+F. P. Brooks,7225
+Y. Correc,7226
+R. Fegeas,7227
+M. C. Fields,7228
+I. A. Stroud,7229
+A. Gyarfas,7230
+D. H. Hoitsma,7231
+B. Shneiderman,7232
+S. Lifschitz,7233
+Takayuki Iboh,7234
+J. I. Richards,7235
+C. Sims,7236
+J. D. Ullmann,7237
+D. Zuckerman,7238
+N. N. Christiansen,7239
+J. G. Kollias,7240
+B. Sakoda,7241
+Ernst Huber,7242
+A. L. Patterson,7243
+D. D. Sleator,7244
+D. N. Grece,7245
+Y. C. Martin,7246
+Frantisek Brabec,7247
+Takahashi Yoshioka,7248
+A. W. Schurle,7249
+C. Zirkelbach,7250
+H. Voelcker,7251
+A. M. Andrew,7252
+G. Katona,7253
+B. K. P. Horn,7254
+W. Ogita,7255
+C.-S. Chiang,7256
+B. A. Lewis,7257
+W. S. Kendall,7258
+A. Yao,7259
+D. J. Smith,7260
+J. Nakagawa,7261
+M. Zemankova,7262
+J. Zhou,7263
+S. Mohaban,7264
+Y. Censor,7265
+J. Lim,7266
+A. Chou,7267
+K. Arnold,7268
+Y. Ono,7269
+Francis Avnaim,7270
+R. Kuchkuda,7271
+A. Choi,7272
+O. Goldreich,7273
+T. D. Parsons,7274
+E. Waupotitsch,7275
+M. Ya. Finkelshteyn,7276
+M. Werman,7277
+G. Frieder,7278
+A. Appel,7279
+G. T. Hermann,7280
+L. Henneberg,7281
+S. Gnutzmann,7282
+L. Denenberg,7283
+B. Parhami,7284
+I. Shirakawa,7285
+D. Johnson,7286
+R. Paige,7287
+S. Neuman,7288
+J. Cantarella,7289
+D. E. Field,7290
+R. S. Wallace,7291
+L. Kucera,7292
+J. Kittler,7293
+H. Rogers,7294
+M. Cutkosky,7295
+A. J. Hansen,7296
+P. Dasgupta,7297
+T. M. Gallie,7298
+D. Roth,7299
+J. Brickmann,7300
+D. Franzblau,7301
+D. Rolfsen,7302
+H. Tanemura,7303
+Artur Fuhrmann,7304
+Sanjeev Saxena,7305
+C. Froidevaux,7306
+T. Lin,7307
+Joseph M. Maubach,7308
+J. Bruno,7309
+V. Anupam,7310
+Robert Franz Tichy,7311
+M. Schaeffer,7312
+J. Sklansky,7313
+J. Kowalcyk,7314
+A. V. Goldberg,7315
+S. Ben-David,7316
+Martin Dlouhy,7317
+F. C. Bernstein,7318
+L. Silva,7319
+Vladlen Koltun,7320
+P. Yoeli,7321
+A. Nicolau,7322
+Susanne Albers,7323
+F. F. Dragan,7324
+R. E. Shapire,7325
+W. E. Hartnett,7326
+M. La Porte,7327
+Daniel Benninger,7328
+S. Reisner,7329
+T. Sancha,7330
+H. Johnston,7331
+J. Painter,7332
+G. Forsythe,7333
+T. Peucker,7334
+Kurt Akeley,7335
+G. L. Schussman,7336
+T. D. Charters,7337
+I. K. Crain,7338
+J. I. Thakara,7339
+J. Maserjian,7340
+J. Fontdecaba,7341
+J. Wilson,7342

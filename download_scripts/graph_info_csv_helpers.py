@@ -1,7 +1,8 @@
 import csv
+import traceback
 import zipfile
 from io import BytesIO
-
+import networkx as nx
 import pandas as pd
 import bs4
 import urllib.request
@@ -33,8 +34,12 @@ def get_zipped_pajek_from_url(url):
                     pajek_lines = graph_zipped.read(file.filename).decode('utf-8')
                     list_of_lines.append(pajek_lines)
                 except:
-                    pajek_lines = graph_zipped.read(file.filename).decode('utf-16')
-                    list_of_lines.append(pajek_lines)
+                    try:
+                        pajek_lines = graph_zipped.read(file.filename).decode('utf-16')
+                        list_of_lines.append(pajek_lines)
+                    except:
+                        pajek_lines = graph_zipped.read(file.filename).decode('ISO-8859-1')
+                        list_of_lines.append(pajek_lines)
         graph_zipped.close()
         return pajek_lines
     except Exception as e:
@@ -86,3 +91,34 @@ def write_entry(*args):
         graph_metadata = pd.read_csv(csv_filepath, delimiter=',', header=0)
         graph_metadata.loc[in_csv] = args
         graph_metadata.to_csv(csv_filepath, index=False)
+
+
+
+
+def pajek_to_files(name, url, pajek_lines, dir_name):
+    if pajek_lines:
+        try:
+            G = nx.parse_pajek(pajek_lines)
+            if not nx.is_empty(G):
+                old_attributes = list(G.nodes)
+                G = nx.convert_node_labels_to_integers(G)
+                id_mapping = []
+                node_list = list(G.nodes)
+                for i in range(len(node_list)):
+                    id_mapping.append([old_attributes[i], str(node_list[i])])
+                mapping_file = open('..' +dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv', 'w',
+                                    newline='')
+                mapping_file_writer = csv.writer(mapping_file)
+                mapping_file_writer.writerow(['id', 'name'])
+                for tup in id_mapping:
+                    mapping_file_writer.writerow(list(tup))
+                nx.write_weighted_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
+                                           delimiter=',')
+                write_entry(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
+                                  dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
+                                  G.is_directed(),
+                                  G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+        except Exception as e:
+            traceback.print_exc()
+            print(e)
+            print("Couldn't parse " + url)
