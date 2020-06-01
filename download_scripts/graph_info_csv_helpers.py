@@ -1,10 +1,12 @@
 import csv
+import io
 import traceback
 import zipfile
 from io import BytesIO
 import networkx as nx
 import pandas as pd
 import bs4
+from scipy.io import mmread
 import urllib.request
 
 __author__ = "Henry Carscadden"
@@ -93,8 +95,6 @@ def write_entry(*args):
         graph_metadata.to_csv(csv_filepath, index=False)
 
 
-
-
 def pajek_to_files(name, url, pajek_lines, dir_name):
     if pajek_lines:
         try:
@@ -106,7 +106,7 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                 node_list = list(G.nodes)
                 for i in range(len(node_list)):
                     id_mapping.append([old_attributes[i], str(node_list[i])])
-                mapping_file = open('..' +dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv', 'w',
+                mapping_file = open('..' + dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv', 'w',
                                     newline='')
                 mapping_file_writer = csv.writer(mapping_file)
                 mapping_file_writer.writerow(['id', 'name'])
@@ -115,10 +115,16 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                 nx.write_weighted_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
                 write_entry(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
-                                  dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
-                                  G.is_directed(),
-                                  G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+                            dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
+                            G.is_directed(),
+                            G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
         except Exception as e:
             traceback.print_exc()
             print(e)
             print("Couldn't parse " + url)
+
+
+def mtx_zip_dir_to_graph(zip_dir):
+    for file in zip_dir.infolist():
+        if file.filename[-3:].lower() == "mtx":
+            yield mmread(io.BytesIO(zip_dir.read(file.filename)))

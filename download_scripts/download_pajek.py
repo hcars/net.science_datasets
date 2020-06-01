@@ -54,6 +54,11 @@ for link in parsed_html.table.find_all('a'):
         name = link.string
         pajek_lines = utils.get_zipped_pajek_from_url(url)
         pajek_to_files(name, url, pajek_lines)
+    elif href[-3:].lower() == 'paj':
+        url = base_url + link.get('href')
+        name = link.string
+        pajek_lines = utils.get_zipped_pajek_from_url(url)
+        pajek_to_files(name, url, pajek_lines)
     elif href[-3:].lower() == 'net':
         url = base_url + link.get('href')
         name = link.string
@@ -75,6 +80,8 @@ for link in parsed_html.table.find_all('a'):
                     if ext == 'net':
                         pajek_lines = utils.get_pajek_from_url(url)
                     elif ext == 'zip':
+                        pajek_lines = utils.get_zipped_pajek_from_url(url)
+                    elif ext == 'paj':
                         pajek_lines = utils.get_zipped_pajek_from_url(url)
                     pajek_to_files(name, url, pajek_lines)
 

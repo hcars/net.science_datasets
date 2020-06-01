@@ -52,3 +52,7 @@ US patents,http://vlado.fmf.uni-lj.si/pub/networks/data//patents/mainNET.zip,/pa
 Roget,http://vlado.fmf.uni-lj.si/pub/networks/data//dic/roget/existence.jpg,/pajek_networks/edge_lists/existence.jpg.csv,/pajek_networks/node_id_mappings/mapping_existence.jpg.csv,True,True,1022,1.0
 Wordnet,http://vlado.fmf.uni-lj.si/pub/networks/data//dic/Wordnet/5papers.pdf,/pajek_networks/edge_lists/5papers.pdf.csv,/pajek_networks/node_id_mappings/mapping_5papers.pdf.csv,True,True,82679,759.0
 "USF Word Association, Rhyme and Word Fragment Norms",http://vlado.fmf.uni-lj.si/pub/networks/data//dic/fa/eat,/pajek_networks/edge_lists/eat.csv,/pajek_networks/node_id_mappings/mapping_eat.csv,True,True,10619,4.0
+PGP network,http://deim.urv.cat/~alexandre.arenas/data/xarxes/PGP.zip,/arenas_networks/edge_lists/PGP.zip.csv,/arenas_networks/node_id_mappings/mapping_PGP.zip.csv,True,True,10680,0.0
+C. elegans metabolic network,http://deim.urv.cat/~alexandre.arenas/data/xarxes/celegans_metabolic.zip,/arenas_networks/edge_lists/celegans_metabolic.zip.csv,/arenas_networks/node_id_mappings/mapping_celegans_metabolic.zip.csv,True,True,453,22.0
+facebook-wall,http://socialnetworks.mpi-sws.mpg.de/data/facebook-wall.txt.gz,../max_planck_networks/edge_lists/facebook-wall.csv,,False,False,46952,10082.0
+facebook-links,http://socialnetworks.mpi-sws.mpg.de/data/facebook-links.txt.gz,../max_planck_networks/edge_lists/facebook-links.csv,,False,False,63731,0
