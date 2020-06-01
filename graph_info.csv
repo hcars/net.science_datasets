@@ -55,4 +55,5 @@ Wordnet,http://vlado.fmf.uni-lj.si/pub/networks/data//dic/Wordnet/5papers.pdf,/p
 PGP network,http://deim.urv.cat/~alexandre.arenas/data/xarxes/PGP.zip,/arenas_networks/edge_lists/PGP.zip.csv,/arenas_networks/node_id_mappings/mapping_PGP.zip.csv,True,True,10680,0.0
 C. elegans metabolic network,http://deim.urv.cat/~alexandre.arenas/data/xarxes/celegans_metabolic.zip,/arenas_networks/edge_lists/celegans_metabolic.zip.csv,/arenas_networks/node_id_mappings/mapping_celegans_metabolic.zip.csv,True,True,453,22.0
 facebook-wall,http://socialnetworks.mpi-sws.mpg.de/data/facebook-wall.txt.gz,../max_planck_networks/edge_lists/facebook-wall.csv,,False,False,46952,10082.0
-facebook-links,http://socialnetworks.mpi-sws.mpg.de/data/facebook-links.txt.gz,../max_planck_networks/edge_lists/facebook-links.csv,,False,False,63731,0
+facebook-links,http://socialnetworks.mpi-sws.mpg.de/data/facebook-links.txt.gz,../max_planck_networks/edge_lists/facebook-links.csv,,False,False,63731,0.0
+email.txt,http://deim.urv.cat/~alexandre.arenas/data/xarxes/email.zip,/arenas_networks/edge_lists/email.csv,,False,False,1133,1.0

@@ -3,6 +3,8 @@ import io
 import traceback
 import zipfile
 from io import BytesIO
+
+import chardet
 import networkx as nx
 import pandas as pd
 import bs4
@@ -36,12 +38,9 @@ def get_zipped_pajek_from_url(url):
                     pajek_lines = graph_zipped.read(file.filename).decode('utf-8')
                     list_of_lines.append(pajek_lines)
                 except:
-                    try:
-                        pajek_lines = graph_zipped.read(file.filename).decode('utf-16')
-                        list_of_lines.append(pajek_lines)
-                    except:
-                        pajek_lines = graph_zipped.read(file.filename).decode('ISO-8859-1')
-                        list_of_lines.append(pajek_lines)
+                    pajek_lines = graph_zipped.read(file.filename)
+                    pajek_lines = pajek_lines.decode(chardet.detect(pajek_lines)['encoding'])
+                    list_of_lines.append(pajek_lines)
         graph_zipped.close()
         return pajek_lines
     except Exception as e:
@@ -53,6 +52,11 @@ def get_pajek_from_url(url):
     try:
         with urllib.request.urlopen(url) as graph_fp:
             pajek_lines = graph_fp.read().decode('utf-8')
+        return pajek_lines
+    except ValueError as e:
+        with urllib.request.urlopen(url) as graph_fp:
+            pajek_lines = graph_fp.read()
+            pajek_lines = pajek_lines.decode(chardet.detect(pajek_lines)['encoding'])
         return pajek_lines
     except Exception as e:
         print(e)
