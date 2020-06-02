@@ -98,11 +98,12 @@ def soupify(url):
 #         graph_metadata.loc[in_csv] = args
 #         graph_metadata.to_csv(csv_filepath, index=False)
 def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
-    params = [name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops]
+    params = [name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops]
     connection = db.connect('graph_metadata.db')
     cursor = connection.cursor()
     cursor.execute(
-        "INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
+        "INSERT INTO graphs_downloaded VALUES (" + " ".join(
+            map(lambda x: str(x) + ',' if not x.isnumeric() else "'" + str(x) + "'" + ',', params)) + ")"
     )
     connection.commit()
     connection.close()
@@ -128,9 +129,9 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                 nx.write_weighted_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
                 insert_into_db(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
-                            dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
-                            G.is_directed(),
-                            G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+                               dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
+                               G.is_directed(),
+                               G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
         except Exception as e:
             traceback.print_exc()
             print(e)
