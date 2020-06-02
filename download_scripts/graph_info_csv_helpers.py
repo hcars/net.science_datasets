@@ -101,6 +101,8 @@ def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, mul
     params = [name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops]
     connection = db.connect('graph_metadata.db')
     cursor = connection.cursor()
+    print("INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
+)
     cursor.execute(
         "INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
     )
