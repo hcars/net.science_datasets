@@ -57,3 +57,4 @@ C. elegans metabolic network,http://deim.urv.cat/~alexandre.arenas/data/xarxes/c
 facebook-wall,http://socialnetworks.mpi-sws.mpg.de/data/facebook-wall.txt.gz,../max_planck_networks/edge_lists/facebook-wall.csv,,False,False,46952,10082.0
 facebook-links,http://socialnetworks.mpi-sws.mpg.de/data/facebook-links.txt.gz,../max_planck_networks/edge_lists/facebook-links.csv,,False,False,63731,0.0
 email.txt,http://deim.urv.cat/~alexandre.arenas/data/xarxes/email.zip,/arenas_networks/edge_lists/email.csv,,False,False,1133,1.0
+Miscellaneous Networks,http://networkrepository.com/misc.php,../network_repo_networks/edge_lists/Miscellaneous Networks.csv,../network_repo_networks/node_id_mappings/Miscellaneous Networks.csv,False,False,1138,1138.0
