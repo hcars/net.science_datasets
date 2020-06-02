@@ -3,7 +3,7 @@ import io
 import traceback
 import zipfile
 from io import BytesIO
-
+import sqlite3 as db
 import chardet
 import networkx as nx
 import pandas as pd
@@ -72,31 +72,40 @@ def soupify(url):
     return soup
 
 
-def read_master_csv():
-    global csv_filepath
-    csv_reader = csv.DictReader(open(csv_filepath, 'r'))
-    return csv_reader
-
-
-def check_in_csv(network_name):
-    lines = list(read_master_csv())
-    for i in range(len(lines)):
-        if network_name == lines[i]['network_name']:
-            return i
-    else:
-        return -1
-
-
-def write_entry(*args):
-    global csv_filepath
-    in_csv = check_in_csv(args[0])
-    if in_csv == -1:
-        csv_writer = csv.writer(open(csv_filepath, 'a', newline=''))
-        csv_writer.writerow(args)
-    else:
-        graph_metadata = pd.read_csv(csv_filepath, delimiter=',', header=0)
-        graph_metadata.loc[in_csv] = args
-        graph_metadata.to_csv(csv_filepath, index=False)
+# def read_master_csv():
+#     global csv_filepath
+#     csv_reader = csv.DictReader(open(csv_filepath, 'r'))
+#     return csv_reader
+#
+#
+# def check_in_csv(network_name):
+#     lines = list(read_master_csv())
+#     for i in range(len(lines)):
+#         if network_name == lines[i]['network_name']:
+#             return i
+#     else:
+#         return -1
+#
+#
+# def write_entry(*args):
+#     global csv_filepath
+#     in_csv = check_in_csv(args[0])
+#     if in_csv == -1:
+#         csv_writer = csv.writer(open(csv_filepath, 'a', newline=''))
+#         csv_writer.writerow(args)
+#     else:
+#         graph_metadata = pd.read_csv(csv_filepath, delimiter=',', header=0)
+#         graph_metadata.loc[in_csv] = args
+#         graph_metadata.to_csv(csv_filepath, index=False)
+def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
+    params = [name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops]
+    connection = db.connect('graph_metadata.db')
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
+    )
+    connection.commit()
+    connection.close()
 
 
 def pajek_to_files(name, url, pajek_lines, dir_name):
@@ -118,7 +127,7 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                     mapping_file_writer.writerow(list(tup))
                 nx.write_weighted_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
-                write_entry(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
+                insert_into_db(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                             dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
                             G.is_directed(),
                             G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))

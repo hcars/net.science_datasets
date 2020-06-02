@@ -34,7 +34,7 @@ def pajek_to_files(name, url, pajek_lines):
                     mapping_file_writer.writerow(list(tup))
                 nx.write_weighted_edgelist(G, '../pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
-                utils.write_entry(name, url, '/pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
+                utils.insert_into_db(name, url, '/pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                                   '/pajek_networks/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
                                   G.is_directed(),
                                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))

@@ -37,7 +37,7 @@ for link in parsed_html.find_all('a'):
             elif ext == 'txt':
                 G = nx.read_weighted_edgelist(io.BytesIO(graph_zipped.read(file.filename)))
                 nx.write_weighted_edgelist(G, '../arenas_networks/edge_lists/' + file.filename.replace('txt', 'csv'))
-                utils.write_entry(file.filename, url,
+                utils.insert_into_db(file.filename, url,
                                   '/arenas_networks/edge_lists/' + file.filename.replace('txt', 'csv'),
                                   '',
                                   G.is_directed(),

@@ -44,7 +44,7 @@ with urllib.request.urlopen(mapping_path) as mapping_fp:
     mapping_lines = mapping_fp.read().decode('utf-8').split('\n')
 with open('../uri_alon_networks/node_id_mappings/mapping_e_coli_interaction.txt', 'w') as e_coli_mapping_fp:
     e_coli_mapping_fp.writelines(map(lambda x: x.replace(' ', ',') + '\n', mapping_lines))
-utils.write_entry('E. Coli Transcription', edge_list_path, '/uri_alon_networks/edge_lists/e_coli_interaction.txt',
+utils.insert_into_db('E. Coli Transcription', edge_list_path, '/uri_alon_networks/edge_lists/e_coli_interaction.txt',
                   '/uri_alon_networks/node_id_mappings/mapping_e_coli_interaction.txt', G.is_directed(),
                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
 for net in networks.keys():
@@ -54,6 +54,6 @@ for net in networks.keys():
                 lines = subnet_fp.read()
             G = nx.read_weighted_edgelist(io.BytesIO(lines), delimiter=' ')
             nx.write_weighted_edgelist(G, '../uri_alon_networks/edge_lists/' + subnet.split('/')[-1], delimiter=',')
-            utils.write_entry(net + subnet.split('/')[-1].split('.')[-2], subnet,
+            utils.insert_into_db(net + subnet.split('/')[-1].split('.')[-2], subnet,
                               '../uri_alon_networks/edge_lists/' + subnet.split('/')[-1], ' ', G.is_directed(),
                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))

@@ -15,7 +15,7 @@ for net in networks:
     name = net.split('/')[-1].split('.')[0]
     G = nx.read_weighted_edgelist(cleaned)
     nx.write_weighted_edgelist(G, '../max_planck_networks/edge_lists/' + name +'.csv'  ,delimiter=',')
-    utils.write_entry(name, net, '../max_planck_networks/edge_lists/' + name +'.csv',
+    utils.insert_into_db(name, net, '../max_planck_networks/edge_lists/' + name +'.csv',
                                   '',
                                   G.is_directed(),
                                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))

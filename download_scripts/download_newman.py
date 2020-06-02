@@ -53,7 +53,7 @@ for link in parsed_html.ul.find_all('a'):
                                                '../newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
                                                delimiter=',')
                     mapping_file.close()
-                    utils.write_entry(name, url, '/newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
+                    utils.insert_into_db(name, url, '/newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
                                       '/newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[
                                           0] + '.csv',
                                       G.is_directed(), G.is_multigraph(), int(G.number_of_nodes()),
