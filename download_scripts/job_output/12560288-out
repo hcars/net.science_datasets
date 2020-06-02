@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "download_harvard.py", line 40, in <module>
-    mapping_file = open(node_path, 'w', newline='')
-FileNotFoundError: [Errno 2] No such file or directory: '../harvard_networks/graph_ml_tagged/node_id_mappings/Birmingham/Acipco-Finley.csv'

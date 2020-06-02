@@ -29,14 +29,14 @@ while condition:
                 name = contents.filename
                 url = query_result['url']
                 G = nx.parse_graphml(zipped_fp.read(contents.filename).decode('utf-8'))
-                edge_path = base_dir_graphml_tagged + 'edge_lists/' + contents.filename.split('.')[-2] + '.csv'
+                edge_path = base_dir_graphml_tagged + 'edge_lists/' + contents.filename.split('.')[-2].replace('/', '-') + '.csv'
                 old_attributes = list(G.nodes)
                 G = nx.convert_node_labels_to_integers(G)
                 id_mapping = []
                 node_list = list(G.nodes)
                 for i in range(len(node_list)):
                     id_mapping.append([old_attributes[i], str(node_list[i])])
-                node_path = base_dir_graphml_tagged + 'node_id_mappings/' + contents.filename.split('.')[-2] + '.csv'
+                node_path = base_dir_graphml_tagged + 'node_id_mappings/' + contents.filename.split('.')[-2].replace('/', '-') + '.csv'
                 mapping_file = open(node_path, 'w', newline='')
                 mapping_file_writer = csv.writer(mapping_file)
                 mapping_file_writer.writerow(['id', 'name'])

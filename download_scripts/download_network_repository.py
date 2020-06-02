@@ -69,7 +69,11 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
                                               G.is_multigraph(), int(G.number_of_nodes()),
                                               int(nx.number_of_selfloops(G)))
     except ValueError as e:
+        print(url)
         print(e)
     except TypeError as e:
         print(url)
         print(e)
+    except Exception as e:
+        print(e)
+        print("I'm not sure what went wrong.")
