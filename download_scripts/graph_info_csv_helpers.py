@@ -99,17 +99,19 @@ def soupify(url):
 #         graph_metadata.to_csv(csv_filepath, index=False)
 def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
     params = (name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops)
-    connection = db.connect('graph_metadata.db')
-    cursor = connection.cursor()
-    print("INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
-)
-    cursor.execute(
-        "INSERT INTO graphs_downloaded VALUES (" + " ".join(("?" for i in range(len(params)))) + ")",
+    try:
+       connection = db.connect('../graph_metadata.db')
+       cursor = connection.cursor()
+       cursor.execute(
+        "INSERT INTO graphs_downloaded VALUES (" + ",".join(("?" for i in range(len(params) + 1)))[:-2] + ")",
         params
     )
-    connection.commit()
-    connection.close()
-
+       connection.commit()
+    except db.IntegrityError as e:
+       print(e)
+       print("Database constraints violated")
+    finally:
+       connection.close()
 
 def pajek_to_files(name, url, pajek_lines, dir_name):
     if pajek_lines:

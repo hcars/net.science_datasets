@@ -54,6 +54,5 @@ for net in networks.keys():
                 lines = subnet_fp.read()
             G = nx.read_weighted_edgelist(io.BytesIO(lines), delimiter=' ')
             nx.write_weighted_edgelist(G, '../uri_alon_networks/edge_lists/' + subnet.split('/')[-1], delimiter=',')
-            utils.insert_into_db(net + subnet.split('/')[-1].split('.')[-2], subnet,
-                              '../uri_alon_networks/edge_lists/' + subnet.split('/')[-1], ' ', G.is_directed(),
+            utils.insert_into_db(net + subnet.split('/')[-1].split('.')[-2], net+ subnet, '../uri_alon_networks/edge_lists/' + subnet.split('/')[-1], 'N/A',                             G.is_directed(),
                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))

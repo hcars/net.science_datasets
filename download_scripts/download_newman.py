@@ -2,10 +2,10 @@ import bs4
 import urllib.request
 import zipfile
 import networkx as nx
-import download_scripts.gml
+import gml
 from io import BytesIO
 import csv
-import download_scripts.graph_info_csv_helpers as utils
+import graph_info_csv_helpers as utils
 
 __author__ = "Henry Carscadden"
 __email__ = 'hlc5v@virginia.edu'
@@ -16,7 +16,7 @@ file.
 """
 
 base_url = "http://www-personal.umich.edu/~mejn/netdata/"
-parsed_html = download_scripts.graph_info_csv_helpers.soupify(base_url)
+parsed_html = utils.soupify(base_url)
 for link in parsed_html.ul.find_all('a'):
     if link.get('href')[-3:] == 'zip':
         with urllib.request.urlopen(base_url + link.get('href')) as graph_zipped_fp:
@@ -32,10 +32,10 @@ for link in parsed_html.ul.find_all('a'):
                         if label in gml_lines:
                             label = 'label'
                         gml_lines = gml_lines.split('\n')[1:]
-                        dict, G = download_scripts.gml.parse_gml(gml_lines, label=label)
+                        dict, G = gml.parse_gml(gml_lines, label=label)
                     except nx.exception.NetworkXError:
                         gml_lines.insert(2, 'multigraph 1')
-                        dict, G = download_scripts.gml.parse_gml(gml_lines, label='id')
+                        dict, G = gml.parse_gml(gml_lines, label='id')
                     mapping_file = open(
                         '../newman_networks/node_id_mappings/mapping_' + file.filename.split('.')[0] + '.csv', 'w',
                         newline='')
