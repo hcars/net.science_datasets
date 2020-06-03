@@ -98,14 +98,14 @@ def soupify(url):
 #         graph_metadata.loc[in_csv] = args
 #         graph_metadata.to_csv(csv_filepath, index=False)
 def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
-    params = [name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops]
+    params = (name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops)
     connection = db.connect('graph_metadata.db')
     cursor = connection.cursor()
     print("INSERT INTO graphs_downloaded VALUES (" + " ".join(map(lambda x: str(x), params)) + ")"
 )
     cursor.execute(
-        "INSERT INTO graphs_downloaded VALUES (" + " ".join(
-            map(lambda x: str(x) + ',' if not x.isnumeric() else "'" + str(x) + "'" + ',', params)) + ")"
+        "INSERT INTO graphs_downloaded VALUES (" + " ".join(("?" for i in range(len(params)))) + ")",
+        params
     )
     connection.commit()
     connection.close()
