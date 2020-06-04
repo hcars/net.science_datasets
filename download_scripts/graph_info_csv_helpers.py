@@ -73,6 +73,21 @@ def soupify(url):
     return soup
 
 
+def insert_into_undownloaded_db(name, url, downloaded, file_size):
+    conn = db.connect('../graph_metadaa.db')
+    try:
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO large_graphs VALUES ( ?, ?, ?, ?)", (name, url, downloaded, file_size)
+        )
+        conn.commit()
+    except db.IntegrityError as e:
+        print(e)
+        print("Database constraints violated")
+    finally:
+        conn.close()
+
+
 def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
     params = (name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops)
     connection = db.connect('../graph_metadata.db')
@@ -127,4 +142,32 @@ def mtx_zip_dir_to_graph(zip_dir):
 
 def mtx_tar_dir_to_graph(tar_dir):
     for member in tar_dir.getmembers():
-        print(member.name)
+        if member.name[-3:].lower() == 'mtx':
+            file_obj = tar_dir.extractfile(member)
+            file_bytes = io.BytesIO(file_obj.read())
+            # file_str = file_bytes.decode(chardet.detect(file_bytes)['encoding'])
+            yield mmread(file_bytes)
+
+
+
+def node_id_write(G, url, edge_list_path, node_id_path, name):
+    old_attributes = list(G.nodes)
+    G = nx.convert_node_labels_to_integers(G)
+    id_mapping = []
+    node_list = list(G.nodes)
+    for i in range(len(node_list)):
+        id_mapping.append([old_attributes[i], str(node_list[i])])
+    mapping_file = open(node_id_path + name + '.csv',
+                        'w',
+                        newline='')
+    mapping_file_writer = csv.writer(mapping_file)
+    mapping_file_writer.writerow(['id', 'name'])
+    for tup in id_mapping:
+        mapping_file_writer.writerow(list(tup))
+    mapping_file.close()
+    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
+    insert_into_db(name, url, edge_list_path + name + '.csv',
+                   node_id_path + name + '.csv',
+                   G.is_directed(),
+                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+    return G

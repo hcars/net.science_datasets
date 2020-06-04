@@ -15,7 +15,7 @@ node_id_path = '../network_repo_networks/node_id_mappings/'
 parsed_networks_page = utils.soupify(base_url)
 
 
-def node_id_write(G, edge_list_path, node_id_path, name):
+def node_id_write(G, url, edge_list_path, node_id_path, name):
     old_attributes = list(G.nodes)
     G = nx.convert_node_labels_to_integers(G)
     id_mapping = []
@@ -51,12 +51,7 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
                     zip_dir = utils.get_zip_fp(links_to)
                     for mtx_network in utils.mtx_zip_dir_to_graph(zip_dir):
                         G = nx.from_numpy_matrix(mtx_network.toarray())
-                        G = node_id_write(G, edge_list_path, node_id_path, name)
-                        nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
-                        utils.insert_into_db(name, url, edge_list_path + name + '.csv',
-                                          node_id_path + name + '.csv',
-                                          G.is_directed(),
-                                          G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+                        G = node_id_write(G, links_to, edge_list_path, node_id_path, name)
                     for other_files in zip_dir.infolist():
                         ext = other_files.filename[-5:].lower()
                         if ext == 'edges':
