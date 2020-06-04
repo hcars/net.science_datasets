@@ -2,9 +2,8 @@ import csv
 import traceback
 import zipfile
 import networkx as nx
-from io import BytesIO
-import urllib.request
-import os
+import numpy as np
+import re
 import graph_info_csv_helpers as utils
 
 __author__ = "Henry Carscadden"
@@ -17,7 +16,24 @@ This file downloads Pajek datasets from RPozo's links.
 def pajek_to_files(name, url, pajek_lines):
     if pajek_lines:
         try:
-            G = nx.parse_pajek(pajek_lines)
+            check_matrix = pajek_lines.find('*matrix')
+            if check_matrix != -1:
+                pajek_lines = pajek_lines[check_matrix + 6:].strip(' ').strip('\r').strip('\n')
+                matrix_lines = pajek_lines.split('\r')
+                numbers_exp = re.compile(r'[0-9]')
+                append = ";"
+                for i in range(len(matrix_lines)):
+                    if numbers_exp.search(matrix_lines[i]):
+                        matrix_lines[i] = matrix_lines[i].strip('\n') + append
+                    else:
+                        matrix_lines[i] = ''
+                matrix_lines = list(filter(lambda x: x is not '', matrix_lines))
+                adj_matrix = " ".join(matrix_lines)
+                adj_matrix = adj_matrix[:len(adj_matrix) - 1]
+                # print(np.matrix(adj_matrix))
+                G = nx.from_numpy_array(np.matrix(adj_matrix))
+            else:
+                G = nx.parse_pajek(pajek_lines)
             if not nx.is_empty(G):
                 old_attributes = list(G.nodes)
                 G = nx.convert_node_labels_to_integers(G)
@@ -34,9 +50,9 @@ def pajek_to_files(name, url, pajek_lines):
                 nx.write_weighted_edgelist(G, '../pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
                 utils.insert_into_db(name, url, '/pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
-                                  '/pajek_networks/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
-                                  G.is_directed(),
-                                  G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+                                     '/pajek_networks/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
+                                     G.is_directed(),
+                                     G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
         except Exception as e:
             traceback.print_exc()
             print(e)
@@ -58,7 +74,7 @@ for link in parsed_html.table.find_all('a'):
     elif href[-3:].lower() == 'paj':
         url = base_url + link.get('href')
         name = link.string
-        pajek_lines = utils.get_zipped_pajek_from_url(url)
+        pajek_lines = utils.get_pajek_from_url(url)
         pajek_to_files(name, url, pajek_lines)
     elif href[-3:].lower() == 'net':
         url = base_url + link.get('href')
@@ -80,11 +96,14 @@ for link in parsed_html.table.find_all('a'):
                     ext = url[-3:].lower()
                     if ext == 'net':
                         pajek_lines = utils.get_pajek_from_url(url)
+                        pajek_to_files(name, url, pajek_lines)
                     elif ext == 'zip':
-                        pajek_lines = utils.get_zipped_pajek_from_url(url)
+                        list_of_lines = utils.get_zipped_pajek_from_url(url)
+                        for pajek_lines in list_of_lines:
+                            pajek_to_files(name, url, pajek_lines)
                     elif ext == 'paj':
-                        pajek_lines = utils.get_zipped_pajek_from_url(url)
-                    pajek_to_files(name, url, pajek_lines)
+                        pajek_lines = utils.get_pajek_from_url(url)
+                        pajek_to_files(name, url, pajek_lines)
 
 pajek_to_files('The NBER U.S. Patent Citations Data File',
                'http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm',

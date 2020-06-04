@@ -74,7 +74,7 @@ def soupify(url):
 
 
 def insert_into_undownloaded_db(name, url, downloaded, file_size):
-    conn = db.connect('../graph_metadaa.db')
+    conn = db.connect('../graph_metadata.db')
     try:
         cursor = conn.cursor()
         cursor.execute(
@@ -99,8 +99,12 @@ def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, mul
         )
         connection.commit()
     except db.IntegrityError as e:
+        cursor.execute(
+            "UPDATE graphs_downloaded SET directed=?, multigraph=?, num_nodes=?, num_self_loops=? WHERE name=? AND "
+            "url=?", (directed, multigraph, num_nodes, num_self_loops, name, url)
+        )
         print(e)
-        print("Database constraints violated")
+        print("Updated entry.")
     finally:
         connection.close()
 

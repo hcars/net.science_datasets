@@ -1,10 +1,9 @@
 import csv
 import gzip
 import io
-import os
+import numpy as np
 import graph_info_csv_helpers as utils
 import networkx as nx
-import chardet
 import tarfile
 import urllib.request
 
@@ -14,7 +13,7 @@ import urllib.request
 edge_list_path = '../snap_networks/edge_lists/'
 node_id_path = '../snap_networks/node_id_mappings/'
 snap_data_url = "https://sparse.tamu.edu/SNAP?per_page=All"
-bytes_limit = 1000000
+bytes_limit = 2000000
 
 index_page_parsed = utils.soupify(snap_data_url)
 
@@ -23,6 +22,7 @@ for i in range(1, len(rows)):
     row = rows[i]
     row_data = [attr for attr in row.find_all('td')]
     name = row_data[1].string
+    multigraph = 'multigraph' in row_data[6].string.lower()
     dataset_url = row.find_all('a')[-1].get('href')
     site = urllib.request.urlopen(dataset_url)
     metadata = site.info()
@@ -35,5 +35,12 @@ for i in range(1, len(rows)):
             with urllib.request.urlopen(dataset_url) as tarred_mtx:
                 tar_dir = tarfile.open(fileobj=io.BytesIO(tarred_mtx.read()))
         for mtx in utils.mtx_tar_dir_to_graph(tar_dir):
-            G = nx.from_numpy_matrix(mtx.toarray())
+            try:
+                if type(mtx) is not np.ndarray:
+                    G = nx.from_scipy_sparse_matrix(mtx, parallel_edges=multigraph)
+                else:
+                    G = nx.from_numpy_array(mtx, parallel_edges=multigraph)
+            except Exception as e:
+                print(e)
+                print("Couldn't parse into graph.")
             G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
