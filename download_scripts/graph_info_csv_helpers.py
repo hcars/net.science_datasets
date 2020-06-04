@@ -7,6 +7,7 @@ import sqlite3 as db
 import chardet
 import networkx as nx
 import pandas as pd
+import tarfile
 import bs4
 from scipy.io import mmread
 import urllib.request
@@ -72,46 +73,37 @@ def soupify(url):
     return soup
 
 
-# def read_master_csv():
-#     global csv_filepath
-#     csv_reader = csv.DictReader(open(csv_filepath, 'r'))
-#     return csv_reader
-#
-#
-# def check_in_csv(network_name):
-#     lines = list(read_master_csv())
-#     for i in range(len(lines)):
-#         if network_name == lines[i]['network_name']:
-#             return i
-#     else:
-#         return -1
-#
-#
-# def write_entry(*args):
-#     global csv_filepath
-#     in_csv = check_in_csv(args[0])
-#     if in_csv == -1:
-#         csv_writer = csv.writer(open(csv_filepath, 'a', newline=''))
-#         csv_writer.writerow(args)
-#     else:
-#         graph_metadata = pd.read_csv(csv_filepath, delimiter=',', header=0)
-#         graph_metadata.loc[in_csv] = args
-#         graph_metadata.to_csv(csv_filepath, index=False)
+def insert_into_undownloaded_db(name, url, downloaded, file_size):
+    conn = db.connect('../graph_metadata.db')
+    try:
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO large_graphs VALUES ( ?, ?, ?, ?)", (name, url, downloaded, file_size)
+        )
+        conn.commit()
+    except db.IntegrityError as e:
+        print(e)
+        print("Database constraints violated")
+    finally:
+        conn.close()
+
+
 def insert_into_db(name, url, edgelist_path, node_attributes_path, directed, multigraph, num_nodes, num_self_loops):
     params = (name, url, edgelist_path, node_attributes_path, int(directed), int(multigraph), num_nodes, num_self_loops)
+    connection = db.connect('../graph_metadata.db')
     try:
-       connection = db.connect('../graph_metadata.db')
-       cursor = connection.cursor()
-       cursor.execute(
-        "INSERT INTO graphs_downloaded VALUES (" + ",".join(("?" for i in range(len(params) + 1)))[:-2] + ")",
-        params
-    )
-       connection.commit()
+        cursor = connection.cursor()
+        cursor.execute(
+            "INSERT INTO graphs_downloaded VALUES (" + ",".join(("?" for i in range(len(params) + 1)))[:-2] + ")",
+            params
+        )
+        connection.commit()
     except db.IntegrityError as e:
-       print(e)
-       print("Database constraints violated")
+        print(e)
+        print("Database constraints violated")
     finally:
-       connection.close()
+        connection.close()
+
 
 def pajek_to_files(name, url, pajek_lines, dir_name):
     if pajek_lines:
@@ -146,3 +138,36 @@ def mtx_zip_dir_to_graph(zip_dir):
     for file in zip_dir.infolist():
         if file.filename[-3:].lower() == "mtx":
             yield mmread(io.BytesIO(zip_dir.read(file.filename)))
+
+
+def mtx_tar_dir_to_graph(tar_dir):
+    for member in tar_dir.getmembers():
+        if member.name[-3:].lower() == 'mtx':
+            file_obj = tar_dir.extractfile(member)
+            file_bytes = io.BytesIO(file_obj.read())
+            # file_str = file_bytes.decode(chardet.detect(file_bytes)['encoding'])
+            yield mmread(file_bytes)
+
+
+
+def node_id_write(G, url, edge_list_path, node_id_path, name):
+    old_attributes = list(G.nodes)
+    G = nx.convert_node_labels_to_integers(G)
+    id_mapping = []
+    node_list = list(G.nodes)
+    for i in range(len(node_list)):
+        id_mapping.append([old_attributes[i], str(node_list[i])])
+    mapping_file = open(node_id_path + name + '.csv',
+                        'w',
+                        newline='')
+    mapping_file_writer = csv.writer(mapping_file)
+    mapping_file_writer.writerow(['id', 'name'])
+    for tup in id_mapping:
+        mapping_file_writer.writerow(list(tup))
+    mapping_file.close()
+    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
+    insert_into_db(name, url, edge_list_path + name + '.csv',
+                   node_id_path + name + '.csv',
+                   G.is_directed(),
+                   G.is_multigraph(), int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
+    return G
