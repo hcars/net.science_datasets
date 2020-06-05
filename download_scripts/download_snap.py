@@ -1,5 +1,4 @@
-import csv
-import gzip
+import os
 import io
 import numpy as np
 import graph_info_csv_helpers as utils
@@ -34,13 +33,19 @@ for i in range(1, len(rows)):
         if ext == ".gz":
             with urllib.request.urlopen(dataset_url) as tarred_mtx:
                 tar_dir = tarfile.open(fileobj=io.BytesIO(tarred_mtx.read()))
-        for mtx in utils.mtx_tar_dir_to_graph(tar_dir):
+        for mtx, member_name in utils.mtx_tar_dir_to_graph(tar_dir):
             try:
                 if type(mtx) is not np.ndarray:
-                    G = nx.from_scipy_sparse_matrix(mtx, parallel_edges=multigraph)
+                    mtx = mtx.toarray()
+                if mtx.shape[0] != mtx.shape[1]:
+                    network_path = edge_list_path + name + '.csv'
+                    if os.path.isfile(network_path):
+                        np.save('../snap_networks/metadata_arrays/' + member_name.replace('/', '_'), mtx)
+                        utils.insert_into_metadata_db('../snap_networks/metadata_arrays/' + member_name, network_path,
+                                                      dataset_url)
                 else:
                     G = nx.from_numpy_array(mtx, parallel_edges=multigraph)
+                    G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
             except Exception as e:
                 print(e)
                 print("Couldn't parse into graph.")
-            G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
