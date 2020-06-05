@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<graph edgedefault="directed">
+<node id="1">
+<data key="label">GAVEV</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-369.03238</data>
+<data key="y">97.64538</data>
+</node>
+<node id="2">
+<data key="label">2</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-76.48925</data>
+<data key="y">71.78503</data>
+</node>
+<node id="15">
+<data key="label">15</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-358.63306</data>
+<data key="y">253.81995</data>
+</node>
+<node id="16">
+<data key="label">16</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">6.103124</data>
+<data key="y">402.68433</data>
+</node>
+<node id="3">
+<data key="label">3</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-299.9046</data>
+<data key="y">-106.85926</data>
+</node>
+<node id="4">
+<data key="label">4</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">216.3371</data>
+<data key="y">-196.54626</data>
+</node>
+<node id="6">
+<data key="label">6</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-281.88208</data>
+<data key="y">-96.915596</data>
+</node>
+<node id="7">
+<data key="label">7</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">297.7071</data>
+<data key="y">-418.30548</data>
+</node>
+<node id="8">
+<data key="label">8</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">168.19916</data>
+<data key="y">-252.035</data>
+</node>
+<node id="5">
+<data key="label">5</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">255.84839</data>
+<data key="y">-374.36554</data>
+</node>
+<node id="9">
+<data key="label">9</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">226.26349</data>
+<data key="y">-118.967964</data>
+</node>
+<node id="14">
+<data key="label">14</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-212.8971</data>
+<data key="y">218.13495</data>
+</node>
+<node id="11">
+<data key="label">11</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">288.38153</data>
+<data key="y">201.36163</data>
+</node>
+<node id="12">
+<data key="label">12</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">80.772804</data>
+<data key="y">-268.92197</data>
+</node>
+<node id="13">
+<data key="label">13</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-300.40442</data>
+<data key="y">60.942192</data>
+</node>
+<node id="10">
+<data key="label">10</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-109.64245</data>
+<data key="y">159.14783</data>
+</node>
+<node id="17">
+<data key="label">17</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">469.27258</data>
+<data key="y">367.39587</data>
+</node>
+<edge id="10644" source="1" target="2">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10645" source="1" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10646" source="1" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10647" source="2" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10648" source="2" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10649" source="2" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10650" source="3" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10651" source="3" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10652" source="3" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10653" source="3" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10654" source="4" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10655" source="4" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10656" source="5" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10657" source="5" target="9">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10658" source="5" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10659" source="6" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10660" source="6" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10661" source="6" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10662" source="6" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10663" source="6" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10664" source="7" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10665" source="7" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10666" source="7" target="6">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10667" source="7" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10668" source="7" target="11">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10669" source="7" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10670" source="7" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10671" source="8" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10672" source="8" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10673" source="8" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10674" source="8" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10675" source="8" target="11">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10676" source="8" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10677" source="9" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10678" source="9" target="10">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10679" source="9" target="13">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10680" source="10" target="9">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10681" source="10" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10682" source="11" target="6">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10683" source="11" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10684" source="11" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10685" source="11" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10686" source="12" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10687" source="12" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10688" source="12" target="8">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10689" source="12" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10690" source="13" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10691" source="13" target="9">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10692" source="13" target="10">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10693" source="13" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10694" source="14" target="5">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10695" source="14" target="13">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10696" source="15" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10697" source="15" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10698" source="15" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10699" source="16" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10700" source="16" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10701" source="16" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10702" source="17" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10703" source="17" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10704" source="17" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10705" source="17" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10706" source="17" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10707" source="1" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10710" source="3" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10711" source="3" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10712" source="3" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10713" source="3" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10714" source="4" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10715" source="4" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10716" source="4" target="9">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10717" source="4" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10718" source="4" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10719" source="6" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10720" source="7" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10723" source="7" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10724" source="8" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10726" source="8" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10727" source="9" target="9">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10730" source="9" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10731" source="9" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10732" source="10" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10733" source="10" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10734" source="10" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10735" source="10" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10737" source="11" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10738" source="11" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10739" source="11" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10741" source="12" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10742" source="12" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10743" source="13" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10746" source="13" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10747" source="13" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10748" source="13" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10750" source="14" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10751" source="14" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10752" source="14" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10754" source="14" target="14">
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>

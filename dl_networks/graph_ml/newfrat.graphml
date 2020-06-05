@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<graph edgedefault="directed">
+<node id="1">
+<data key="label">NEWC0</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">69.8575</data>
+<data key="y">334.33725</data>
+</node>
+<node id="2">
+<data key="label">2</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">91.61684</data>
+<data key="y">353.15964</data>
+</node>
+<node id="3">
+<data key="label">3</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">126.256546</data>
+<data key="y">77.146095</data>
+</node>
+<node id="4">
+<data key="label">4</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-239.10503</data>
+<data key="y">-587.7089</data>
+</node>
+<node id="5">
+<data key="label">5</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-255.91628</data>
+<data key="y">-443.42383</data>
+</node>
+<node id="6">
+<data key="label">6</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">533.11945</data>
+<data key="y">154.55032</data>
+</node>
+<node id="7">
+<data key="label">7</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-70.36281</data>
+<data key="y">315.61343</data>
+</node>
+<node id="8">
+<data key="label">8</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-174.70232</data>
+<data key="y">126.78617</data>
+</node>
+<node id="9">
+<data key="label">9</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-399.80157</data>
+<data key="y">267.53336</data>
+</node>
+<node id="10">
+<data key="label">10</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-164.82823</data>
+<data key="y">227.54965</data>
+</node>
+<node id="11">
+<data key="label">11</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-236.76341</data>
+<data key="y">-37.258446</data>
+</node>
+<node id="12">
+<data key="label">12</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-141.38148</data>
+<data key="y">264.98203</data>
+</node>
+<node id="13">
+<data key="label">13</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">473.0489</data>
+<data key="y">-276.7625</data>
+</node>
+<node id="14">
+<data key="label">14</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-176.77876</data>
+<data key="y">-386.3373</data>
+</node>
+<node id="15">
+<data key="label">15</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">520.6785</data>
+<data key="y">-38.861595</data>
+</node>
+<node id="16">
+<data key="label">16</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">341.9997</data>
+<data key="y">92.033424</data>
+</node>
+<node id="17">
+<data key="label">17</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-45.447433</data>
+<data key="y">-634.1358</data>
+</node>
+<node id="18">
+<data key="label">18</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-251.49016</data>
+<data key="y">190.79697</data>
+</node>
+<edge id="8644" source="1" target="2">
+<data key="weight">109.0</data>
+</edge>
+<edge id="8645" source="1" target="3">
+<data key="weight">163.0</data>
+</edge>
+<edge id="8646" source="1" target="4">
+<data key="weight">72.0</data>
+</edge>
+<edge id="8647" source="1" target="5">
+<data key="weight">90.0</data>
+</edge>
+<edge id="8648" source="1" target="6">
+<data key="weight">84.0</data>
+</edge>
+<edge id="8649" source="1" target="7">
+<data key="weight">126.0</data>
+</edge>
+<edge id="8650" source="1" target="8">
+<data key="weight">124.0</data>
+</edge>
+<edge id="8651" source="1" target="9">
+<data key="weight">83.0</data>
+</edge>
+<edge id="8652" source="1" target="10">
+<data key="weight">187.0</data>
+</edge>
+<edge id="8653" source="1" target="11">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8654" source="1" target="12">
+<data key="weight">86.0</data>
+</edge>
+<edge id="8655" source="1" target="13">
+<data key="weight">103.0</data>
+</edge>
+<edge id="8656" source="1" target="14">
+<data key="weight">134.0</data>
+</edge>
+<edge id="8657" source="1" target="15">
+<data key="weight">129.0</data>
+</edge>
+<edge id="8658" source="1" target="16">
+<data key="weight">187.0</data>
+</edge>
+<edge id="8659" source="1" target="17">
+<data key="weight">47.0</data>
+</edge>
+<edge id="8660" source="2" target="1">
+<data key="weight">103.0</data>
+</edge>
+<edge id="8661" source="2" target="3">
+<data key="weight">157.0</data>
+</edge>
+<edge id="8662" source="2" target="4">
+<data key="weight">72.0</data>
+</edge>
+<edge id="8663" source="2" target="5">
+<data key="weight">126.0</data>
+</edge>
+<edge id="8664" source="2" target="6">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8665" source="2" target="7">
+<data key="weight">77.0</data>
+</edge>
+<edge id="8666" source="2" target="8">
+<data key="weight">133.0</data>
+</edge>
+<edge id="8667" source="2" target="9">
+<data key="weight">67.0</data>
+</edge>
+<edge id="8668" source="2" target="10">
+<data key="weight">185.0</data>
+</edge>
+<edge id="8669" source="2" target="11">
+<data key="weight">117.0</data>
+</edge>
+<edge id="8670" source="2" target="12">
+<data key="weight">73.0</data>
+</edge>
+<edge id="8671" source="2" target="13">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8672" source="2" target="14">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8673" source="2" target="15">
+<data key="weight">148.0</data>
+</edge>
+<edge id="8674" source="2" target="16">
+<data key="weight">178.0</data>
+</edge>
+<edge id="8675" source="2" target="17">
+<data key="weight">58.0</data>
+</edge>
+<edge id="8676" source="3" target="1">
+<data key="weight">99.0</data>
+</edge>
+<edge id="8677" source="3" target="2">
+<data key="weight">100.0</data>
+</edge>
+<edge id="8678" source="3" target="4">
+<data key="weight">75.0</data>
+</edge>
+<edge id="8679" source="3" target="5">
+<data key="weight">92.0</data>
+</edge>
+<edge id="8680" source="3" target="6">
+<data key="weight">102.0</data>
+</edge>
+<edge id="8681" source="3" target="7">
+<data key="weight">102.0</data>
+</edge>
+<edge id="8682" source="3" target="8">
+<data key="weight">114.0</data>
+</edge>
+<edge id="8683" source="3" target="9">
+<data key="weight">74.0</data>
+</edge>
+<edge id="8684" source="3" target="10">
+<data key="weight">181.0</data>
+</edge>
+<edge id="8685" source="3" target="11">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8686" source="3" target="12">
+<data key="weight">82.0</data>
+</edge>
+<edge id="8687" source="3" target="13">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8688" source="3" target="14">
+<data key="weight">143.0</data>
+</edge>
+<edge id="8689" source="3" target="15">
+<data key="weight">143.0</data>
+</edge>
+<edge id="8690" source="3" target="16">
+<data key="weight">187.0</data>
+</edge>
+<edge id="8691" source="3" target="17">
+<data key="weight">51.0</data>
+</edge>
+<edge id="8692" source="4" target="1">
+<data key="weight">113.0</data>
+</edge>
+<edge id="8693" source="4" target="2">
+<data key="weight">119.0</data>
+</edge>
+<edge id="8694" source="4" target="3">
+<data key="weight">147.0</data>
+</edge>
+<edge id="8695" source="4" target="5">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8696" source="4" target="6">
+<data key="weight">85.0</data>
+</edge>
+<edge id="8697" source="4" target="7">
+<data key="weight">88.0</data>
+</edge>
+<edge id="8698" source="4" target="8">
+<data key="weight">124.0</data>
+</edge>
+<edge id="8699" source="4" target="9">
+<data key="weight">76.0</data>
+</edge>
+<edge id="8700" source="4" target="10">
+<data key="weight">168.0</data>
+</edge>
+<edge id="8701" source="4" target="11">
+<data key="weight">108.0</data>
+</edge>
+<edge id="8702" source="4" target="12">
+<data key="weight">91.0</data>
+</edge>
+<edge id="8703" source="4" target="13">
+<data key="weight">99.0</data>
+</edge>
+<edge id="8704" source="4" target="14">
+<data key="weight">102.0</data>
+</edge>
+<edge id="8705" source="4" target="15">
+<data key="weight">159.0</data>
+</edge>
+<edge id="8706" source="4" target="16">
+<data key="weight">172.0</data>
+</edge>
+<edge id="8707" source="4" target="17">
+<data key="weight">55.0</data>
+</edge>
+<edge id="8708" source="5" target="1">
+<data key="weight">107.0</data>
+</edge>
+<edge id="8709" source="5" target="2">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8710" source="5" target="3">
+<data key="weight">176.0</data>
+</edge>
+<edge id="8711" source="5" target="4">
+<data key="weight">66.0</data>
+</edge>
+<edge id="8712" source="5" target="6">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8713" source="5" target="7">
+<data key="weight">105.0</data>
+</edge>
+<edge id="8714" source="5" target="8">
+<data key="weight">131.0</data>
+</edge>
+<edge id="8715" source="5" target="9">
+<data key="weight">67.0</data>
+</edge>
+<edge id="8716" source="5" target="10">
+<data key="weight">179.0</data>
+</edge>
+<edge id="8717" source="5" target="11">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8718" source="5" target="12">
+<data key="weight">73.0</data>
+</edge>
+<edge id="8719" source="5" target="13">
+<data key="weight">102.0</data>
+</edge>
+<edge id="8720" source="5" target="14">
+<data key="weight">128.0</data>
+</edge>
+<edge id="8721" source="5" target="15">
+<data key="weight">149.0</data>
+</edge>
+<edge id="8722" source="5" target="16">
+<data key="weight">179.0</data>
+</edge>
+<edge id="8723" source="5" target="17">
+<data key="weight">40.0</data>
+</edge>
+<edge id="8724" source="6" target="1">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8725" source="6" target="2">
+<data key="weight">127.0</data>
+</edge>
+<edge id="8726" source="6" target="3">
+<data key="weight">148.0</data>
+</edge>
+<edge id="8727" source="6" target="4">
+<data key="weight">80.0</data>
+</edge>
+<edge id="8728" source="6" target="5">
+<data key="weight">132.0</data>
+</edge>
+<edge id="8729" source="6" target="7">
+<data key="weight">99.0</data>
+</edge>
+<edge id="8730" source="6" target="8">
+<data key="weight">124.0</data>
+</edge>
+<edge id="8731" source="6" target="9">
+<data key="weight">78.0</data>
+</edge>
+<edge id="8732" source="6" target="10">
+<data key="weight">173.0</data>
+</edge>
+<edge id="8733" source="6" target="11">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8734" source="6" target="12">
+<data key="weight">76.0</data>
+</edge>
+<edge id="8735" source="6" target="13">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8736" source="6" target="14">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8737" source="6" target="15">
+<data key="weight">147.0</data>
+</edge>
+<edge id="8738" source="6" target="16">
+<data key="weight">156.0</data>
+</edge>
+<edge id="8739" source="6" target="17">
+<data key="weight">61.0</data>
+</edge>
+<edge id="8740" source="7" target="1">
+<data key="weight">104.0</data>
+</edge>
+<edge id="8741" source="7" target="2">
+<data key="weight">121.0</data>
+</edge>
+<edge id="8742" source="7" target="3">
+<data key="weight">162.0</data>
+</edge>
+<edge id="8743" source="7" target="4">
+<data key="weight">70.0</data>
+</edge>
+<edge id="8744" source="7" target="5">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8745" source="7" target="6">
+<data key="weight">94.0</data>
+</edge>
+<edge id="8746" source="7" target="8">
+<data key="weight">136.0</data>
+</edge>
+<edge id="8747" source="7" target="9">
+<data key="weight">65.0</data>
+</edge>
+<edge id="8748" source="7" target="10">
+<data key="weight">176.0</data>
+</edge>
+<edge id="8749" source="7" target="11">
+<data key="weight">115.0</data>
+</edge>
+<edge id="8750" source="7" target="12">
+<data key="weight">71.0</data>
+</edge>
+<edge id="8751" source="7" target="13">
+<data key="weight">113.0</data>
+</edge>
+<edge id="8752" source="7" target="14">
+<data key="weight">125.0</data>
+</edge>
+<edge id="8753" source="7" target="15">
+<data key="weight">146.0</data>
+</edge>
+<edge id="8754" source="7" target="16">
+<data key="weight">159.0</data>
+</edge>
+<edge id="8755" source="7" target="17">
+<data key="weight">43.0</data>
+</edge>
+<edge id="8756" source="8" target="1">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8757" source="8" target="2">
+<data key="weight">115.0</data>
+</edge>
+<edge id="8758" source="8" target="3">
+<data key="weight">136.0</data>
+</edge>
+<edge id="8759" source="8" target="4">
+<data key="weight">95.0</data>
+</edge>
+<edge id="8760" source="8" target="5">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8761" source="8" target="6">
+<data key="weight">100.0</data>
+</edge>
+<edge id="8762" source="8" target="7">
+<data key="weight">101.0</data>
+</edge>
+<edge id="8763" source="8" target="9">
+<data key="weight">63.0</data>
+</edge>
+<edge id="8764" source="8" target="10">
+<data key="weight">176.0</data>
+</edge>
+<edge id="8765" source="8" target="11">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8766" source="8" target="12">
+<data key="weight">78.0</data>
+</edge>
+<edge id="8767" source="8" target="13">
+<data key="weight">104.0</data>
+</edge>
+<edge id="8768" source="8" target="14">
+<data key="weight">105.0</data>
+</edge>
+<edge id="8769" source="8" target="15">
+<data key="weight">158.0</data>
+</edge>
+<edge id="8770" source="8" target="16">
+<data key="weight">172.0</data>
+</edge>
+<edge id="8771" source="8" target="17">
+<data key="weight">48.0</data>
+</edge>
+<edge id="8772" source="9" target="1">
+<data key="weight">88.0</data>
+</edge>
+<edge id="8773" source="9" target="2">
+<data key="weight">103.0</data>
+</edge>
+<edge id="8774" source="9" target="3">
+<data key="weight">150.0</data>
+</edge>
+<edge id="8775" source="9" target="4">
+<data key="weight">76.0</data>
+</edge>
+<edge id="8776" source="9" target="5">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8777" source="9" target="6">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8778" source="9" target="7">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8779" source="9" target="8">
+<data key="weight">132.0</data>
+</edge>
+<edge id="8780" source="9" target="10">
+<data key="weight">149.0</data>
+</edge>
+<edge id="8781" source="9" target="11">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8782" source="9" target="12">
+<data key="weight">74.0</data>
+</edge>
+<edge id="8783" source="9" target="13">
+<data key="weight">102.0</data>
+</edge>
+<edge id="8784" source="9" target="14">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8785" source="9" target="15">
+<data key="weight">135.0</data>
+</edge>
+<edge id="8786" source="9" target="16">
+<data key="weight">154.0</data>
+</edge>
+<edge id="8787" source="9" target="17">
+<data key="weight">49.0</data>
+</edge>
+<edge id="8788" source="10" target="1">
+<data key="weight">92.0</data>
+</edge>
+<edge id="8789" source="10" target="2">
+<data key="weight">113.0</data>
+</edge>
+<edge id="8790" source="10" target="3">
+<data key="weight">120.0</data>
+</edge>
+<edge id="8791" source="10" target="4">
+<data key="weight">91.0</data>
+</edge>
+<edge id="8792" source="10" target="5">
+<data key="weight">92.0</data>
+</edge>
+<edge id="8793" source="10" target="6">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8794" source="10" target="7">
+<data key="weight">92.0</data>
+</edge>
+<edge id="8795" source="10" target="8">
+<data key="weight">131.0</data>
+</edge>
+<edge id="8796" source="10" target="9">
+<data key="weight">48.0</data>
+</edge>
+<edge id="8797" source="10" target="11">
+<data key="weight">119.0</data>
+</edge>
+<edge id="8798" source="10" target="12">
+<data key="weight">70.0</data>
+</edge>
+<edge id="8799" source="10" target="13">
+<data key="weight">104.0</data>
+</edge>
+<edge id="8800" source="10" target="14">
+<data key="weight">111.0</data>
+</edge>
+<edge id="8801" source="10" target="15">
+<data key="weight">125.0</data>
+</edge>
+<edge id="8802" source="10" target="16">
+<data key="weight">155.0</data>
+</edge>
+<edge id="8803" source="10" target="17">
+<data key="weight">39.0</data>
+</edge>
+<edge id="8804" source="11" target="1">
+<data key="weight">84.0</data>
+</edge>
+<edge id="8805" source="11" target="2">
+<data key="weight">103.0</data>
+</edge>
+<edge id="8806" source="11" target="3">
+<data key="weight">157.0</data>
+</edge>
+<edge id="8807" source="11" target="4">
+<data key="weight">70.0</data>
+</edge>
+<edge id="8808" source="11" target="5">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8809" source="11" target="6">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8810" source="11" target="7">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8811" source="11" target="8">
+<data key="weight">117.0</data>
+</edge>
+<edge id="8812" source="11" target="9">
+<data key="weight">65.0</data>
+</edge>
+<edge id="8813" source="11" target="10">
+<data key="weight">161.0</data>
+</edge>
+<edge id="8814" source="11" target="12">
+<data key="weight">77.0</data>
+</edge>
+<edge id="8815" source="11" target="13">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8816" source="11" target="14">
+<data key="weight">109.0</data>
+</edge>
+<edge id="8817" source="11" target="15">
+<data key="weight">125.0</data>
+</edge>
+<edge id="8818" source="11" target="16">
+<data key="weight">157.0</data>
+</edge>
+<edge id="8819" source="11" target="17">
+<data key="weight">47.0</data>
+</edge>
+<edge id="8820" source="12" target="1">
+<data key="weight">109.0</data>
+</edge>
+<edge id="8821" source="12" target="2">
+<data key="weight">112.0</data>
+</edge>
+<edge id="8822" source="12" target="3">
+<data key="weight">118.0</data>
+</edge>
+<edge id="8823" source="12" target="4">
+<data key="weight">72.0</data>
+</edge>
+<edge id="8824" source="12" target="5">
+<data key="weight">80.0</data>
+</edge>
+<edge id="8825" source="12" target="6">
+<data key="weight">114.0</data>
+</edge>
+<edge id="8826" source="12" target="7">
+<data key="weight">96.0</data>
+</edge>
+<edge id="8827" source="12" target="8">
+<data key="weight">145.0</data>
+</edge>
+<edge id="8828" source="12" target="9">
+<data key="weight">53.0</data>
+</edge>
+<edge id="8829" source="12" target="10">
+<data key="weight">174.0</data>
+</edge>
+<edge id="8830" source="12" target="11">
+<data key="weight">86.0</data>
+</edge>
+<edge id="8831" source="12" target="13">
+<data key="weight">108.0</data>
+</edge>
+<edge id="8832" source="12" target="14">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8833" source="12" target="15">
+<data key="weight">143.0</data>
+</edge>
+<edge id="8834" source="12" target="16">
+<data key="weight">157.0</data>
+</edge>
+<edge id="8835" source="12" target="17">
+<data key="weight">36.0</data>
+</edge>
+<edge id="8836" source="13" target="1">
+<data key="weight">89.0</data>
+</edge>
+<edge id="8837" source="13" target="2">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8838" source="13" target="3">
+<data key="weight">148.0</data>
+</edge>
+<edge id="8839" source="13" target="4">
+<data key="weight">73.0</data>
+</edge>
+<edge id="8840" source="13" target="5">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8841" source="13" target="6">
+<data key="weight">90.0</data>
+</edge>
+<edge id="8842" source="13" target="7">
+<data key="weight">79.0</data>
+</edge>
+<edge id="8843" source="13" target="8">
+<data key="weight">120.0</data>
+</edge>
+<edge id="8844" source="13" target="9">
+<data key="weight">83.0</data>
+</edge>
+<edge id="8845" source="13" target="10">
+<data key="weight">159.0</data>
+</edge>
+<edge id="8846" source="13" target="11">
+<data key="weight">117.0</data>
+</edge>
+<edge id="8847" source="13" target="12">
+<data key="weight">77.0</data>
+</edge>
+<edge id="8848" source="13" target="14">
+<data key="weight">107.0</data>
+</edge>
+<edge id="8849" source="13" target="15">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8850" source="13" target="16">
+<data key="weight">166.0</data>
+</edge>
+<edge id="8851" source="13" target="17">
+<data key="weight">51.0</data>
+</edge>
+<edge id="8852" source="14" target="1">
+<data key="weight">103.0</data>
+</edge>
+<edge id="8853" source="14" target="2">
+<data key="weight">108.0</data>
+</edge>
+<edge id="8854" source="14" target="3">
+<data key="weight">142.0</data>
+</edge>
+<edge id="8855" source="14" target="4">
+<data key="weight">62.0</data>
+</edge>
+<edge id="8856" source="14" target="5">
+<data key="weight">77.0</data>
+</edge>
+<edge id="8857" source="14" target="6">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8858" source="14" target="7">
+<data key="weight">101.0</data>
+</edge>
+<edge id="8859" source="14" target="8">
+<data key="weight">138.0</data>
+</edge>
+<edge id="8860" source="14" target="9">
+<data key="weight">45.0</data>
+</edge>
+<edge id="8861" source="14" target="10">
+<data key="weight">179.0</data>
+</edge>
+<edge id="8862" source="14" target="11">
+<data key="weight">93.0</data>
+</edge>
+<edge id="8863" source="14" target="12">
+<data key="weight">76.0</data>
+</edge>
+<edge id="8864" source="14" target="13">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8865" source="14" target="15">
+<data key="weight">140.0</data>
+</edge>
+<edge id="8866" source="14" target="16">
+<data key="weight">158.0</data>
+</edge>
+<edge id="8867" source="14" target="17">
+<data key="weight">40.0</data>
+</edge>
+<edge id="8868" source="15" target="1">
+<data key="weight">105.0</data>
+</edge>
+<edge id="8869" source="15" target="2">
+<data key="weight">100.0</data>
+</edge>
+<edge id="8870" source="15" target="3">
+<data key="weight">146.0</data>
+</edge>
+<edge id="8871" source="15" target="4">
+<data key="weight">61.0</data>
+</edge>
+<edge id="8872" source="15" target="5">
+<data key="weight">106.0</data>
+</edge>
+<edge id="8873" source="15" target="6">
+<data key="weight">110.0</data>
+</edge>
+<edge id="8874" source="15" target="7">
+<data key="weight">84.0</data>
+</edge>
+<edge id="8875" source="15" target="8">
+<data key="weight">120.0</data>
+</edge>
+<edge id="8876" source="15" target="9">
+<data key="weight">67.0</data>
+</edge>
+<edge id="8877" source="15" target="10">
+<data key="weight">155.0</data>
+</edge>
+<edge id="8878" source="15" target="11">
+<data key="weight">116.0</data>
+</edge>
+<edge id="8879" source="15" target="12">
+<data key="weight">72.0</data>
+</edge>
+<edge id="8880" source="15" target="13">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8881" source="15" target="14">
+<data key="weight">104.0</data>
+</edge>
+<edge id="8882" source="15" target="16">
+<data key="weight">162.0</data>
+</edge>
+<edge id="8883" source="15" target="17">
+<data key="weight">46.0</data>
+</edge>
+<edge id="8884" source="16" target="1">
+<data key="weight">91.0</data>
+</edge>
+<edge id="8885" source="16" target="2">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8886" source="16" target="3">
+<data key="weight">152.0</data>
+</edge>
+<edge id="8887" source="16" target="4">
+<data key="weight">56.0</data>
+</edge>
+<edge id="8888" source="16" target="5">
+<data key="weight">80.0</data>
+</edge>
+<edge id="8889" source="16" target="6">
+<data key="weight">78.0</data>
+</edge>
+<edge id="8890" source="16" target="7">
+<data key="weight">120.0</data>
+</edge>
+<edge id="8891" source="16" target="8">
+<data key="weight">130.0</data>
+</edge>
+<edge id="8892" source="16" target="9">
+<data key="weight">52.0</data>
+</edge>
+<edge id="8893" source="16" target="10">
+<data key="weight">195.0</data>
+</edge>
+<edge id="8894" source="16" target="11">
+<data key="weight">90.0</data>
+</edge>
+<edge id="8895" source="16" target="12">
+<data key="weight">82.0</data>
+</edge>
+<edge id="8896" source="16" target="13">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8897" source="16" target="14">
+<data key="weight">121.0</data>
+</edge>
+<edge id="8898" source="16" target="15">
+<data key="weight">130.0</data>
+</edge>
+<edge id="8899" source="16" target="17">
+<data key="weight">36.0</data>
+</edge>
+<edge id="8900" source="17" target="1">
+<data key="weight">89.0</data>
+</edge>
+<edge id="8901" source="17" target="2">
+<data key="weight">97.0</data>
+</edge>
+<edge id="8902" source="17" target="3">
+<data key="weight">150.0</data>
+</edge>
+<edge id="8903" source="17" target="4">
+<data key="weight">63.0</data>
+</edge>
+<edge id="8904" source="17" target="5">
+<data key="weight">109.0</data>
+</edge>
+<edge id="8905" source="17" target="6">
+<data key="weight">89.0</data>
+</edge>
+<edge id="8906" source="17" target="7">
+<data key="weight">92.0</data>
+</edge>
+<edge id="8907" source="17" target="8">
+<data key="weight">115.0</data>
+</edge>
+<edge id="8908" source="17" target="9">
+<data key="weight">72.0</data>
+</edge>
+<edge id="8909" source="17" target="10">
+<data key="weight">165.0</data>
+</edge>
+<edge id="8910" source="17" target="11">
+<data key="weight">126.0</data>
+</edge>
+<edge id="8911" source="17" target="12">
+<data key="weight">75.0</data>
+</edge>
+<edge id="8912" source="17" target="13">
+<data key="weight">88.0</data>
+</edge>
+<edge id="8913" source="17" target="14">
+<data key="weight">105.0</data>
+</edge>
+<edge id="8914" source="17" target="15">
+<data key="weight">126.0</data>
+</edge>
+<edge id="8915" source="17" target="16">
+<data key="weight">162.0</data>
+</edge>
+<edge id="8916" source="18" target="2">
+<data key="weight">98.0</data>
+</edge>
+<edge id="8917" source="18" target="3">
+<data key="weight">156.0</data>
+</edge>
+<edge id="8918" source="18" target="4">
+<data key="weight">65.0</data>
+</edge>
+<edge id="8919" source="18" target="5">
+<data key="weight">76.0</data>
+</edge>
+<edge id="8920" source="18" target="6">
+<data key="weight">70.0</data>
+</edge>
+<edge id="8921" source="18" target="7">
+<data key="weight">128.0</data>
+</edge>
+<edge id="8922" source="18" target="8">
+<data key="weight">111.0</data>
+</edge>
+<edge id="8923" source="18" target="9">
+<data key="weight">58.0</data>
+</edge>
+<edge id="8924" source="18" target="10">
+<data key="weight">191.0</data>
+</edge>
+<edge id="8925" source="18" target="11">
+<data key="weight">105.0</data>
+</edge>
+<edge id="8926" source="18" target="12">
+<data key="weight">78.0</data>
+</edge>
+<edge id="8927" source="18" target="13">
+<data key="weight">86.0</data>
+</edge>
+<edge id="8928" source="18" target="14">
+<data key="weight">111.0</data>
+</edge>
+<edge id="8929" source="18" target="15">
+<data key="weight">135.0</data>
+</edge>
+<edge id="8930" source="18" target="16">
+<data key="weight">172.0</data>
+</edge>
+<edge id="8931" source="18" target="17">
+<data key="weight">46.0</data>
+</edge>
+<edge id="8932" source="1" target="1">
+<data key="weight">82.0</data>
+</edge>
+<edge id="8949" source="2" target="2">
+<data key="weight">91.0</data>
+</edge>
+<edge id="8966" source="3" target="3">
+<data key="weight">165.0</data>
+</edge>
+<edge id="8983" source="4" target="4">
+<data key="weight">82.0</data>
+</edge>
+<edge id="9000" source="5" target="5">
+<data key="weight">106.0</data>
+</edge>
+<edge id="9017" source="6" target="6">
+<data key="weight">78.0</data>
+</edge>
+<edge id="9034" source="7" target="7">
+<data key="weight">88.0</data>
+</edge>
+<edge id="9051" source="8" target="8">
+<data key="weight">135.0</data>
+</edge>
+<edge id="9068" source="9" target="9">
+<data key="weight">60.0</data>
+</edge>
+<edge id="9085" source="10" target="10">
+<data key="weight">173.0</data>
+</edge>
+<edge id="9102" source="11" target="11">
+<data key="weight">100.0</data>
+</edge>
+<edge id="9119" source="12" target="12">
+<data key="weight">72.0</data>
+</edge>
+<edge id="9136" source="13" target="13">
+<data key="weight">90.0</data>
+</edge>
+<edge id="9153" source="14" target="14">
+<data key="weight">107.0</data>
+</edge>
+<edge id="9170" source="15" target="15">
+<data key="weight">116.0</data>
+</edge>
+<edge id="9186" source="16" target="16">
+<data key="weight">160.0</data>
+</edge>
+<edge id="9203" source="17" target="17">
+<data key="weight">45.0</data>
+</edge>
+<edge id="9204" source="18" target="1">
+<data key="weight">82.0</data>
+</edge>
+</graph>
+</graphml>
