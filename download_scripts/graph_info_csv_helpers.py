@@ -72,6 +72,18 @@ def soupify(url):
             soup = bs4.BeautifulSoup(fp.read().decode('utf-16'))
     return soup
 
+def insert_into_metadata_db(file_path, graph_name, graph_url):
+    conn = db.connect('../graph_metadata.db')
+    try:
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO associated_data VALUES (?, ?, ?)", (file_path, graph_name, graph_url)
+        )
+        conn.commit()
+    except db.IntegrityError as e:
+        print(e)
+    finally:
+        conn.close()
 
 def insert_into_undownloaded_db(name, url, downloaded, file_size):
     conn = db.connect('../graph_metadata.db')

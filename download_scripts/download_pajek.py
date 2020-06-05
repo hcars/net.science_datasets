@@ -17,7 +17,7 @@ This file downloads Pajek datasets from RPozo's links.
 edge_list_path = '../pajek_networks/edge_lists/'
 node_id_path = '../pajek_networks/node_id_mappings/'
 snap_data_url = "https://sparse.tamu.edu/Pajek?per_page=All"
-bytes_limit = 2000000
+bytes_limit = 5000000
 
 index_page_parsed = utils.soupify(snap_data_url)
 
@@ -43,14 +43,10 @@ for i in range(1, len(rows)):
                 if type(mtx) is not np.ndarray:
                     mtx = mtx.toarray()
                 if mtx.shape[0] != mtx.shape[1]:
-                    if 'name' not in member_name:
-                        np.save(edge_list_path + 'meta_' + name, mtx)
-                    else:
-                        network_path = edge_list_path + name + '.csv'
-                        if os.path.isfile(network_path):
-                            print(mtx)
-                            G = nx.read_weighted_edgelist(network_path, delimiter=',')
-                            print(list(G.nodes))
+                    network_path = edge_list_path + name + '.csv'
+                    if os.path.isfile(network_path):
+                          np.save('../pajek_networks/metadata_arrays/' + member_name.replace('/','_'), mtx)
+                          utils.insert_into_metadata_db('../pajek_networks/metadata_arrays/' + member_name, network_path, dataset_url)
                 else:
                     G = nx.from_numpy_array(mtx, parallel_edges=multigraph)
                     G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
