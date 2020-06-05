@@ -150,26 +150,25 @@ def mtx_tar_dir_to_graph(tar_dir):
             file_obj = tar_dir.extractfile(member)
             file_bytes = io.BytesIO(file_obj.read())
             # file_str = file_bytes.decode(chardet.detect(file_bytes)['encoding'])
-            yield mmread(file_bytes)
-
+            yield mmread(file_bytes), member.name
 
 
 def node_id_write(G, url, edge_list_path, node_id_path, name):
-    old_attributes = list(G.nodes)
-    G = nx.convert_node_labels_to_integers(G)
-    id_mapping = []
-    node_list = list(G.nodes)
-    for i in range(len(node_list)):
-        id_mapping.append([old_attributes[i], str(node_list[i])])
-    mapping_file = open(node_id_path + name + '.csv',
-                        'w',
-                        newline='')
-    mapping_file_writer = csv.writer(mapping_file)
-    mapping_file_writer.writerow(['id', 'name'])
-    for tup in id_mapping:
-        mapping_file_writer.writerow(list(tup))
-    mapping_file.close()
-    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
+    # old_attributes = list(G.nodes)
+    # G = nx.convert_node_labels_to_integers(G)
+    # id_mapping = []
+    # node_list = list(G.nodes)
+    # for i in range(len(node_list)):
+    #     id_mapping.append([old_attributes[i], str(node_list[i])])
+    # mapping_file = open(node_id_path + name + '.csv',
+    #                     'w',
+    #                     newline='')
+    # mapping_file_writer = csv.writer(mapping_file)
+    # mapping_file_writer.writerow(['id', 'name'])
+    # for tup in id_mapping:
+    #     mapping_file_writer.writerow(list(tup))
+    # mapping_file.close()
+    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv', delimiter=',')
     insert_into_db(name, url, edge_list_path + name + '.csv',
                    node_id_path + name + '.csv',
                    G.is_directed(),

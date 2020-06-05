@@ -6,6 +6,7 @@ import numpy as np
 import tarfile
 import re
 import io
+import os.path
 import graph_info_csv_helpers as utils
 
 __author__ = "Henry Carscadden"
@@ -37,18 +38,25 @@ for i in range(1, len(rows)):
         if ext == ".gz":
             with urllib.request.urlopen(dataset_url) as tarred_mtx:
                 tar_dir = tarfile.open(fileobj=io.BytesIO(tarred_mtx.read()))
-        for mtx in utils.mtx_tar_dir_to_graph(tar_dir):
+        for mtx, member_name in utils.mtx_tar_dir_to_graph(tar_dir):
             try:
                 if type(mtx) is not np.ndarray:
                     mtx = mtx.toarray()
                 if mtx.shape[0] != mtx.shape[1]:
-                    np.save(edge_list_path + 'meta_' + name, mtx)
+                    if 'name' not in member_name:
+                        np.save(edge_list_path + 'meta_' + name, mtx)
+                    else:
+                        network_path = edge_list_path + name + '.csv'
+                        if os.path.isfile(network_path):
+                            print(mtx)
+                            G = nx.read_weighted_edgelist(network_path, delimiter=',')
+                            print(list(G.nodes))
                 else:
                     G = nx.from_numpy_array(mtx, parallel_edges=multigraph)
+                    G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
             except Exception as e:
                 print(e)
                 print("Couldn't parse into graph.")
-            G = utils.node_id_write(G, dataset_url, edge_list_path, node_id_path, name)
 
 
 def pajek_to_files(name, url, pajek_lines):
