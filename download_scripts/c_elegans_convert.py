@@ -8,9 +8,7 @@ node_id_path = '../c_elegans_networks/node_id_mappings/'
 edge_list_path = '../c_elegans_networks/edge_lists/'
 
 for edge_list in glob(base_dir):
-    G = nx.read_weighted_edgelist(base_dir)
-    print(list(G.edges))
-    exit()
+    G = nx.read_weighted_edgelist(edge_list, delimiter=',', create_using=nx.MultiDiGraph)
     old_attributes = list(G.nodes)
     G = nx.convert_node_labels_to_integers(G)
     id_mapping = []
