@@ -4,3 +4,6 @@
 /network_repo_networks/
 graph_metadata.db
 /pajek_networks/
+/snap_networks/
+/barabasi_networks/
+/c_elegans_networks/
