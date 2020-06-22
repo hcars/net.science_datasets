@@ -1,0 +1,2 @@
+import trade_data_mapping
+trade_data_mapping.replace_ids()

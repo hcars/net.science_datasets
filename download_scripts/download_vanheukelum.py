@@ -10,7 +10,7 @@ base_dir = '../vanheukelum_networks/'
 edge_list_path = base_dir + 'edge_lists/'
 node_id_path = base_dir + 'node_id_mappings/'
 van_heukelum_url = "https://sparse.tamu.edu/vanHeukelum"
-bytes_limit = 2000000
+bytes_limit = 10000000
 
 index_page_parsed = utils.soupify(van_heukelum_url)
 

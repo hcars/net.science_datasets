@@ -12,7 +12,7 @@ import urllib.request
 edge_list_path = '../snap_networks/edge_lists/'
 node_id_path = '../snap_networks/node_id_mappings/'
 snap_data_url = "https://sparse.tamu.edu/SNAP?per_page=All"
-bytes_limit = 2000000
+bytes_limit = 20000000
 
 index_page_parsed = utils.soupify(snap_data_url)
 

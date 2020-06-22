@@ -1,0 +1,35 @@
+/sfs/qumulo/qproject/biocomplexity/cines/y2020/net.science_datasets/download_scripts/graph_info_csv_helpers.py:70: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 70 of the file /sfs/qumulo/qproject/biocomplexity/cines/y2020/net.science_datasets/download_scripts/graph_info_csv_helpers.py. To get rid of this warning, pass the additional argument 'features="html.parser"' to the BeautifulSoup constructor.
+
+  soup = bs4.BeautifulSoup(fp.read().decode('utf-8'))
+Unable to allocate 790. GiB for an array with shape (325557, 325557) and data type float64
+Couldn't parse into graph.
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+Unable to allocate 793. GiB for an array with shape (326186, 326186) and data type float64
+Couldn't parse into graph.
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
