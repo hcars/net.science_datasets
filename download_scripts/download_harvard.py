@@ -26,28 +26,32 @@ while condition:
         if query_result['size_in_bytes'] > max_size:
             continue
         url = query_result['url']
-        if query_result['name'][-3:].lower() == 'zip':
-            base_dir_graphml_tagged = base_dir_harvard + 'graph_ml_tagged/'
-            zipped_fp = utils.get_zip_fp(query_result['url'])
-            for contents in zipped_fp.infolist():
-                if not contents.is_dir():
-                    name = contents.filename
-                    base_name = contents.filename.split('.')[-2].replace('/', '-')
-                    edge_path = base_dir_graphml_tagged + 'edge_lists/' + base_name + '.csv'
+        try:
+            if query_result['name'][-3:].lower() == 'zip':
+                base_dir_graphml_tagged = base_dir_harvard + 'graph_ml_tagged/'
+                zipped_fp = utils.get_zip_fp(query_result['url'])
+                for contents in zipped_fp.infolist():
+                    if not contents.is_dir():
+                        name = contents.filename
+                        base_name = contents.filename.split('.')[-2].replace('/', '-')
+                        edge_path = base_dir_graphml_tagged + 'edge_lists/' + base_name + '.csv'
 
-                    if exists(edge_path):
-                        continue
-                    G = nx.parse_graphml(zipped_fp.read(contents.filename).decode('utf-8'))
-        else:
-            base_dir_graphml_tagged = base_dir_harvard + 'graph_ml_tagged_non_zipped/'
-            base_name = query_result['name'].split('.')[-2].replace('/', '-')
-            edge_path = base_dir_graphml_tagged + 'edge_lists/' + base_name + '.csv'
-            if exists(edge_path):
-                continue
-            name = base_name
-            with urllib.request.urlopen(url) as graph_ml_fp:
-                graph_ml_lines = graph_ml_fp.read().decode('utf-8')
-            G = nx.parse_graphml(graph_ml_lines)
+                        if exists(edge_path):
+                            continue
+                        G = nx.parse_graphml(zipped_fp.read(contents.filename).decode('utf-8'))
+            else:
+                base_dir_graphml_tagged = base_dir_harvard + 'graph_ml_tagged_non_zipped/'
+                base_name = query_result['name'].split('.')[-2].replace('/', '-')
+                edge_path = base_dir_graphml_tagged + 'edge_lists/' + base_name + '.csv'
+                if exists(edge_path):
+                    continue
+                name = base_name
+                with urllib.request.urlopen(url) as graph_ml_fp:
+                    graph_ml_lines = graph_ml_fp.read().decode('utf-8')
+                G = nx.parse_graphml(graph_ml_lines)
+        except:
+            print("Couldn't parse: " + name)
+            continue
         edge_path = base_dir_graphml_tagged + 'edge_lists/' + base_name + '.csv'
         node_path = base_dir_graphml_tagged + 'node_id_mappings/' + base_name + '.csv'
         if exists(edge_path):
