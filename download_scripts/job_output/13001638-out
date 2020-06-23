@@ -1,0 +1,5 @@
+01-AL-cities-street_networks-graphml.zip
+Traceback (most recent call last):
+  File "download_harvard.py", line 49, in <module>
+    old_attributes = list(G.nodes)
+NameError: name 'G' is not defined

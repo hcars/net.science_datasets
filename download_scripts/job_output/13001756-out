@@ -1,0 +1,2 @@
+/var/spool/slurm/slurmd/job13001756/slurm_script: line 9: 146973 Killed                  python download_harvard.py
+slurmstepd: error: Detected 1 oom-kill event(s) in step 13001756.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
