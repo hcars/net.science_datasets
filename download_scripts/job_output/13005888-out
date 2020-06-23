@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "download_harvard.py", line 40, in <module>
+    G = nx.parse_graphml(zipped_fp.read(contents.filename).decode('utf-8'))
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x86 in position 10: invalid start byte
