@@ -14,7 +14,7 @@ for net in networks:
     cleaned = list(map(lambda x: x.replace('\\N', ''), ungzipped))
     name = net.split('/')[-1].split('.')[0]
     G = nx.read_weighted_edgelist(cleaned)
-    nx.write_weighted_edgelist(G, '../max_planck_networks/edge_lists/' + name +'.csv'  ,delimiter=',')
+    nx.write_edgelist(G, '../max_planck_networks/edge_lists/' + name +'.csv'  ,delimiter=',')
     utils.insert_into_db(name, net, '../max_planck_networks/edge_lists/' + name +'.csv',
                                   '',
                                   G.is_directed(),

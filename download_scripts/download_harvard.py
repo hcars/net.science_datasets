@@ -69,7 +69,7 @@ while condition:
         for tup in id_mapping:
             mapping_file_writer.writerow(list(tup))
         mapping_file.close()
-        nx.write_weighted_edgelist(G, edge_path, delimiter=',')
+        nx.write_edgelist(G, edge_path, delimiter=',')
         utils.insert_into_db(name, url, edge_path, node_path, G.is_directed(), G.is_multigraph(),
                              int(G.number_of_nodes()), int(nx.number_of_selfloops(G)))
 

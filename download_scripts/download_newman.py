@@ -49,7 +49,7 @@ for link in parsed_html.ul.find_all('a'):
                             G.add_weighted_edges_from([(edge['source'], edge['target'], edge['value'])])
                         else:
                             G.add_edge(edge['source'], edge['target'])
-                    nx.write_weighted_edgelist(G,
+                    nx.write_edgelist(G,
                                                '../newman_networks/edge_lists/' + file.filename.split('.')[0] + '.csv',
                                                delimiter=',')
                     mapping_file.close()

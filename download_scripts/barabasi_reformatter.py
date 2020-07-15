@@ -5,7 +5,7 @@ barabasi_path = '../barabasi_networks/edge_lists/*'
 
 for edge_file in glob(barabasi_path):
     G = nx.read_weighted_edgelist(edge_file)
-    nx.write_weighted_edgelist(G, '../barabasi_networks/edge_lists/' + edge_file.split('/')[-1].split('.')[0] + '.csv',
+    nx.write_edgelist(G, '../barabasi_networks/edge_lists/' + edge_file.split('/')[-1].split('.')[0] + '.csv',
                                delimiter=',')
     utils.insert_into_db(edge_file.split('/')[-1].split('.')[0] + '.csv',
                          "http://networksciencebook.com/translations/en/resources/data.html",

@@ -24,7 +24,7 @@ for edge_list in glob(base_dir):
     for tup in id_mapping:
         mapping_file_writer.writerow(list(tup))
     mapping_file.close()
-    nx.write_weighted_edgelist(G, edge_list_path  + name, delimiter=',')
+    nx.write_edgelist(G, edge_list_path  + name, delimiter=',')
     utils.insert_into_db(name, 'https://www.wormatlas.org/neuronalwiring.html', edge_list_path + name,
                    node_id_path + name + '.csv',
                    G.is_directed(),

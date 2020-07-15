@@ -138,7 +138,7 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                 mapping_file_writer.writerow(['id', 'name'])
                 for tup in id_mapping:
                     mapping_file_writer.writerow(list(tup))
-                nx.write_weighted_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
+                nx.write_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
                 insert_into_db(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
@@ -180,7 +180,7 @@ def node_id_write(G, url, edge_list_path, node_id_path, name):
     # for tup in id_mapping:
     #     mapping_file_writer.writerow(list(tup))
     # mapping_file.close()
-    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv', delimiter=',')
+    nx.write_edgelist(G, edge_list_path + name + '.csv', delimiter=',')
     insert_into_db(name, url, edge_list_path + name + '.csv',
                    node_id_path + name + '.csv',
                    G.is_directed(),

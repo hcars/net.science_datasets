@@ -89,7 +89,7 @@ def pajek_to_files(name, url, pajek_lines):
                 mapping_file_writer.writerow(['id', 'name'])
                 for tup in id_mapping:
                     mapping_file_writer.writerow(list(tup))
-                nx.write_weighted_edgelist(G, '../pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
+                nx.write_edgelist(G, '../pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                                            delimiter=',')
                 utils.insert_into_db(name, url, '/pajek_networks/edge_lists/' + url.split('/')[-1] + '.csv',
                                      '/pajek_networks/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',

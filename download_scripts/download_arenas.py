@@ -35,7 +35,7 @@ for link in parsed_html.find_all('a'):
                 utils.pajek_to_files(link.string, url, pajek_lines, '/arenas_networks')
             elif ext == 'txt':
                 G = nx.read_weighted_edgelist(io.BytesIO(graph_zipped.read(file.filename)))
-                nx.write_weighted_edgelist(G, '../arenas_networks/edge_lists/' + file.filename.replace('txt', 'csv'))
+                nx.write_edgelist(G, '../arenas_networks/edge_lists/' + file.filename.replace('txt', 'csv'))
                 utils.insert_into_db(file.filename, url,
                                   '/arenas_networks/edge_lists/' + file.filename.replace('txt', 'csv'),
                                   '',

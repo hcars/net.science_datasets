@@ -30,7 +30,7 @@ def node_id_write(G, url, edge_list_path, node_id_path, name):
     for tup in id_mapping:
         mapping_file_writer.writerow(list(tup))
     mapping_file.close()
-    nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
+    nx.write_edgelist(G, edge_list_path + name + '.csv')
     utils.insert_into_db(name, url, edge_list_path + name + '.csv',
                       node_id_path + name + '.csv',
                       G.is_directed(),
@@ -57,7 +57,7 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
                         if ext == 'edges':
                             G = nx.read_weighted_edgelist(io.BytesIO(zip_dir.read(other_files.filename)))
                             G = node_id_write(G, edge_list_path, node_id_path, name)
-                            nx.write_weighted_edgelist(G, edge_list_path + name + '.csv')
+                            nx.write_edgelist(G, edge_list_path + name + '.csv')
                             utils.insert_into_db(name, url, edge_list_path + name + '.csv',
                                               node_id_path + name + '.csv',
                                               G.is_directed(),
