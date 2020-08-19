@@ -1,5 +1,7 @@
 import csv
 import io
+import json
+
 import scipy.io
 import networkx as nx
 import graph_info_csv_helpers as utils
@@ -48,10 +50,15 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
         for link in download_page.find_all('a'):
             links_to = link.get('href')
             if links_to is not None:
+                metadata = {'name': name, 'url': url}
                 if links_to[-3:].lower() == "zip":
                     zip_dir = utils.get_zip_fp(links_to)
                     for mtx_network, filename in utils.mtx_zip_dir_to_graph(zip_dir):
                         scipy.io.mmwrite(filename, mtx_network)
+                        metadata['file_path'] = filename
+                        metadata['cleaned'] = True
+                        with open(metadata['file_path'].strip('.mtx') + '.json', 'w') as metadata_fp:
+                            json.dump(metadata, metadata_fp)
                         # G = nx.from_numpy_matrix(mtx_network.toarray())
                         # G = node_id_write(G, links_to, edge_list_path, node_id_path, name)
                     for other_files in zip_dir.infolist():
@@ -60,6 +67,10 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
                             G = nx.read_weighted_edgelist(io.BytesIO(zip_dir.read(other_files.filename)))
                             G = node_id_write(G, edge_list_path, node_id_path, name)
                             nx.write_edgelist(G, edge_list_path + name + '.csv')
+                            metadata['file_path'] = edge_list_path + name + '.csv'
+                            metadata['cleaned'] = True
+                            with open('metadata_' + edge_list_path + name + '.json', 'w') as metadata_fp:
+                                json.dump(metadata, metadata_fp)
                             utils.insert_into_db(name, url, edge_list_path + name + '.csv',
                                               node_id_path + name + '.csv',
                                               G.is_directed(),
