@@ -1,0 +1,34 @@
+/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/site-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 15 of the file download_gleich.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path

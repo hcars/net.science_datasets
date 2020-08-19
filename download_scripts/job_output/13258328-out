@@ -1,0 +1,87 @@
+/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/site-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 17 of the file download_snap.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+
+Couldn't parse into graph.
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+
+Couldn't parse into graph.
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path
+UNIQUE constraint failed: large_graphs.name, large_graphs.url
+Database constraints violated
+UNIQUE constraint failed: graphs_downloaded.name, graphs_downloaded.url
+Updated entry.
+UNIQUE constraint failed: associated_data.file_path
+Traceback (most recent call last):
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/http/client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "download_snap.py", line 26, in <module>
+    site = urllib.request.urlopen(dataset_url)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/apps/software/standard/core/anaconda/5.2.0-py3.6/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>

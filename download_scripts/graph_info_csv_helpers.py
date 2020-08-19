@@ -153,7 +153,7 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
 def mtx_zip_dir_to_graph(zip_dir):
     for file in zip_dir.infolist():
         if file.filename[-3:].lower() == "mtx":
-            yield mmread(io.BytesIO(zip_dir.read(file.filename)))
+           yield mmread_safer(io.BytesIO(zip_dir.read(file.filename)))
 
 
 def mtx_tar_dir_to_graph(tar_dir):
@@ -162,7 +162,28 @@ def mtx_tar_dir_to_graph(tar_dir):
             file_obj = tar_dir.extractfile(member)
             file_bytes = io.BytesIO(file_obj.read())
             # file_str = file_bytes.decode(chardet.detect(file_bytes)['encoding'])
-            yield mmread(file_bytes), member.name
+            yield mmread_safer(file_bytes), member.name
+
+def mmread_safer(file_bytes):
+    try:
+       return mmread(file_bytes)
+    except ValueError as e:
+       if e == ValueError('source is not in Matrix Market format'):
+          my_bytes = file_bytes.getbuffer()
+          fixed_bytes = b"%" + my_bytes
+          return mmread(fixed_bytes) 
+
+def mmread_safer_file(file):
+    try:
+       return mmread(file)
+    except ValueError as e:
+       if str(e) == 'source is not in Matrix Market format':
+          with open(file, 'r') as in_fp:
+               file_lines = str(in_fp.read())
+          with open('temp_file', 'w') as out_fp:
+               out_fp.write("%")
+               out_fp.write(file_lines)
+          return mmread('temp_file')
 
 
 def node_id_write(G, url, edge_list_path, node_id_path, name):
