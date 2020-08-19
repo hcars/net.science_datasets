@@ -1,16 +1,15 @@
 import csv
 import io
+import sqlite3 as db
 import traceback
+import urllib.request
 import zipfile
 from io import BytesIO
-import sqlite3 as db
+
+import bs4
 import chardet
 import networkx as nx
-import pandas as pd
-import tarfile
-import bs4
 from scipy.io import mmread
-import urllib.request
 
 __author__ = "Henry Carscadden"
 __email__ = "hlc5v@virginia.edu"
@@ -72,6 +71,7 @@ def soupify(url):
             soup = bs4.BeautifulSoup(fp.read().decode('utf-16'))
     return soup
 
+
 def insert_into_metadata_db(file_path, graph_name, graph_url):
     conn = db.connect('../graph_metadata.db')
     try:
@@ -84,6 +84,7 @@ def insert_into_metadata_db(file_path, graph_name, graph_url):
         print(e)
     finally:
         conn.close()
+
 
 def insert_into_undownloaded_db(name, url, downloaded, file_size):
     conn = db.connect('../graph_metadata.db')
@@ -139,7 +140,7 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
                 for tup in id_mapping:
                     mapping_file_writer.writerow(list(tup))
                 nx.write_edgelist(G, '..' + dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
-                                           delimiter=',')
+                                  delimiter=',')
                 insert_into_db(name, url, dir_name + '/edge_lists/' + url.split('/')[-1] + '.csv',
                                dir_name + '/node_id_mappings/mapping_' + url.split('/')[-1] + '.csv',
                                G.is_directed(),
@@ -153,7 +154,10 @@ def pajek_to_files(name, url, pajek_lines, dir_name):
 def mtx_zip_dir_to_graph(zip_dir):
     for file in zip_dir.infolist():
         if file.filename[-3:].lower() == "mtx":
-           yield mmread_safer(io.BytesIO(zip_dir.read(file.filename)))
+            mtx_str = str(zip_dir.read(file.filename))
+            with open('temp.mtx', 'w') as out_fp:
+                out_fp.write(mtx_str)
+            yield mmread_safer_file('temp.mtx'), file.filename
 
 
 def mtx_tar_dir_to_graph(tar_dir):
@@ -164,26 +168,28 @@ def mtx_tar_dir_to_graph(tar_dir):
             # file_str = file_bytes.decode(chardet.detect(file_bytes)['encoding'])
             yield mmread_safer(file_bytes), member.name
 
+
 def mmread_safer(file_bytes):
     try:
-       return mmread(file_bytes)
+        return mmread(file_bytes)
     except ValueError as e:
-       if e == ValueError('source is not in Matrix Market format'):
-          my_bytes = file_bytes.getbuffer()
-          fixed_bytes = b"%" + my_bytes
-          return mmread(fixed_bytes) 
+        if e == ValueError('source is not in Matrix Market format'):
+            my_bytes = file_bytes.getbuffer()
+            fixed_bytes = b"%" + my_bytes
+            return mmread(fixed_bytes)
+
 
 def mmread_safer_file(file):
     try:
-       return mmread(file)
+        return mmread(file)
     except ValueError as e:
-       if str(e) == 'source is not in Matrix Market format':
-          with open(file, 'r') as in_fp:
-               file_lines = str(in_fp.read())
-          with open('temp_file', 'w') as out_fp:
-               out_fp.write("%")
-               out_fp.write(file_lines)
-          return mmread('temp_file')
+        if str(e) == 'source is not in Matrix Market format':
+            with open(file, 'r') as in_fp:
+                file_lines = str(in_fp.read())
+            with open('temp_file', 'w') as out_fp:
+                out_fp.write("%")
+                out_fp.write(file_lines)
+            return mmread('temp_file')
 
 
 def node_id_write(G, url, edge_list_path, node_id_path, name):

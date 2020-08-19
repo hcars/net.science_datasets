@@ -1,5 +1,6 @@
 import csv
 import io
+import scipy.io
 import networkx as nx
 import graph_info_csv_helpers as utils
 
@@ -49,9 +50,10 @@ for header in parsed_networks_page.find_all('h3', class_="heading-xs"):
             if links_to is not None:
                 if links_to[-3:].lower() == "zip":
                     zip_dir = utils.get_zip_fp(links_to)
-                    for mtx_network in utils.mtx_zip_dir_to_graph(zip_dir):
-                        G = nx.from_numpy_matrix(mtx_network.toarray())
-                        G = node_id_write(G, links_to, edge_list_path, node_id_path, name)
+                    for mtx_network, filename in utils.mtx_zip_dir_to_graph(zip_dir):
+                        scipy.io.mmwrite(filename, mtx_network)
+                        # G = nx.from_numpy_matrix(mtx_network.toarray())
+                        # G = node_id_write(G, links_to, edge_list_path, node_id_path, name)
                     for other_files in zip_dir.infolist():
                         ext = other_files.filename[-5:].lower()
                         if ext == 'edges':
